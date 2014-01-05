@@ -1,0 +1,70 @@
+
+DCS : Create new screen Red Invoice, done complete
+Convert NR project from Access to Report Center 
+Update new module for Report Center
+Split DMS System to three part : DMS, MSA, PRS
+
+Update new skin for DMS and MSA
+Write new function for DMS : Import Welcome Letter, MRC Not Collect
+ECHO : Fix error report from user and optimize system. 
+	Update new Score and Rate for evalute call of user. 
+DMS Hosel: Complete application and apply new system 
+		+ Update Store Procedure, Table, View 
+		+ Write some new screen 
+Write new system VDOC and PDOC: Complete soon 
+
+Support for BA Team and Tester Team 
+Fix bug and update system follow user 
+
++ Document 
+	Technical Document và Project Specification Document for DMS, MSA, ECHO, PRS
+
++ Bug
+		Small bug for DMS, ECHO and MSA, PDOC, VDOC and Report Center 
+
+Những ứng dụng mình đã làm từ tháng 5/2013
+	Việc mình đã làm từ
+	+ Tìm hiểu về ECHO và DMS 
+	+ Với DCS : làm module Red Invoice 
+	+ Convert NR access sang report center và viết thêm các store cần thiết 
+	+ Tách DMS và MSA ra khỏi và chỉnh sửa lại Table, Store Procedure, View để tương thích 
+	xóa các Table, Store Procedure, View không còn dùng nữa 
+	+ Với MSA thêm store để cập nhật hằng ngày các Shop cần visit 
+	+ Với DMS, cập nhật lại Report Daily cho SA, DSM, RSM
+		- Viết thêm tính năng Import Welcome Letter 
+		- Cập nhật lại cho report center 
+	+ apply new skin for DMS, MSA	
+	+ Report center, cập nhật lại các Report Mới và tối ưu hóa lại câu truy vấn 
+	+ Với ECHO
+		Fix bug from user và cập nhật lại query để có thể export ra cho người dùng 
+		Cập nhật lại Score cho Evaluate các cuộc gọi 
+	+ Cập nhật DMS lên DMS Hosel 
+		+ Chỉnh sửa lại code và cập nhật cho DB 
+		+ Create new Skin Archive Document và xóa các màn hình không còn dùng cho DMS Hosel 
+		+ Chỉnh sửa lại Store Procedure, Table and View 
+	+ Làm project mới VDOC và PDOC 
+	
+	-- Phần này dành cho làm Document 	
+	+ Hoàn thiện Technical Document và Project Specification Document 	
+	+ Hoàn thiện Check List cho DB và cho UI 
+	
+	-- Phần này dành cho suport nguoi dùng 
+	
+	-- Phần này dành cho Fix Bug
+	DMS comple with small bug, low 
+	ECHO comple
+	+ Và phần dành cho các tiêu chí đánh giá bản thân cũng như việc hòa đồng với đồng nghiệp
+		Sẽ copy lại những thông tin bên phần đánh giá 
+		
+
+
+
+
+
+
+
+
+
+
+
+
