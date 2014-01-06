@@ -1,0 +1,680 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="APPLICATION_NAME" xml:space="preserve">
+    <value>FRAMEWORK TEMPLATE</value>
+  </data>
+  <data name="AUTHENTICATION_TYPE" xml:space="preserve">
+    <value>1</value>
+    <comment>1: registered user, 0: allow for all users.</comment>
+  </data>
+  <data name="BGCOLOR" xml:space="preserve">
+    <value>bgcolor="#ffc000"</value>
+  </data>
+  <data name="BGCOLOR_ANOTHER" xml:space="preserve">
+    <value>bgcolor="#d9d9d9"</value>
+  </data>
+  <data name="BLUE_VALUE" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="BODY_FORGOT_PASSWORD" xml:space="preserve">
+    <value>Xin chào, &lt;br /&gt;
+
+Bạn đã yêu cầu tạo mật khẩu mới. Bên dưới là thông tin chi tiết &lt;br /&gt;&lt;br /&gt;
+&lt;table border="1" cellspacing="6" cellpadding="6" style="border-collapse:collapse;"&gt;
+    &lt;tr&gt;
+        &lt;td bgcolor="#D8D8D8"&gt;
+            Họ tên
+        &lt;/td&gt;
+        &lt;td&gt;
+            {__FIRST__NAME__} {__LAST__NAME__}
+        &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td bgcolor="#D8D8D8"&gt;
+            RA Code
+        &lt;/td&gt;
+        &lt;td&gt;
+            {__RA__CODE__}
+        &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td bgcolor="#D8D8D8"&gt;
+            Mật khẩu mới
+        &lt;/td&gt;
+        &lt;td&gt;
+            {__NEW__PASSWORD__}
+        &lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;</value>
+  </data>
+  <data name="BORDER_TABLE" xml:space="preserve">
+    <value>border="0" cellspacing="1" cellpadding="2"</value>
+  </data>
+  <data name="BORDER_TABLE_PDF" xml:space="preserve">
+    <value>border="1" cellspacing="1" cellpadding="2"</value>
+  </data>
+  <data name="BRANCH_GROUP_NAME" xml:space="preserve">
+    <value>Branch</value>
+  </data>
+  <data name="BRANCH_PREFIX" xml:space="preserve">
+    <value>CN</value>
+  </data>
+  <data name="BREAKE_CELL_LINE" xml:space="preserve">
+    <value>|</value>
+  </data>
+  <data name="BREAK_FOLDER" xml:space="preserve">
+    <value>\\</value>
+  </data>
+  <data name="CACHE_EXPIRED_DAY" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="CATEGORY_GEN_CODE_LENGTH" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="CATE_IMAGE_LARGE_PREFIX" xml:space="preserve">
+    <value>cat_large_</value>
+  </data>
+  <data name="CATE_IMAGE_MEDIUM_PREFIX" xml:space="preserve">
+    <value>cat_medium_</value>
+  </data>
+  <data name="CATE_IMAGE_SMALL_PREFIX" xml:space="preserve">
+    <value>cat_small_</value>
+  </data>
+  <data name="COMMPANY_NAME" xml:space="preserve">
+    <value>PPFVF Internal Development Team</value>
+  </data>
+  <data name="CONTACT_INFO" xml:space="preserve">
+    <value>Hồng Lạc</value>
+  </data>
+  <data name="CONTRACT_STATUS_CANCEL" xml:space="preserve">
+    <value>-1</value>
+  </data>
+  <data name="CONTRACT_STATUS_CHECKING" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="CONTRACT_STATUS_DONE" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="CONTRACT_STATUS_NEW" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="CONTRACT_STATUS_PENDING" xml:space="preserve">
+    <value>-3</value>
+  </data>
+  <data name="CONTRACT_STATUS_REJECTED" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="CONTRACT_STATUS_REUPLOADED" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="COOKIE_EXPIRED_DAYS" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="COOKIE_USER_ID" xml:space="preserve">
+    <value>COOKIE_USER_ID</value>
+  </data>
+  <data name="CREATE_SUP_ERROR_MESSAGE" xml:space="preserve">
+    <value>Xin vui lòng nhập đầy đủ thông tin trong 3 nhóm nội dung bên dưới.</value>
+  </data>
+  <data name="CSS_BODY" xml:space="preserve">
+    <value>&lt;style type="text/css"&gt;
+        body
+        {
+            font: normal 13px Tahoma, Verdana, Arial, Helvetica, sans-serif;
+        }
+        
+        a
+        {
+            color: #c75f3e;
+        }
+        
+        #mytable
+        {
+            width: 700px;
+            padding: 0;
+            margin: 0;
+        }
+        
+        caption
+        {
+            padding: 0 0 5px 0;
+            width: 700px;
+            font: italic 11px Tahoma, Verdana, Arial, Helvetica, sans-serif;
+            text-align: right;
+        }
+        
+        th
+        {
+            font: bold 11px Tahoma, Verdana, Arial, Helvetica, sans-serif;
+            color: #000000;
+            border-right: 1px solid #000000;
+            border-bottom: 1px solid #000000;
+            border-top: 1px solid #000000;
+            border-left: 1px solid #000000;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            text-align: left;
+            padding: 6px 6px 6px 12px;
+        }
+        
+        th.nobg
+        {
+            border-top: 0;
+            border-left: 0;
+            border-right: 1px solid #000000;
+            background: none;
+        }
+        
+        td.nobg
+        {
+            border: 0 none;
+            background: none;
+			padding: 0;
+        }
+        
+        td
+        {
+            border: 1px solid #000000;
+            padding: 6px 6px 6px 12px;
+            color: #000000;
+        }
+        
+        td.top
+        {
+            border-bottom: 1px solid #000000;
+            border-top: 1px solid #000000;
+            border-left: 1px solid #000000;
+            background: #fff;
+            padding: 6px 6px 6px 12px;
+            color: #000000;
+        }
+        
+        
+        td.alt
+        {
+            background: #F5FAFA;
+            color: #797268;
+        }
+        
+        th.spec
+        {
+            border-left: 1px solid #000000;
+            border-top: 0;
+            font: bold 10px Tahoma, Verdana, Arial, Helvetica, sans-serif;
+        }
+        
+        th.specalt
+        {
+            border-left: 1px solid #000000;
+            border-top: 0;
+            font: bold 10px Tahoma, Verdana, Arial, Helvetica, sans-serif;
+            color: #797268;
+        }
+    &lt;/style&gt;</value>
+  </data>
+  <data name="CURRENCY" xml:space="preserve">
+    <value>VND</value>
+  </data>
+  <data name="CUS_FOLDER_UPLOAD_IMAGES" xml:space="preserve">
+    <value>~/Uploads/Images/Customer</value>
+  </data>
+  <data name="CUS_IMAGE_LARGE_HEIGHT" xml:space="preserve">
+    <value>450</value>
+  </data>
+  <data name="CUS_IMAGE_LARGE_WIDTH" xml:space="preserve">
+    <value>450</value>
+  </data>
+  <data name="CUS_IMAGE_MEDIUM_HEIGHT" xml:space="preserve">
+    <value>120</value>
+  </data>
+  <data name="CUS_IMAGE_MEDIUM_WIDTH" xml:space="preserve">
+    <value>120</value>
+  </data>
+  <data name="CUS_IMAGE_SMALL_HEIGHT" xml:space="preserve">
+    <value>60</value>
+  </data>
+  <data name="CUS_IMAGE_SMALL_WIDTH" xml:space="preserve">
+    <value>60</value>
+  </data>
+  <data name="DATE_TIME_FORMAT_104" xml:space="preserve">
+    <value>dd/MM/yyyy HH:mm:ss</value>
+  </data>
+  <data name="DATE_TIME_FORMAT_104_CODE_SQL" xml:space="preserve">
+    <value>104</value>
+  </data>
+  <data name="DATE_TIME_FORMAT_GRID" xml:space="preserve">
+    <value>{0:dd/MM/yyyy HH:mm:ss}</value>
+  </data>
+  <data name="DATE_TIME_FORMAT_GRID_104" xml:space="preserve">
+    <value>{0:dd/MM/yyyy}</value>
+  </data>
+  <data name="DATE_TIME_FORMAT_GRID_1041" xml:space="preserve">
+    <value>{0:dd/MM/yyyy hh:mm:ss}</value>
+  </data>
+  <data name="DB_CONNECTION_NAME" xml:space="preserve">
+    <value />
+  </data>
+  <data name="DB_DMS_LIVE_NAME" xml:space="preserve">
+    <value />
+  </data>
+  <data name="DB_DMS_TEST_NAME" xml:space="preserve">
+    <value />
+  </data>
+  <data name="DB_PASSWORD" xml:space="preserve">
+    <value />
+  </data>
+  <data name="DB_USERNAME" xml:space="preserve">
+    <value />
+  </data>
+  <data name="DDL_CHOOSE" xml:space="preserve">
+    <value>--Choose--</value>
+  </data>
+  <data name="DEFAULT_ACTIVE_STATUS" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="DEFAULT_CANCELED_STATUS" xml:space="preserve">
+    <value>-2</value>
+  </data>
+  <data name="DEFAULT_HEIGHT" xml:space="preserve">
+    <value>480</value>
+  </data>
+  <data name="DEFAULT_INACTIVE_STATUS" xml:space="preserve">
+    <value>-1</value>
+  </data>
+  <data name="DEFAULT_PENDING_STATUS" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="DEFAULT_WIDTH" xml:space="preserve">
+    <value>640</value>
+  </data>
+  <data name="DMS_LIVE_URL" xml:space="preserve">
+    <value />
+  </data>
+  <data name="DOC_TYPE_BILL" xml:space="preserve">
+    <value>bill</value>
+  </data>
+  <data name="DOC_TYPE_CT" xml:space="preserve">
+    <value>lb</value>
+  </data>
+  <data name="DOC_TYPE_FRB" xml:space="preserve">
+    <value>frb</value>
+  </data>
+  <data name="DOC_TYPE_ID" xml:space="preserve">
+    <value>id</value>
+  </data>
+  <data name="DOC_TYPE_PIC" xml:space="preserve">
+    <value>picture</value>
+  </data>
+  <data name="DOC_TYPE_PS" xml:space="preserve">
+    <value>bs</value>
+  </data>
+  <data name="DOMAIN_FULL_NAME" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EMP_GROUP_NAME" xml:space="preserve">
+    <value>EMP</value>
+  </data>
+  <data name="ENCRYPT_SECRET_STRING" xml:space="preserve">
+    <value>secret</value>
+  </data>
+  <data name="EXTENSION" xml:space="preserve">
+    <value>.pdf</value>
+  </data>
+  <data name="FILE_LOGO_IMAGE" xml:space="preserve">
+    <value>no_image_medium.jpg</value>
+  </data>
+  <data name="FILE_NAME" xml:space="preserve">
+    <value>{0}_{1}_{2}.jpg</value>
+  </data>
+  <data name="FILE_SERVER_PATH" xml:space="preserve">
+    <value />
+  </data>
+  <data name="FILE_TYPES" xml:space="preserve">
+    <value>doc,docx,pdf,xls,xlsx,png,jpg,gif,txt</value>
+  </data>
+  <data name="FILE_TYPES_IMAGES" xml:space="preserve">
+    <value>png,jpg,gif</value>
+  </data>
+  <data name="FORMAT_CURRENCY" xml:space="preserve">
+    <value>{0:0,0} VNĐ</value>
+  </data>
+  <data name="FORMAT_CURRENTCY" xml:space="preserve">
+    <value>###,###,###,##0.#0</value>
+  </data>
+  <data name="FORMAT_CURRENTCY_GRID" xml:space="preserve">
+    <value>{0:###,###,###,##0.#0}</value>
+  </data>
+  <data name="FORMAT_DATE" xml:space="preserve">
+    <value>dd/MM/yyyy</value>
+  </data>
+  <data name="FORMAT_DATE_TIME" xml:space="preserve">
+    <value>dd/MM/yyyy HH:mm:ss</value>
+  </data>
+  <data name="FORMAT_FULL_DATETIME" xml:space="preserve">
+    <value>{0:MM/dd/yyyy hh:mm:ss}</value>
+  </data>
+  <data name="FUND_INCOME_GEN_CODE_LENGTH" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="JS_PRINT_PAGE" xml:space="preserve">
+    <value>&lt;script&gt;window.print();&lt;/script&gt;</value>
+  </data>
+  <data name="LDAP_ADDRESS" xml:space="preserve">
+    <value>LDAP://vnhqsdc02.hcnet.vn:389</value>
+  </data>
+  <data name="LOG_FILE_TYPE" xml:space="preserve">
+    <value>.txt</value>
+  </data>
+  <data name="MAIL_BCC" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MAIL_BCC_DMS" xml:space="preserve">
+    <value>dms@homecredit.vn</value>
+  </data>
+  <data name="MAIL_BODY" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MAIL_CC" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MAIL_ENABLE_SSL" xml:space="preserve">
+    <value>false</value>
+  </data>
+  <data name="MAIL_FROM" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MAIL_FROM_DISPLAY_NAME_DMS" xml:space="preserve">
+    <value>PPFVF Notification</value>
+  </data>
+  <data name="MAIL_FROM_DMS" xml:space="preserve">
+    <value>no_reply@homecredit.vn</value>
+  </data>
+  <data name="MAIL_IS_HTML_BODY" xml:space="preserve">
+    <value>true</value>
+  </data>
+  <data name="MAIL_SENDER" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MAIL_SUBJECT" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MAIL_TO" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MAX_LENGTH" xml:space="preserve">
+    <value>102400</value>
+  </data>
+  <data name="MEMORY_METHOD" xml:space="preserve">
+    <value>cookie</value>
+    <comment>cache or cookie</comment>
+  </data>
+  <data name="MESSAGE_UPLOAD_EXCEL" xml:space="preserve">
+    <value>Hỗ trợ file *.xls, *.xlsx. Kích thước file tối đa 5MB.</value>
+  </data>
+  <data name="MESSAGE_UPLOAD_IMAGE" xml:space="preserve">
+    <value>Hỗ trợ file *.png, *.jpg, *.gif. Kích thước file tối đa 5MB.</value>
+  </data>
+  <data name="MIN_LENGTH" xml:space="preserve">
+    <value>10240</value>
+  </data>
+  <data name="MONEY_DECIMAL_SEP_MARK" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="MONEY_THOUSAND_SEP_MARK" xml:space="preserve">
+    <value>,</value>
+  </data>
+  <data name="NOBG" xml:space="preserve">
+    <value>class="nobg"</value>
+  </data>
+  <data name="NOTE_MESSAGE_ADD_NOTE" xml:space="preserve">
+    <value>Thêm Ghi Chú</value>
+    <comment>ADD NOTE</comment>
+  </data>
+  <data name="NOT_AUTHORIZED_URL" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ORDER_TOTAL" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PHYSICAL_FILE_PATH" xml:space="preserve">
+    <value>E:\Data\PDOC</value>
+    <comment>D:\WebData\PDOC\</comment>
+  </data>
+  <data name="RED_VALUE" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="ROLE_SYS_ADMIN" xml:space="preserve">
+    <value>SYS_ADMIN</value>
+  </data>
+  <data name="ROLE_SYS_AUTHENTICATION_ENABLED" xml:space="preserve">
+    <value>SYS_AUTHENTICATION_ENABLED</value>
+  </data>
+  <data name="ROLE_SYS_PUBLIC_PAGES" xml:space="preserve">
+    <value>SYS_PUBLIC_PAGES</value>
+  </data>
+  <data name="ROLE_SYS_ROLE_PUBLIC" xml:space="preserve">
+    <value>SYS_ROLE_PUBLIC</value>
+  </data>
+  <data name="ROLE_SYS_ROLE_PUBLIC_REGISTERED" xml:space="preserve">
+    <value>SYS_ROLE_PUBLIC_REGISTERED</value>
+  </data>
+  <data name="ROWS_PER_PAGE_DEFAULT" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="SCAN_DOC_STATUS_CANCEL" xml:space="preserve">
+    <value>-1</value>
+  </data>
+  <data name="SCAN_DOC_STATUS_CHECKING" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="SCAN_DOC_STATUS_DONE" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="SCAN_DOC_STATUS_NEW" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="SCAN_DOC_STATUS_PENDING" xml:space="preserve">
+    <value>-3</value>
+  </data>
+  <data name="SCAN_DOC_STATUS_REJECTED" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="SCAN_DOC_STATUS_REUPLOADED" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="SCAN_MISTAKE_STATUS_ACTIVE" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="SCAN_MISTAKE_STATUS_PENDING" xml:space="preserve">
+    <value>-3</value>
+  </data>
+  <data name="SCAN_STATUS_CANCEL" xml:space="preserve">
+    <value>Hủy</value>
+  </data>
+  <data name="SCAN_STATUS_CHECKING" xml:space="preserve">
+    <value>Đang Xử Lý</value>
+  </data>
+  <data name="SCAN_STATUS_DONE" xml:space="preserve">
+    <value>Hoàn Thành</value>
+  </data>
+  <data name="SCAN_STATUS_NEW" xml:space="preserve">
+    <value>Mới Tải</value>
+  </data>
+  <data name="SCAN_STATUS_PENDING" xml:space="preserve">
+    <value>Chờ Duyệt</value>
+  </data>
+  <data name="SCAN_STATUS_REJECTED" xml:space="preserve">
+    <value>Không Hợp Lệ</value>
+  </data>
+  <data name="SCAN_STATUS_REUPLOAD" xml:space="preserve">
+    <value>Tải Lại</value>
+  </data>
+  <data name="SEC_EMAIL_DOMAIN" xml:space="preserve">
+    <value />
+  </data>
+  <data name="SELECT_ONE" xml:space="preserve">
+    <value>--- Select One ---</value>
+  </data>
+  <data name="STATUS_TYPE" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="SUP_GEN_CODE_LENGTH" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="SUP_PREFIX" xml:space="preserve">
+    <value>NCC</value>
+  </data>
+  <data name="TESTING_EXCEL_EXPORT_PATH" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TESTING_EXPORT_PATH" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TESTING_MAIL_BCC" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TESTING_MAIL_CC" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TESTING_MAIL_TO" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TESTING_PDF_EXPORT_PATH" xml:space="preserve">
+    <value />
+  </data>
+  <data name="UPLOAD_IMAGE_MAX_FILE_SIZE" xml:space="preserve">
+    <value>5120</value>
+  </data>
+  <data name="USERNAME" xml:space="preserve">
+    <value>user</value>
+  </data>
+  <data name="WEBSITE_SUBJECT" xml:space="preserve">
+    <value>PDOC</value>
+  </data>
+  <data name="WEBSITE_TITLE" xml:space="preserve">
+    <value>PPF Vietnam Finance</value>
+  </data>
+  <data name="WEBSITE_VERSION" xml:space="preserve">
+    <value>Version 1.0</value>
+  </data>
+  <data name="YELLOW_VALUE" xml:space="preserve">
+    <value>2</value>
+  </data>
+</root>
