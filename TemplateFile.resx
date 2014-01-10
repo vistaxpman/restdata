@@ -142,6 +142,37 @@ namespace DMS.HS2Properties
   <data name="DATABIND_INFO" xml:space="preserve">
     <value>if (Protect.ToString(dr.Rows[0]["{__COLUMN__NAME__}"].ToString()) != string.Empty) { {__INFO__DATA__} }</value>
   </data>
+  <data name="INSERT_FUNCTION" xml:space="preserve">
+    <value>public int {__CLASS__NAME__}Add({__CLASS__NAME__} p{__CLASS__NAME__})
+{
+	int result = -1;
+
+	List&lt;SqlParameter&gt; sqlParam = new List&lt;SqlParameter&gt;();
+	
+	{__SQL__PARAMETER__}
+	result = DBUtils.ExecSP(textBox2.Text, textBoxStoreInsert.Text, sqlParam);
+
+	// if has primary key 
+	{__PRIMARY_KEY__}
+	return result;
+}</value>
+  </data>
+  <data name="OUT_PRIMARY_KEY" xml:space="preserve">
+    <value>int idOutputParam = outputIdParam.Value as int? ?? -1;
+	if (idOutputParam &gt; 0)
+	{
+		result = idOutputParam;
+	}</value>
+  </data>
+  <data name="PRIMARY_KEY" xml:space="preserve">
+    <value>SqlParameter outputIdParam = new SqlParameter("@{__COLUMN__NAME__}", SqlDbType.Int)
+	{ 
+		Direction = ParameterDirection.Output 
+	};</value>
+  </data>
+  <data name="SQL_PARAMETER" xml:space="preserve">
+    <value>sqlParam.Add(new SqlParameter("@{__COLUMN__NAME__}", p{__CLASS__NAME__}.{__COLUMN__NAME__}));</value>
+  </data>
   <data name="TEST_DATA" xml:space="preserve">
     <value>if (Protect.ToString(dr.Rows[0]["{0}"].ToString()) != string.Empty) {{ {1} }}</value>
   </data>
