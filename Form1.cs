@@ -14,6 +14,7 @@ using AutoBrowser.DataInfo;
 using System.Collections;
 using System.Threading.Tasks;
 using System.Net;
+using System.Data.SqlClient;
 namespace AutoBrowser
 {
     public partial class Form1 : Form
@@ -50,7 +51,7 @@ namespace AutoBrowser
             }
 
             // select event select all for textbox control
-            TextBox[] list_textbox = new TextBox[] { txtStoreProcedure, txtSPResult, txtBindData, txtInputText, txtOutputText, textBoxCustomColumn };
+            TextBox[] list_textbox = new TextBox[] { txtStoreProcedure, txtSPResult, txtBindData, txtInputText, txtOutputText, textBoxCustomColumn, textBoxVIUD };
             foreach (var item_textbox in list_textbox)
             {
                 item_textbox.ScrollBars = ScrollBars.Both;
@@ -249,6 +250,11 @@ namespace AutoBrowser
                         // store procedure 
                         StringBuilder sb_store_procedure = new StringBuilder();
 
+                        // Insert Class
+                        string insert_function_data = TemplateFile.INSERT_FUNCTION;
+                        
+                        StringBuilder sb_param_insert = new StringBuilder();
+                        bool is_primary_key = false;
                         foreach (DataRow item_tb_info in dt_table_info.Rows)
                         {
                             string is_nullable = Protect.ToString(item_tb_info["IS_NULLABLE"]);
@@ -272,9 +278,15 @@ namespace AutoBrowser
                             string bind_data = Commons.ColumnMapping.ContainsKey(column_datatype) ? Commons.ColumnMapping[column_datatype] : Commons.ColumnMapping["nvarchar"]; ;
                             bind_data = bind_data.Replace("{__COLUMN__NAME__}", column_name);
                             bind_data = bind_data.Replace("{__COLUMN__NAME__INFO__}", col_temp);
+
+                            // insert function 
+                            string sql_param_insert = string.Empty;
+
                             if (!String.IsNullOrEmpty(primary_key))
                             {
+                                is_primary_key = true;
                                 datatype = "int"; // column is primary key
+                                sql_param_insert = TemplateFile.PRIMARY_KEY;
                             }
                             else
                             {
@@ -282,6 +294,7 @@ namespace AutoBrowser
                                 {
                                     datatype = Commons.TypeMappings[column_datatype + "_null"];
                                 }
+                                sql_param_insert = TemplateFile.SQL_PARAMETER;
                             }
 
                             string bind_data_template = TemplateFile.DATABIND_INFO;
@@ -291,6 +304,10 @@ namespace AutoBrowser
                             string property_template = TemplateFile.CLASS_PROPERTY;
                             property_template = property_template.Replace("{__DATATYPE__}", datatype);
                             property_template = property_template.Replace("{__COLUMN__NAME__}", column_name);
+
+                            // insert function
+                            sql_param_insert = sql_param_insert.Replace("{__COLUMN__NAME__}", column_name);
+
                             if (sb_class.Length > 0)
                             {
                                 sb_class.Append("\t\t");
@@ -298,10 +315,22 @@ namespace AutoBrowser
                             sb_class.AppendLine(property_template);
                             sb_bindata.AppendLine(bind_data_template);
 
+                            // insert function 
+                            sb_param_insert.AppendLine(sql_param_insert);
+
                         }
                         class_data = class_data.Replace("{__CLASS__PROPERTY__}", sb_class.ToString());
+
+                        // insert function
+                        insert_function_data = insert_function_data.Replace("{__SQL__PARAMETER__}", sb_param_insert.ToString());
+                        if (is_primary_key)
+                        {
+                            insert_function_data = insert_function_data.Replace("{__PRIMARY_KEY__}", TemplateFile.OUT_PRIMARY_KEY);
+                        }
+                        insert_function_data = insert_function_data.Replace("{__CLASS__NAME__}", table_name);
                         txtStoreProcedure.Text = class_data;
                         txtBindData.Text = sb_bindata.ToString();
+                        textBoxVIUD.Text = insert_function_data;
                         string file_name = table_name + ".cs";
                         string file_name_path = out_folder + file_name;
                         FileUtils.WriteFile(file_name_path, class_data);
@@ -430,5 +459,46 @@ namespace AutoBrowser
         }
 
 
+       
+        private int CustomerContractNote(Category pCategory)
+        {
+            int result = -1;
+
+            // if has primary key 
+            List<SqlParameter> sqlParam = new List<SqlParameter>();
+            SqlParameter outputIdParam = new SqlParameter("@ID", SqlDbType.Int)
+            { 
+                Direction = ParameterDirection.Output 
+            };
+
+            sqlParam.Add(new SqlParameter("Id", pCategory.Id));
+            sqlParam.Add(new SqlParameter("FirstName", pCategory.FirstName));
+            sqlParam.Add(new SqlParameter("LastName", pCategory.LastName));
+
+            result = DBUtils.ExecSP(textBox2.Text, textBoxStoreInsert.Text, sqlParam);
+
+            // if has primary key 
+            int idOutputParam = outputIdParam.Value as int? ?? -1;
+            if (idOutputParam > 0)
+            {
+                result = idOutputParam;
+            }
+            return result;
+        }
+
+        
+
+    }
+
+    public class Category
+    {
+        public int Id { get; set; }
+
+        public string FirstName { get; set; }
+
+        public string LastName { get; set; }
+
     }
 }
+
+
