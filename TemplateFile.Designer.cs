@@ -104,6 +104,61 @@ namespace AutoBrowser {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to public int {__CLASS__NAME__}Add({__CLASS__NAME__} p{__CLASS__NAME__})
+        ///{
+        ///	int result = -1;
+        ///
+        ///	List&lt;SqlParameter&gt; sqlParam = new List&lt;SqlParameter&gt;();
+        ///	
+        ///	{__SQL__PARAMETER__}
+        ///	result = DBUtils.ExecSP(textBox2.Text, textBoxStoreInsert.Text, sqlParam);
+        ///
+        ///	// if has primary key 
+        ///	{__PRIMARY_KEY__}
+        ///	return result;
+        ///}.
+        /// </summary>
+        internal static string INSERT_FUNCTION {
+            get {
+                return ResourceManager.GetString("INSERT_FUNCTION", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to int idOutputParam = outputIdParam.Value as int? ?? -1;
+        ///	if (idOutputParam &gt; 0)
+        ///	{
+        ///		result = idOutputParam;
+        ///	}.
+        /// </summary>
+        internal static string OUT_PRIMARY_KEY {
+            get {
+                return ResourceManager.GetString("OUT_PRIMARY_KEY", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to SqlParameter outputIdParam = new SqlParameter(&quot;@{__COLUMN__NAME__}&quot;, SqlDbType.Int)
+        ///	{ 
+        ///		Direction = ParameterDirection.Output 
+        ///	};.
+        /// </summary>
+        internal static string PRIMARY_KEY {
+            get {
+                return ResourceManager.GetString("PRIMARY_KEY", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to sqlParam.Add(new SqlParameter(&quot;@{__COLUMN__NAME__}&quot;, p{__CLASS__NAME__}.{__COLUMN__NAME__}));.
+        /// </summary>
+        internal static string SQL_PARAMETER {
+            get {
+                return ResourceManager.GetString("SQL_PARAMETER", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to if (Protect.ToString(dr.Rows[0][&quot;{0}&quot;].ToString()) != string.Empty) {{ {1} }}.
         /// </summary>
         internal static string TEST_DATA {
