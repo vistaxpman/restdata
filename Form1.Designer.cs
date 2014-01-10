@@ -57,6 +57,16 @@ namespace AutoBrowser
             this.txtBindData = new System.Windows.Forms.TextBox();
             this.tabPage9 = new System.Windows.Forms.TabPage();
             this.textBoxCustomColumn = new System.Windows.Forms.TextBox();
+            this.tabPage11 = new System.Windows.Forms.TabPage();
+            this.textBoxStoreDelete = new System.Windows.Forms.TextBox();
+            this.label11 = new System.Windows.Forms.Label();
+            this.textBoxStoreUpdate = new System.Windows.Forms.TextBox();
+            this.label12 = new System.Windows.Forms.Label();
+            this.textBoxStoreInsert = new System.Windows.Forms.TextBox();
+            this.label10 = new System.Windows.Forms.Label();
+            this.textBoxStoreView = new System.Windows.Forms.TextBox();
+            this.label9 = new System.Windows.Forms.Label();
+            this.textBoxVIUD = new System.Windows.Forms.TextBox();
             this.btnCreateStore = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.comboBoxListTables = new System.Windows.Forms.ComboBox();
@@ -64,6 +74,8 @@ namespace AutoBrowser
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.tabPage8 = new System.Windows.Forms.TabPage();
+            this.txtIncludeText = new System.Windows.Forms.TextBox();
+            this.label8 = new System.Windows.Forms.Label();
             this.textBoxSplitJoinText = new System.Windows.Forms.TextBox();
             this.buttonStart = new System.Windows.Forms.Button();
             this.radioButtonJoin = new System.Windows.Forms.RadioButton();
@@ -78,8 +90,6 @@ namespace AutoBrowser
             this.toolStripStatusLabelMessage = new System.Windows.Forms.ToolStripStatusLabel();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.label8 = new System.Windows.Forms.Label();
-            this.txtIncludeText = new System.Windows.Forms.TextBox();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -91,6 +101,7 @@ namespace AutoBrowser
             this.tabPage6.SuspendLayout();
             this.tabPage7.SuspendLayout();
             this.tabPage9.SuspendLayout();
+            this.tabPage11.SuspendLayout();
             this.tabPage8.SuspendLayout();
             this.tabPage10.SuspendLayout();
             this.statusStripMessage.SuspendLayout();
@@ -314,6 +325,7 @@ namespace AutoBrowser
             this.tabControl2.Controls.Add(this.tabPage6);
             this.tabControl2.Controls.Add(this.tabPage7);
             this.tabControl2.Controls.Add(this.tabPage9);
+            this.tabControl2.Controls.Add(this.tabPage11);
             this.tabControl2.Location = new System.Drawing.Point(6, 124);
             this.tabControl2.Name = "tabControl2";
             this.tabControl2.SelectedIndex = 0;
@@ -398,6 +410,98 @@ namespace AutoBrowser
             this.textBoxCustomColumn.Size = new System.Drawing.Size(861, 309);
             this.textBoxCustomColumn.TabIndex = 7;
             // 
+            // tabPage11
+            // 
+            this.tabPage11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.tabPage11.Controls.Add(this.textBoxStoreDelete);
+            this.tabPage11.Controls.Add(this.label11);
+            this.tabPage11.Controls.Add(this.textBoxStoreUpdate);
+            this.tabPage11.Controls.Add(this.label12);
+            this.tabPage11.Controls.Add(this.textBoxStoreInsert);
+            this.tabPage11.Controls.Add(this.label10);
+            this.tabPage11.Controls.Add(this.textBoxStoreView);
+            this.tabPage11.Controls.Add(this.label9);
+            this.tabPage11.Controls.Add(this.textBoxVIUD);
+            this.tabPage11.Location = new System.Drawing.Point(4, 25);
+            this.tabPage11.Name = "tabPage11";
+            this.tabPage11.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage11.Size = new System.Drawing.Size(873, 321);
+            this.tabPage11.TabIndex = 4;
+            this.tabPage11.Text = "View/Insert/Update/Delete";
+            // 
+            // textBoxStoreDelete
+            // 
+            this.textBoxStoreDelete.Location = new System.Drawing.Point(702, 9);
+            this.textBoxStoreDelete.Name = "textBoxStoreDelete";
+            this.textBoxStoreDelete.Size = new System.Drawing.Size(160, 23);
+            this.textBoxStoreDelete.TabIndex = 8;
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(651, 12);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(49, 16);
+            this.label11.TabIndex = 7;
+            this.label11.Text = "Delete:";
+            // 
+            // textBoxStoreUpdate
+            // 
+            this.textBoxStoreUpdate.Location = new System.Drawing.Point(486, 9);
+            this.textBoxStoreUpdate.Name = "textBoxStoreUpdate";
+            this.textBoxStoreUpdate.Size = new System.Drawing.Size(160, 23);
+            this.textBoxStoreUpdate.TabIndex = 6;
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(437, 12);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(53, 16);
+            this.label12.TabIndex = 5;
+            this.label12.Text = "Update:";
+            // 
+            // textBoxStoreInsert
+            // 
+            this.textBoxStoreInsert.Location = new System.Drawing.Point(274, 9);
+            this.textBoxStoreInsert.Name = "textBoxStoreInsert";
+            this.textBoxStoreInsert.Size = new System.Drawing.Size(160, 23);
+            this.textBoxStoreInsert.TabIndex = 4;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(222, 12);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(46, 16);
+            this.label10.TabIndex = 3;
+            this.label10.Text = "Insert:";
+            // 
+            // textBoxStoreView
+            // 
+            this.textBoxStoreView.Location = new System.Drawing.Point(53, 9);
+            this.textBoxStoreView.Name = "textBoxStoreView";
+            this.textBoxStoreView.Size = new System.Drawing.Size(160, 23);
+            this.textBoxStoreView.TabIndex = 2;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(7, 12);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(41, 16);
+            this.label9.TabIndex = 1;
+            this.label9.Text = "View:";
+            // 
+            // textBoxVIUD
+            // 
+            this.textBoxVIUD.Location = new System.Drawing.Point(6, 38);
+            this.textBoxVIUD.Multiline = true;
+            this.textBoxVIUD.Name = "textBoxVIUD";
+            this.textBoxVIUD.ScrollBars = System.Windows.Forms.ScrollBars.Both;
+            this.textBoxVIUD.Size = new System.Drawing.Size(861, 277);
+            this.textBoxVIUD.TabIndex = 0;
+            // 
             // btnCreateStore
             // 
             this.btnCreateStore.Location = new System.Drawing.Point(756, 51);
@@ -472,6 +576,23 @@ namespace AutoBrowser
             this.tabPage8.Size = new System.Drawing.Size(893, 480);
             this.tabPage8.TabIndex = 4;
             this.tabPage8.Text = "Split - Join Text";
+            // 
+            // txtIncludeText
+            // 
+            this.txtIncludeText.Enabled = false;
+            this.txtIncludeText.Location = new System.Drawing.Point(692, 8);
+            this.txtIncludeText.Name = "txtIncludeText";
+            this.txtIncludeText.Size = new System.Drawing.Size(67, 23);
+            this.txtIncludeText.TabIndex = 9;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(652, 11);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(34, 16);
+            this.label8.TabIndex = 8;
+            this.label8.Text = "With";
             // 
             // textBoxSplitJoinText
             // 
@@ -597,23 +718,6 @@ namespace AutoBrowser
             this.toolStripMenuItem1.Size = new System.Drawing.Size(98, 22);
             this.toolStripMenuItem1.Text = "Save";
             // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(652, 11);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(34, 16);
-            this.label8.TabIndex = 8;
-            this.label8.Text = "With";
-            // 
-            // txtIncludeText
-            // 
-            this.txtIncludeText.Enabled = false;
-            this.txtIncludeText.Location = new System.Drawing.Point(692, 8);
-            this.txtIncludeText.Name = "txtIncludeText";
-            this.txtIncludeText.Size = new System.Drawing.Size(67, 23);
-            this.txtIncludeText.TabIndex = 9;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
@@ -646,6 +750,8 @@ namespace AutoBrowser
             this.tabPage7.PerformLayout();
             this.tabPage9.ResumeLayout(false);
             this.tabPage9.PerformLayout();
+            this.tabPage11.ResumeLayout(false);
+            this.tabPage11.PerformLayout();
             this.tabPage8.ResumeLayout(false);
             this.tabPage8.PerformLayout();
             this.tabPage10.ResumeLayout(false);
@@ -710,6 +816,16 @@ namespace AutoBrowser
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.TextBox txtIncludeText;
         private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.TabPage tabPage11;
+        private System.Windows.Forms.TextBox textBoxVIUD;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.TextBox textBoxStoreView;
+        private System.Windows.Forms.TextBox textBoxStoreInsert;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.TextBox textBoxStoreDelete;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.TextBox textBoxStoreUpdate;
+        private System.Windows.Forms.Label label12;
     }
 }
 
