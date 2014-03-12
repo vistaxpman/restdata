@@ -1,0 +1,7 @@
++ Validate data 
+http://ge.tt/52FtwqJ/v/94
+http://www.google.com.vn/url?sa=t&rct=j&q=&esrc=s&source=web&cd=3&ved=0CDUQFjAC&url=http%3A%2F%2Fpskla.kpi.ua%2Flib%2F2011%2Fandroid%2FAndroidUIDev.pdf&ei=zX8gU9vMBMTlkgXLxoGwCg&usg=AFQjCNHNhzFIIL_9mw-uzPXwe7kmz6rMHA&sig2=tU7xDmlbqSH53JZSWaj29w&bvm=bv.62788935,d.dGI&cad=rja
+https://sites.google.com/site/khetiyachintan/sample-example/edit-text-validation-example
+http://www.zunisoft.com/2009/08/android-input-validation.html
+http://blog.zasadnyy.org.ua/2013/08/android-form-validation-right-way.html
+https://www.google.com.vn/search?q=validation+data+%2B+android&ie=utf-8&oe=utf-8&rls=org.mozilla:en-US:official&client=firefox-a&channel=sb&gfe_rd=ctrl&ei=LX8gU9jvKaKL8QeqqIHoBw&gws_rd=cr
