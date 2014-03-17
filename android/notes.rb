@@ -1,3 +1,49 @@
+============================================ 17 - 03  -2014 =================================================================
+http://www.ebook3000.com/plus/search.php?kwtype=0&keyword=Android&imageField2.x=33&imageField2.y=4&searchtype=titlekeyword
+https://androidgroup.googlecode.com/files/Unlocking%20Android.pdf
+http://javacro.files.wordpress.com/2013/08/android-development-best-practices-ivan-gavran-calyx.pdf
+http://www.appqualityalliance.org/files/AQuA_best_practices_doc_v2%202_FINAL_5_feb_2013.pdf
+http://www.sorabhsaluja.com/Smashing_Android_UI.pdf
+http://elinux.org/images/d/dc/Inside_Android%27s_User_Interface.pdf
+https://www.bignerdranch.com/books
+http://paris.utdallas.edu/sere13/video/slides/02-SERE-Android-Brief-Full-2013.pdf
+
+http://www.ebook3000.com/Making-Musical-Apps--Real-time-audio-synthesis-on-Android-and-iOS_196182.html
+Making Musical Apps: Real-time audio synthesis on Android and iOS
+http://longfiles.com/m2z051bladv9/1449314903MusicalApps.pdf.html
+http://www.ebook3000.com/Application-Security-for-the-Android-Platform--Processes--Permissions--and-Other-Safeguards_195801.html
+http://longfiles.com/5pptqouukeur/Android15078.pdf.html
+
+http://longfiles.com/wr32o70ourgw/1118394151_Andro.pdf.html
+Android Design Patterns: Interaction Design Solutions for Developers
+http://www.ebook3000.com/Android-Design-Patterns--Interaction-Design-Solutions-for-Developers_187199.html
+
+http://www.ebook3000.com/Learning-Android-Application-Programming-for-the-Kindle-Fire--A-Hands-On-Guide-to-Building-Your-First-Android-Application_174077.html
+http://longfiles.com/f4u3813abrjf/032183397X_Andro.pdf.html
+
+http://www.academia.edu/4446368/Android_SQLite_Database_and_Content_Provider_Tutorial
+http://www.4shared.com/office/S6k5F1AV/Android_SQLite_Database_and_Co.htm
+https://github.com/vogella/androidsqlitebook
+
+https://www.google.com.vn/search?q=Asynchronous+Android++pdf&ie=utf-8&oe=utf-8&rls=org.mozilla:en-US:official&client=firefox-a&gfe_rd=ctrl&ei=zc4mU9jgFsmOiAe4hoGoBA&gws_rd=cr
+
+
+Android Programming: The Big Nerd Ranch Guide (Big Nerd Ranch Guides)
+web.pdx.edu/~jjadams/androidBook.pdf
+
+Android for Programmers: An App-Driven Approach (2nd Edition) (Deitel Developer Series)
+http://people.cs.deu.edu.tr/semih/Android_Books/Prentice%20Hall%20Android%20for%20Programmers,%20An%20App-Driven%20Approach%20%282012%29.pdf
+
+Augmented Reality for Android Application Development by Jens Grubert and Dr. Raphael Grasset (Nov 25, 2013)
+http://www.ebook3000.com/Pro-Android-Augmented-Reality_171580.html
+http://www.idi.ntnu.no/emner/tdt4290/Rapporter/2010/gruppe4.pdf
+http://androidspeechbook.wordpress.com/
+http://moss.csc.ncsu.edu/~mueller/g1/lecture7.pdf
+http://www.cs.virginia.edu/~cs201/labs/Vogella-Android-Development-Tutorial.pdf
+
+Android User Interface Design: Turning Ideas and Sketches into Beautifully Designed Apps (Usability)
+Android Design Patterns: Interaction Design Solutions for Developers
+
 ============================================ 16 - 03  -2014 =================================================================
 Sqlite 
 login and logout code in android + sqlite
