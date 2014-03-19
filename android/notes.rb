@@ -1,4 +1,23 @@
-============================================ 17 - 03  -2014 =================================================================
+============================================ 19 - 03 - 2014 =================================================================
++ Cấu hình xem file document cho Android 
+http://www.mkyong.com/android/attach-android-source-code-to-eclipse-ide/
+http://theopentutorials.com/tutorials/android/adding-android-source-code-and-javadoc-in-eclipse/
+http://www.vogella.com/tutorials/Android/article.html
+http://developer.android.com/guide/topics/manifest/manifest-intro.html
+
++ Sample Code for Android 
+http://code.google.com/p/apps-for-android/downloads/list
+http://androidsourcecode.blogspot.com/
+http://www.vogella.com/code/
+http://coenraets.org/blog/androidtutorial/
+http://www.codeproject.com/Articles/511455/Android-Phone-Status-Sample
+https://github.com/commonsguy/cw-andtutorials
+https://github.com/commonsguy/cw-advandroid/
+
+
+
+============================================ 17 - 03 - 2014 =================================================================
+
 http://www.ebook3000.com/plus/search.php?kwtype=0&keyword=Android&imageField2.x=33&imageField2.y=4&searchtype=titlekeyword
 https://androidgroup.googlecode.com/files/Unlocking%20Android.pdf
 http://javacro.files.wordpress.com/2013/08/android-development-best-practices-ivan-gavran-calyx.pdf
