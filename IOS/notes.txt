@@ -1,0 +1,67 @@
+
+http://www.phpbuilder.com/columns/PHP_HTML_DOM_parser/PHPHTMLDOMParser.cc_09-07-2011.php3
+http://htmlparsing.com/php.html
+http://htmlpurifier.org/
+http://code.google.com/p/phpquery/
+http://querypath.org/
+http://fluentdom.github.io/
+https://github.com/fabpot/Goutte/
+https://github.com/html5lib/html5lib-php
+http://www.binarytides.com/php-tutorial-parsing-html-with-domdocument/
+http://code.tutsplus.com/tutorials/html-parsing-and-screen-scraping-with-the-simple-html-dom-library--net-11856
+http://anchetawern.github.io/blog/2013/08/07/getting-started-with-web-scraping-in-php/
+http://www.akshitsethi.me/parsing-web-pages-in-php/
+https://github.com/lamanabie/phpsimplehtmldom/blob/master/php-simple-html-dom-parser/Src/Sunra/PhpSimple/HtmlDomParser.php
+http://scraperblog.blogspot.com/2012/11/choosing-php-html-parser.html
+
+http://www.raywenderlich.com/50308/storyboards-tutorial-in-ios-7-part-1
+
+======================================================================== Sqlite  =========================================================================================================================================
++ Hiểu thêm thông tin về Property
+http://congdongios.com/archive/index.php/t-191.html?s=1ae1aa307247da5a82ceb4c0459ab55f
+http://laptrinhiphone.blogspot.com/2013/01/property-trong-objective-c.html
+http://xcodeblog.com/2013/12/03/ngon-ngu-lap-trinh-objective-c-property-va-cac-tuy-chon-strong-nonatomic-weak.iosx
+http://ktmt.github.io/blog/2013/09/10/ios-property-attributes/
+
+
++ StoryBoard
+http://www.raywenderlich.com/50308/storyboards-tutorial-in-ios-7-part-1
+https://developer.apple.com/library/ios/referencelibrary/GettingStarted/RoadMapiOS/SecondTutorial.html ( good )
+http://www.appcoda.com/uitableview-tutorial-storyboard-xcode5/
+http://codewithchris.com/xcode-tutorial-storyboards-mapkit-view-navigation/
+http://maniacdev.com/ios-5-sdk-tutorial-and-guide/xcode-4-storyboard
+http://www.techotopia.com/index.php/Implementing_iOS_7_TableView_Navigation_using_Storyboards_in_Xcode_5
+http://www.techrepublic.com/blog/software-engineer/better-code-no-time-like-the-present-to-use-xcode-storyboards/
+http://www.techotopia.com/index.php/An_iOS_7_Storyboard-based_Collection_View_Tutorial
+https://github.com/ksuther/KSImageNamed-Xcode
+http://stackoverflow.com/questions/18907772/ios7-storyboard-in-xcode-5-keep-growing-vertically
+
+http://teamtreehouse.com/library/build-a-selfdestructing-message-iphone-app-2/designing-and-starting-the-app/a-storyboard-with-a-tab-bar-controller
+http://maybelost.com/2011/10/tutorial-storyboard-in-xcode-4-2-with-navigation-controller-and-tabbar-controller-part1/
+http://www.appcoda.com/storyboard-tutorial-create-tab-bar-controller-and-web-view/ ( good )
+http://ios-blog.co.uk/tutorials/ios-custom-ui-series-tabbar-navbar/
+http://www.techotopia.com/index.php/Using_Xcode_5_Storyboards_to_Create_an_iOS_7_Tab_Bar_Application
+http://nscookbook.com/2012/12/ios-programming-recipe-3-creating-segues-with-the-storyboard-part-1/
+http://codingandcoffee.wordpress.com/2011/10/12/iphone-tutorial-two-combining-uitabbarcontrollers-uitableviews-and-uinavigationcontrollers/ ( good )
+http://code.tutsplus.com/tutorials/navigation-controllers-and-view-controller-hierarchies--mobile-14052
+http://www.appcoda.com/ios-programming-how-to-customize-tab-bar-background-appearance/
+
+
+
++ Sample code cho Ebook
+ 	
+Beginning iOS Programming: Building and Deploying iOS Applications
+http://www.wrox.com/WileyCDA/WroxTitle/Beginning-iOS-Programming-Building-and-Deploying-iOS-Applications.productCd-1118841476,descCd-DOWNLOAD.html
+
+
+http://www.wrox.com/WileyCDA/WroxTitle/Professional-iOS-Programming.productCd-1118661133.html
+Professional iOS Programming
+
+
+https://www.google.com.vn/#q=sqlite%20ios%207%20tutorial
+www.techotopia.com/index.php/An_Example_SQLite_based_iOS_7_Application
+http://www.raywenderlich.com/913/sqlite-tutorial-for-ios-making-our-app
+http://www.apptite.be/tutorial_ios_sqlite.php
+http://maniacdev.com/2011/11/tutorial-easy-ios-databases-with-sqlite-and-fmdb
+http://stackoverflow.com/questions/18993375/how-to-use-sqlite-in-ios-7
+http://hubpages.com/hub/Tutorial-on-Creating-an-IOS-5-SQLite-Database-Application-IOS-5-SQLite
