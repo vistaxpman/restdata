@@ -1,4 +1,3 @@
-
 http://www.phpbuilder.com/columns/PHP_HTML_DOM_parser/PHPHTMLDOMParser.cc_09-07-2011.php3
 http://htmlparsing.com/php.html
 http://htmlpurifier.org/
@@ -15,6 +14,33 @@ https://github.com/lamanabie/phpsimplehtmldom/blob/master/php-simple-html-dom-pa
 http://scraperblog.blogspot.com/2012/11/choosing-php-html-parser.html
 
 http://www.raywenderlich.com/50308/storyboards-tutorial-in-ios-7-part-1
+
++ Ebook
+http://www.it-ebooks.info/tag/ios/page/3/
+http://www.ebook3000.com/iOS-7-Development-Recipes--Problem-Solution-Approach_210966.html
+http://www.pdfbooksplanet.org/development-and-programming/9811-ios-7-development-recipes-problem-solution-approach.html
+http://www.thebook-mark.com/ios-7-development-recipes-problem-solution-approach/
+http://www.ebook3000.com/iOS-7-Development-Recipes--Problem-Solution-Approach_210966.html
+
+iOS 7 App Development Essentials
+http://www.pdfbooksplanet.org/development-and-programming/3974-ios-7-app-development-essentials.html
+http://www.scoop.it/t/it-books-free-share
+
+Pro Objective-C 
+http://www.it-ebooks.info/book/2939/
+http://www58.zippyshare.com/v/46704209/file.html
+
+http://www.pdfbooksplanet.org/development-and-programming/12080-ios-6-by-tutorials-volume-1-2.html
+http://www.thebook-mark.com/i
+
+iOS 7 By Tutorials
+http://keep2s.cc/file/5446e8253f223/0989675106Tutori.pdf
+http://ebookee.org/iOS-7-By-Tutorials_2574952.html
+http://ebookz.ws/ios-7-by-tutorials/
+http://ebookz.ws/ios-7-day-by-day/
+http://ebookepdffree.blogspot.com/2014/01/ebook-releases-ios-6-by-tutorials-by.html
+
+
 
 ======================================================================== Sqlite  =========================================================================================================================================
 + Hiểu thêm thông tin về Property
