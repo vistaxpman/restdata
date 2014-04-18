@@ -1,4 +1,56 @@
+==================================================== 18 - 04 - 2014 =====================================================
++ Download bộ design 
+http://designmodo.com/polaris-free/
+http://www.designshock.com/phoebus-gui-set/
+http://designmodo.com/wp-content/uploads/2012/03/impressionist-free.jpg
+http://designmodo.com/impressionist-free/
+http://www.webdesignerdepot.com/2012/01/free-download-balio-web-ui-kit/
+
+
++ Những ý tưởng khi design layout
+http://www.uiparade.com
+http://photoshoptutorials.wizapps.org/apps/web-elements-create-a-clean-pagination-layout-in-photoshop/
+http://99designs.com/designer-blog/2012/11/21/create-an-app-icon-using-photoshop-in-20-easy-steps/
+http://www.webdesigndev.com/photoshop/20-best-free-gui-sets-use-projects
+
++ Design icon trong photoshop
+http://www.webdesigndev.com/photoshop/create-a-glossy-home-icon-in-photoshop ( good )
+http://boonage.pjss2.net/2007/04/15/perfect-shine-button-or-icon/
+
+
+
++ Tạo round button in Photoshop
+http://www.hongkiat.com/blog/photoshop-create-web-20-button/
+https://thethemefoundry.com/blog/button-tutorial-photoshop/
+http://abduzeedo.com/stylish-metallic-button-photoshop
+http://code.tutsplus.com/tutorials/learn-to-create-buttons-in-photoshop--mobile-6372
+http://design.tutsplus.com/tutorials/quick-tip-create-a-round-switch-button-in-photoshop--psd-16955
+
+http://naldzgraphics.net/tutorials/40-best-photoshop-tutorials-for-creating-buttons-and-badges/
+http://wpbriefly.com/photoshop-button-tutorials/
+http://www.secondpicture.com/tutorials/digital_image_processing/glass_button_in_photoshop.html
+http://www.garethbotha.com/blog/tutorial/how-to-create-a-detailed-brushed-steel-button-in-photoshop/
+http://photoshop911.typepad.com/help/2004/04/making_round_co.html
+https://www.udemy.com/blog/photoshop-rounded-corners/
+http://paper-leaf.com/blog/2012/01/how-to-design-an-inset-button-in-photoshop/
+http://www.tripwiremagazine.com/2012/06/photoshop-button-tutorials.html
+http://harkable.com/blog/photoshop-buttons-ui-tutorial/
+http://blog.amazeelabs.com/en/how-round-corner-rectangle-photoshop
+http://skeeterz71.com/create-rounded-corners-for-your-picture-in-adobe-photoshop-cs6/#.U1CtLax-Ycs
+http://www.sessions.edu/notes-on-design/resources/web-design/glossy-buttons-in-photoshop/
+http://howtonestforless.com/2012/03/26/how-to-make-a-blog-button/
+http://speckyboy.com/2009/08/11/30-useful-photoshop-buttons-and-badges-tutorials/
+http://www.uiparade.com/portfolio/player-controls/
+http://breadandpepper.com/
+https://dribbble.com/shots/220353-Round-Button-Navigation
+http://www.digimantra.com/tutorials/create-rounded-corner-buttons-in-photoshop-using-gradient/
+http://www.dezineguide.com/tutorial/20-amazing-photoshop-button-tutorials/
+http://ggnome.com/wiki/Basic_three_state_button_in_Photoshop
+
+
 ==================================================== 17 - 04 - 2014 =====================================================
+
+
 http://stackoverflow.com/questions/5002487/getting-number-of-days-for-a-specific-month
 Lấy tổng số ngày trong năm và tháng
 DateTime.DaysInMonth(int year, int month);
