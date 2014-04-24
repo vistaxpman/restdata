@@ -1,3 +1,167 @@
+
+======================================================================== 24 - 04 - 2014  =========================================================================================================================================
++ iOS Localization
+http://www.appcoda.com/ios-programming-tutorial-localization-apps/
+http://stackoverflow.com/questions/5748600/making-multi-language-ios-app
+https://github.com/object2dot0/Advance-Localization-in-ios-apps
+http://stackoverflow.com/questions/16032207/how-to-change-application-language-on-run-time-using-two-button-in-iphone-sdk
+https://github.com/hasansawaed/MultiLanguageApp-iOS-7-Example ( cần tìm - chuyển ngôn ngữ trong IOS App )
+https://github.com/hasansawaed/PanoramioMania
+http://stackoverflow.com/questions/238980/how-to-change-the-name-of-an-ios-app?rq=1
+http://www.objc.io/issue-9/string-localization.html
+http://snipplr.com/view/60902/localized-language-tutorial/
+http://atomicobject.com/pages/The+Objective+C+Language
+http://blog.teamtreehouse.com/the-beginners-guide-to-objective-c-methods
+http://danielemargutti.com/multiple-delegates-in-objective-c/
+
+http://www.appcoda.com/objective-c-blocks-tutorial/
+http://code.tutsplus.com/tutorials/objective-c-succinctly-categories-and-extensions--mobile-22016
+http://unirest.io/objective-c.html
+
+http://rypress.com/tutorials/objective-c/c-basics.html
+http://ios-blog.co.uk/tutorials/objective-c-guide-for-developers-part-2/
+http://www.pubnub.com/blog/building-the-client-side-for-an-ios-game-with-objective-c-ios-poker-part-1/
+https://www.udemy.com/blog/objective-c-tutorial/
+http://parsekit.com/
+
+
+
+
+======================================================================== 23 - 04 - 2014  =========================================================================================================================================
++ Google Map SDK cho IOS
+http://www.stevenjamesgray.com/blog/2014/01/18/animating-ground-overlays-in-google-maps-ios-sdk/ ( good )
+http://code.google.com/p/gdata-objectivec-client/
+https://github.com/googlemaps/hellomap-ios
+https://github.com/googlemaps/google-maps-ios-utils
+https://developers.google.com/maps/documentation/ios/reference/interface_g_m_s_map_view ( good )
+http://code.google.com/p/google-api-objectivec-client/wiki/Introduction ( toàn bộ document về Google Maps cho IOS )
+http://www.techotopia.com/index.php/Working_with_Maps_on_the_iPhone_with_MapKit_and_the_MKMapView_Class ( good )
+http://architects.dzone.com/articles/hello-maps-five-minute-ios-app
+http://maniacdev.com/2012/10/example-project-showing-how-to-use-google-maps-in-ios-6-using-map-kit ( good )
+https://developers.google.com/maps/documentation/ios/start ( good )
+http://stackoverflow.com/questions/16331767/how-to-get-current-location-in-google-map-sdk-in-iphone
+
+http://webbuilders.wordpress.com/2009/05/24/how-to-use-google-map-with-objective-c-part-i/
+http://sapessi.com/2010/06/14/decode-a-gpolyline-in-objective-c/
+http://mertef.wordpress.com/2011/05/24/getting-google-map-data-using-objective-c-and-drawing-it-on-the-map/
+http://www.idev101.com/code/Objective-C/custom_url_schemes.html
+
+http://www.devx.com/opensource/ten-fantastic-objective-c-libraries-for-iphone-developers.html ( những thư viện cần thiết cho IOS )
+http://stackoverflow.com/questions/30058/how-can-i-launch-the-google-maps-iphone-application-from-within-my-own-native-ap
+https://developers.google.com/maps/documentation/ios/
+https://dl.google.com/geosdk/GoogleMaps-iOS-1.7.2.zip
+https://developers.google.com/maps/documentation/ios/
+http://stackoverflow.com/questions/13879211/how-to-integrate-new-google-map-app-with-ios-app
+http://www.cnet.com/news/google-maps-tricks-out-ios-app-with-more-navigation-features/
+http://www.cnet.com/news/google-maps-adds-waze-traffic-reports/
+http://www.cnet.com/news/google-reveals-it-spent-966-million-in-waze-acquisition/
+http://www.cnet.com/news/google-maps-returns-to-ios-as-an-app-after-apples-removal/
+https://www.codeschool.com/courses/exploring-google-maps-for-ios?utm_source=welovemapsdevelopers&utm_campaign=mdr-codeschool
+http://stackoverflow.com/questions/20967496/google-maps-ios-sdk-getting-current-location-of-user ( good )
+http://www.raywenderlich.com/13160/using-the-google-places-api-with-mapkit ( Sử dủng bản đồ của Apple map )
+
+http://highaltitudehacks.com/2013/06/16/ios-application-security-part-3-understanding-the-objective-c-runtime/
+http://googlemac.blogspot.com/2007/04/google-data-apis-connect-cocoa.html
+http://stackoverflow.com/questions/20967496/google-maps-ios-sdk-getting-current-location-of-user
+http://stackoverflow.com/questions/13491411/iphone-app-how-to-get-the-current-location-only-once-and-store-that-to-be-used
+http://stackoverflow.com/questions/15266118/about-positioning-myself-some-problems
+http://stackoverflow.com/questions/20967496/google-maps-ios-sdk-getting-current-location-of-user
+http://stackoverflow.com/questions/17057805/google-maps-api-getting-coordinates-of-current-location-ios
+http://coronalabs.com/blog/2012/12/18/reintroducing-google-maps/
+https://developers.google.com/live/shows/240588492-4001
+http://iphonedevsdk.com/forum/tutorial-discussion/39374-mkmapview-tutorial-using-latitude-and-longitude.html
+www.reigndesign.com/blog/how-to-launch-google-maps-or-apple-maps-from-an-ios-app/
+http://www.techotopia.com/index.php/Integrating_Maps_into_iOS_7_Applications_using_MKMapItem ( good - Sử dụng cho Apple Map )
+http://www.stevenjamesgray.com/blog/2014/01/18/animating-ground-overlays-in-google-maps-ios-sdk/ ( good )
+
+Launching the iPhone maps application from your own code
+http://objective-d.com/?p=43
+
+http://www.iphonedevcamp.org/2009/08/02/iphonedevcamp-3-hackathon-winners/
+
+
++ Get the distance from the user of location to the venue
+http://snipplr.com/view/27707/
+http://www.codeproject.com/Articles/112044/GPSLocator-App-to-Find-Current-Nearest-Location-us
+
++ Demo mẫu
+https://github.com/humphriesjm/google-maps-ios( đã cách đây 3 tháng )
+https://github.com/kishikawakatsumi/ClassicMap( đã cách đây 2 năm )
+http://d.hatena.ne.jp/KishikawaKatsumi/20090812
+https://github.com/kishikawakatsumi/MapKit-Route-Directions
+http://weblog.invasivecode.com/post/43675553480/google-maps-api-for-ios-with-interface-builder
+https://developers.google.com/maps/documentation/ios/start#getting_the_google_maps_sdk_for_ios
+https://github.com/vvanhee/Google-Local-Search-iOS ( đã cách đây 2 năm )
+https://github.com/twoism/gkit ( đã cách đây 4 năm )
+http://code.google.com/p/gdata-objectivec-client/wiki/BuildingTheLibrary
+http://code.google.com/p/gdata-objectivec-client/wiki/GDataObjCIntroduction
+https://developers.google.com/web-search/docs/?csw=1
+https://developers.google.com/web-search/docs/?csw=1#fonje
+https://github.com/spoletto/SPGooglePlacesAutocomplete ( Auto Complete vị trí khi nhập trong TextBox )
+
+
+
+
+Show Directions on Google Map in the iPhone.
+http://snipplr.com/view/32368/
+
+http://www.meonbinary.com/2014/02/route-directions-with-ios7-mapkit-and-google-maps-api
+
+
+https://www.google.com.vn/search?q=How+to+use+Google+Map+with+Objective-C&ie=utf-8&oe=utf-8&aq=t&rls=org.mozilla:en-US:official&client=firefox-a&gfe_rd=cr&ei=G0dXU8L-MaWkiAfGu4CwCw
+https://www.google.com.vn/#q=using+google+maps+objective+c&start=30
+
+
++ Gọi chức năng gọi điện thoại của IPhone
+
+stackoverflow.com/questions/4863935/open-the-phone-call-with-a-button-and-a-text-field-view-iphone
+http://stackoverflow.com/questions/6902924/iphone-dev-how-can-i-call-a-phone-number-from-within-an-app-also-how-can-i-h
+http://stackoverflow.com/questions/665769/how-can-i-make-phone-call-in-objective-c
+http://code.tutsplus.com/tutorials/ios-succinctly-multi-scene-applications--mobile-18815
+
++ Expand and Collapse trong IOS
+https://www.google.com.vn/search?q=master+detail+view+ios&ie=utf-8&oe=utf-8&aq=t&rls=org.mozilla:en-US:official&client=firefox-a&gfe_rd=cr&ei=YjVXU9XeD4a5iAeKxYGYAw#q=ios+expand+collapse+uiview&rls=org.mozilla:en-US:official
+
+======================================================================== 22 - 04 - 2014  =========================================================================================================================================
++ Decompiler IPA file
+ iphone decompiler objective c
+ http://iphonedevsdk.com/forum/iphone-sdk-development/71355-reverse-engineering.html
+ http://kratinmobile.com/blog/index.php/ipa-decompilation/
+ 
+ http://tungchingkai.blogspot.com/2009/02/how-to-decrypt-iphone-ipa-file.html
+ http://reverseengineering.stackexchange.com/questions/1594/possibilities-for-reverse-engineering-an-ipa-file-to-its-source
+ http://stackoverflow.com/questions/7038143/executable-encryption-check-anti-piracy-measure
+ https://github.com/zynamics/objc-helper-plugin-ida
+ https://github.com/stefanesser/dumpdecrypted
+ http://dinezhshetty.blogspot.com/2013/01/reverse-engineering-ios-application.html
+ http://gamemakerblog.com/2010/12/19/game-maker-ios-decompiler-released/
+ http://stevenygard.com/projects/class-dump/
+ http://stackoverflow.com/questions/2334072/decompiling-objective-c-libraries
+ http://www.raywenderlich.com/46223/ios-app-security-analysis-part-2
+ http://www.mobiledev.nl/decompiling-ios-apps-have-a-look-at-the-strings-used/
+ http://www.funkyspacemonkey.com/howto-modify-cracked-iphone-ipa-files-work-firmwares
+ http://www.hopperapp.com/
+ http://derevenets.com/
+ https://www.hex-rays.com/products/ida/order.shtml
+ https://github.com/EiNSTeiN-/ida-decompiler
+ https://github.com/jcdutton/libbeauty
+ 
+ 
++ Ví dụ hay cho viết app trên IPhone  
+ http://www.edumobile.org/iphone/iphone-programming-tutorials/25-amazing-open-source-iphone-apps/
+ 
++ Objective-C
+https://github.com/Chopinsky/Object-C_Practice
+https://github.com/berkley/ObjectiveCUtil/tree/master/arc
+https://github.com/ShareIT/ObjectiveCProgramming/tree/master/ExploreObjectiveC
+https://github.com/doejo/Objective-C-Style-Guide
+https://github.com/ziminji/objective-c-sql-query-builder
+
+
++ Demo trên Objective-C
+https://github.com/chuibb001/Hotel
+https://github.com/search?l=Objective-C&p=2&q=hotel&ref=searchresults&type=Repositories
+==================================================================================================================================
 http://www.phpbuilder.com/columns/PHP_HTML_DOM_parser/PHPHTMLDOMParser.cc_09-07-2011.php3
 http://htmlparsing.com/php.html
 http://htmlpurifier.org/
