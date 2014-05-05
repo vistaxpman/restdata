@@ -1,4 +1,150 @@
 
+======================================================================== 05 - 05 - 2014  =========================================================================================================================================
+http://nscookbook.com/2013/03/ios-programming-recipe-16-populating-a-uitableview-with-data-from-the-web/
+http://stackoverflow.com/questions/20967496/google-maps-ios-sdk-getting-current-location-of-user
+http://www.appcoda.com/how-to-get-current-location-iphone-user/
+https://www.cocoacontrols.com/
+https://github.com/ptwoms/P2MSRoutingView
+https://github.com/mtigas/iOS-MapLayerDemo
+https://github.com/kishikawakatsumi/ClassicMap/
+https://github.com/TarasRoshko/TRAutocompleteView
+https://github.com/HazAT/NiftySearchView
+https://github.com/myell0w/MTLocation
+
+http://www.youtube.com/watch?v=1oKxLHRY9uU
+Getting started with the Google Maps SDK for iOS, Part 1
+
+http://weblog.invasivecode.com/post/43675553480/google-maps-api-for-ios-with-interface-builder
+https://developers.google.com/maps/documentation/ios/start#getting_the_google_maps_sdk_for_ios
+
+http://appleinsider.com/articles/13/03/18/developers-prefer-apples-ios-maps-sdk-over-google-maps
+https://developers.google.com/maps/documentation/ios/releases?utm_source=welovemapsdevelopers&utm_campaign=GM-for-iOS-sdk-1-7
+
+
++ Completed Exploring Google Maps for iOS ( good )
+	Learn how to display Google Maps in your app with the Google Maps SDK for iOS. Get started with the basics and use interactive maps to learn as you explore!
+
+https://www.codeschool.com/courses/exploring-google-maps-for-ios
+
+https://github.com/ryanmaxwell/GoogleMapsCalloutView
+An example of integrating SMCalloutView bubbles with Google Maps iOS SDK
+https://github.com/ryanmaxwell
+http://www.phonearena.com/news/Google-updates-Maps-SDK-for-iOS-leaving-API-keys-open-to-all-developers_id40073
+http://code.google.com/p/gmaps-api-issues/
+http://qiita.com/shu223/items/bfb5ef3e45682c2bb763 ( GOOD - CÁCH sử dụng google maps )
+http://mertef.wordpress.com/2011/05/24/getting-google-map-data-using-objective-c-and-drawing-it-on-the-map/
+http://jonathanfield.me/objective-c-openweathermap-api-wrapper/
+
+How To Use Google Maps API With Storyboard
+http://joshuakuiros.com/2013/11/how-to-use-google-maps-api-with-storyboard/
+
+iOS – Accessing a Plist
+http://joshuakuiros.com/2014/03/ios-accessing-plist/
+
+iOS – Data Not Saving in Model
+http://joshuakuiros.com/2014/03/ios-data-saving-model/
+
+iOS – Passing Variables Between View Controllers
+http://joshuakuiros.com/2014/01/ios-passing-variables-view-controllers/
+
+
++ http://www.makebetterthings.com/category/objective-c/
+ Open source libraries and Applications
+
+http://www.codingventures.com/2008/12/useful-open-source-libraries-for-iphone-development/#more-43
+
+http://www.sourcemac.com/
+
+http://www.codeplex.com/
+
+Face Detection: http://niw.at/articles/2009/03/14/using-opencv-on-iphone/en
+Bar Code: Is there a barcode recognition framework for iOS?
+Rating: http://github.com/eisernWolf/TouchCustoms
+
+http://github.com/erica/iphone-3.0-cookbook-
+
+Is there a gallery of reusable iPhone components on the web?
+
+http://mattgemmell.com/source
+
+http://www.cocoacontrols.com/
+
+http://open.iphonedev.com/
+
+http://www.opensourceresources.org/
+
+http://www.raywenderlich.com/tag/sample-code
+
+Three 20: http://github.com/facebook/three20
+Tapku Library: http://github.com/devinross/tapkulibrary
+---
+http://www.makebetterthings.com/category/objective-c/page/2/
+
+http://tech.blog.framgia.com/vn/?p=1060
+GOOGLE MAPS API
+
+http://www.g8production.com/post/60435653126/google-maps-sdk-for-ios-move-marker-and-info-window-to
+http://iosdevbox.wordpress.com/2013/01/06/show-address-on-map-using-google-maps-api-json/
+http://www.g8production.com/
+
+
+float v = [[[UIDevice currentDevice] systemVersion] floatValue];
+    
+    if(v>=7)
+    {
+        //for iOS7
+    	UIButton *btnLeft = (UIButton *)self.navigationItem.leftBarButtonItem.customView;
+        btnLeft.imageEdgeInsets = UIEdgeInsetsMake(0, -16, 0, 16);
+    }
+    else
+    {
+        //for iOS6
+    	UIButton *btnLeft = (UIButton *)self.navigationItem.leftBarButtonItem.customView;
+        btnLeft.imageEdgeInsets = UIEdgeInsetsMake(0, -5, 0, 5);
+    }
+	
+http://www.g8production.com/post/79514553078/ios7-and-uirefreshcontrol-in-uiviewcontroller-with
+http://www.g8production.com/post/79359943306/color-fill-uiimage-programmatically-in-ios7
+http://www.g8production.com/post/78429904103/get-property-name-as-string-without-using-the-runtime
+
+http://www.g8production.com/post/60080562611/transparent-uinavigationbar
+
+http://www.g8production.com/post/44609507794/uiappearance-customize-ui-elements
+
+http://www.g8production.com/ ( good )
+
+http://iosguy.com/tag/directions-api/
+http://www.youtube.com/watch?v=D7gfq1f9AYw
+http://designm.ag/resources/28-tutorials-api-web-development/
+http://www.script-tutorials.com/google-places-api-practice/
+http://www.viggiosoft.com/blog/blog/2014/01/21/custom-and-offline-maps-using-overlay-tiles/
+
+https://github.com/humphriesjm/google-maps-ios
+Starting point for using the Google Maps SDK for iOS. Xcode 5. iOS 7. Storyboards. ARC.
+
+https://github.com/AFNetworking/AFNetworking
+
+
+A delightful iOS and OS X networking framework
+http://afnetworking.com/
+http://afnetworking.com
+
+http://www.raywenderlich.com/59255/afnetworking-2-0-tutorial ( GOOD )
+https://dms.hcnet.vn/Contracts/WLVerificationAddress  ( GOOD )
+
+https://github.com/ManoMarks/demos ( good )
+http://data.tailieuhoctap.vn/books/cong-nghe-thong-tin/lap-rap-cai-dat/file_goc_775797.pdf ( good )
+http://blog.ictsharing.edu.vn/2014/03/cac-buoc-chuan-bi-truoc-khi-cai.html#.U2dr2ax-Ycs
+
+get nearest location google maps sdk + objective-c
+https://www.google.com.vn/#q=get+nearest+location+google+maps+sdk+%2B+objective-c&start=20
+http://drew5.net/2011/11/28/google-places-for-ios-5-sdk/
+http://maniacdev.com/2014/01/example-source-code-an-ios-app-allowing-you-to-find-the-nearest-starbucks-and-get-directions
+
+http://myweb.cwpost.liu.edu/pkennell/reprints/trade-technical/cp_10.pdf ( good )
+http://www.1stwebdesigner.com/tutorials/distance-finder-google-maps-api/
+http://sugartin.info/2012/01/02/straight-geocoding-obtain-address-using-latitude-longitude-using-google-api/
+
 ======================================================================== 24 - 04 - 2014  =========================================================================================================================================
 + iOS Localization
 http://www.appcoda.com/ios-programming-tutorial-localization-apps/
