@@ -1,4 +1,12 @@
 
+Key for iOS apps (with bundle identifiers)
+API key: 	
+AIzaSyCwphuk5xiItqFb3tRdit-84O0eAu4fuP8
+iOS apps: 	
+com.homecredit.vn.mobile-application
+Activated on: 	May 7, 2014 3:02 AM
+Activated by: 	nguyendinhgianghia@gmail.com – you 
+
 ======================================================================== 05 - 05 - 2014  =========================================================================================================================================
 http://nscookbook.com/2013/03/ios-programming-recipe-16-populating-a-uitableview-with-data-from-the-web/
 http://stackoverflow.com/questions/20967496/google-maps-ios-sdk-getting-current-location-of-user
