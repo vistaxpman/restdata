@@ -1,3 +1,5 @@
+http://www.samrayner.com/posts/dynamic-tableview-cells/
+
 
 Key for iOS apps (with bundle identifiers)
 API key: 	
