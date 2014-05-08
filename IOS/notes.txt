@@ -1,6 +1,6 @@
 http://www.samrayner.com/posts/dynamic-tableview-cells/
 
-
+http://iphonedevsdk.com/forum/iphone-sdk-development/64438-set-width-of-uitableview-at-runtime.html
 Key for iOS apps (with bundle identifiers)
 API key: 	
 AIzaSyCwphuk5xiItqFb3tRdit-84O0eAu4fuP8
