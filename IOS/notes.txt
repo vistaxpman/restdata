@@ -1,4 +1,409 @@
 
+
+======================================================================== Những lỗi thường gặp trong IOS  =========================================================================================================================================
++ Những từ khóa cần tìm với google 
+Alternative ways to push view controllers with storyboard ...
+Custom UITableViewCell width is resized on tableview reloadData
+Fit text in UILabel - Stack Overflow
+auto-size label to fit text? - Stack Overflow
+How can I set the UITableView border with a grouped style
+How to change the border color of a Grouped UITableView
+ios - Setting cell rounded corner and border width makes
+iOS7-UItableViewCell display in a table view with style ...
+How to fix UITableView separator on iOS 7
+iphone - Is it possible to add a border style to a UITableView 
+
+
+
+
++ This class is not key value coding-compliant for the key
+http://stackoverflow.com/questions/3088059/this-class-is-not-key-value-coding-compliant-for-the-key
+Lỗi này là do có 1 control đã xóa khỏi Outlet nhưng vẫn còn tồn tại ngày trong File Owner, chỉ cần xóa đi
+
+http://stackoverflow.com/questions/11118135/how-do-i-solve-a-nsunknownkeyexception-setvalueforundefinedkey-not
+http://stackoverflow.com/questions/13173204/want-to-change-image-bar-button-items-image
+
+======================================================================== 09 - 05 - 2014  =================================================================================================================================================================
++ Reload Data trong UITableView
+http://stackoverflow.com/questions/10363888/uitableview-reload-data-when-click-button
+http://stackoverflow.com/questions/419472/have-a-reloaddata-for-a-uitableview-animate-when-changing
+
++ http://iphonedevsdk.com/forum/iphone-sdk-development/75715-help-uitableview-not-reloading-data-on-reloaddata-or-calling-cellforrowatindexpath.html ( good )
+Wow! after 3 days of banging my head against this problem, it was something ridiculously simple. In my ViewDidLoad method of WiGiMainViewController, i was initializing my tableview:
+self.wigiLists = [[UITableView alloc] initWithFrame:CGRectZero style:UITableViewStylePlain];
+
+
+http://iphonedevsdk.com/forum/iphone-sdk-development/100728-reloaddata-in-uitableview-taking-too-long.html
+http://hamishrickerby.com/2012/07/06/updating-a-uitableview-without-calling-reloaddata/
+
++ Auto with cho label
+http://userflex.wordpress.com/2011/11/17/resize-uilabel-text/
+https://gist.github.com/danielphillips/1005520
+Adjust UILabel to change it's frame according to it's content
+
+http://www.thelittlebakery.org/2013/05/dynamic-height-uilabel-fit-content-length/
+
+Fit text in UILabel - Stack Overflow
+auto-size label to fit text? - Stack Overflow
+
+http://www.objc.io/issue-3/advanced-auto-layout-toolbox.html ( god )
+
+http://www.11pixel.com/blog/28/resize-multi-line-text-to-fit-uilabel-on-iphone/ ( good _
+
+http://stackoverflow.com/questions/8796862/uilabel-auto-size-label-to-fit-text
+@implementation UILabel (UILabel_Auto)
+
+- (void)adjustHeight {
+
+    if (self.text == nil) {
+        self.frame = CGRectMake(self.frame.origin.x, self.frame.origin.y, self.bounds.size.width, 0);
+        return;
+    }
+
+    CGSize aSize = self.bounds.size;
+    CGSize tmpSize = CGRectInfinite.size;
+    tmpSize.width = aSize.width;
+
+    tmpSize = [self.text sizeWithFont:self.font constrainedToSize:tmpSize];
+
+    self.frame = CGRectMake(self.frame.origin.x, self.frame.origin.y, aSize.width, tmpSize.height);
+}
+
+@end
+
+----------------------
+
++ Border cho UITableView 
+http://stackoverflow.com/questions/9921594/is-it-possible-to-add-a-border-style-to-a-uitableview-not-bordercolor-borderwi
+http://www.raywenderlich.com/2502/calayers-tutorial-for-ios-introduction-to-calayers-tutorial ( good )
+http://stackoverflow.com/questions/18773239/how-to-fix-uitableview-separator-on-ios-7
+https://developer.apple.com/library/ios/documentation/uikit/reference/UITableViewDelegate_Protocol/Reference/Reference.html#//apple_ref/doc/uid/TP40006942-CH3-SW8
+http://my.safaribooksonline.com/book/programming/mobile/9781449342746/4dot-constructing-and-using-table-views/ch04s10_html
+http://www.ioscreator.com/tutorials/customizing-headers-and-footers-of-a-tableview
+http://www.phonesdevelopers.com/1726641/
+http://stackoverflow.com/questions/12672231/uitableview-section-header-on-right-instead-of-default-on-left
+
+
+if your tableview is short, then you can also write something like this:
+
+
+
+    -(void)viewDidLayoutSubviews {
+
+    for (int section = 0; section < [self.tableView numberOfSections]; section++)
+    {
+     [self.tableView footerViewForSection:section].textLabel.textAlignment = NSTextAlignmentRight;
+    }
+
+
+
+    } 
+
++ How can I disable the UITableView selection highlighting?
+cell.selectionStyle = UITableViewCellSelectionStyleNone;
+or
+[cell setSelectionStyle:UITableViewCellSelectionStyleNone];
+
+
++ How to scroll to the bottom of a UITableView on the iPhone before the view appears
+http://stackoverflow.com/questions/2770158/how-to-scroll-to-the-bottom-of-a-uitableview-on-the-iphone-before-the-view-appea?rq=1
+http://stackoverflow.com/questions/2539021/how-to-set-the-width-of-a-cell-in-a-uitableview-in-grouped-style
+http://stackoverflow.com/questions/7682520/how-do-you-put-a-border-around-a-uitableviewcells-contentview-for-testing
+
++ Single UITableViewCell without Border?
+In the 'cellForRowAtIndexPath:' method, when dequeuing the cell, you have to set an empty UIView, with clearColor background, as the 'backgroundView' property to the cell, as follows:
+UIView *backView = [[[UIView alloc] initWithFrame:CGRectZero] autorelease];
+backView.backgroundColor = [UIColor clearColor];
+buttonCell.backgroundView = backView;
+
+--
++ Kiểm tra xem function có available trên IOS 7 hay không 
+UITableView has a property separatorInset. You can use that to set the insets of the table view separators to zero to let them span the full width of the screen.
+
+[tableView setSeparatorInset:UIEdgeInsetsZero];
+
+Note: If your app is also targeting other iOS versions, you should check for the availability of this property before calling it by doing something like this:
+
+if ([tableView respondsToSelector:@selector(setSeparatorInset:)]) {
+    [tableView setSeparatorInset:UIEdgeInsetsZero];
+}
+
+--
+
++ Thiết đặt lại background cho UITableView 
+I accomplish this with two lines:
+
+self.tableView.backgroundColor = [UIColor clearColor];
+self.tableView.backgroundView = nil;
+
+Depending on the opacity you want you can also make sure of this:
+
+self.tableView.opaque = NO;
+
+------- Thiết đặt lại Height cho Section trong UITableView 
+http://davidjhinson.wordpress.com/2009/03/24/resizing-a-uitableviews-tableheaderview/
+http://stackoverflow.com/questions/1235838/uitableview-section-header-height-for-non-grouped-table
+
+
+Yes.
+
+Use this delegate method:
+
+- (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section {
+    return 44;
+}
+
+Of course, change as appropriate. Theres of course the one for footer as well:
+
+- (CGFloat)tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section {
+    return 44;
+}
+
+--------------
+http://www.appcoda.com/customize-navigation-bar-back-butto/
+
+======================================================================== 08 - 05 - 2014  =================================================================================================================================================================
++ Những app có nhúng map trong App
+https://itunes.apple.com/us/app/power-travel-lite/id740660978?mt=8
+
+Power Travel Lite
+By Balram Tiwari
+View More by This Developer
+
+Open iTunes to buy and download apps.
+
+
+
++ Back view button
+[self dismissViewControllerAnimated:NO completion:nil];
+
++ Customer UITableViewCell
+www.appcoda.com/search-bar-tutorial-ios7/
+http://www.appcoda.com/uitableview-tutorial-storyboard-xcode5/
+http://www.appcoda.com/ios-static-table-view-storyboard/
+
+http://www.appcoda.com/ios-static-table-view-storyboard/
+http://www.appcoda.com/ios-programming-customize-uitableview-storyboard/
+http://www.appcoda.com/use-storyboards-to-build-navigation-controller-and-table-view/
+http://www.appcoda.com/customize-table-view-cells-for-uitableview/
+http://alwawee.com/wordpress/2013/09/24/instructions-on-how-to-create-custom-uitableviewcell-with-a-xib/
+http://www.seifeet.com/2012/08/ios-uitableviewcell-width-in-grouped.html
+http://www.samrayner.com/posts/dynamic-tableview-cells/
+https://teamtreehouse.com/forum/image-in-uitableview-cell-oversized
+
+
+http://www.raizlabs.com/dev/2014/02/leveraging-auto-layout-for-dynamic-cell-heights/
+http://stackoverflow.com/questions/20597968/uitableviewcell-dynamic-height-auto-layout
+https://github.com/socksz/DynamicHeightCellAutoLayout/blob/master/DynamicHeightCellAutoLayout/RecipeCell.m
+http://www.howlin-interactive.com/2013/01/creating-a-self-sizing-uitextview-within-a-uitableviewcell-in-ios-6/
+http://www.raizlabs.com/dev/2014/02/leveraging-auto-layout-for-dynamic-cell-heights/
+http://www.macspotsblog.com/dynamic-uitableview-cell-heights-programmatically/
+http://www.cimgf.com/2009/09/23/uitableviewcell-dynamic-height/
+http://keighl.com/post/welcome-to-auto-layout/
+http://johnszumski.com/blog/auto-layout-for-table-view-cells-with-dynamic-heights
+http://useyourloaf.com/blog/2014/02/14/table-view-cells-with-varying-row-heights.html
+http://blog.amyworrall.com/post/66085151655/using-auto-layout-to-calculate-table-cell-height
+http://blog.ijasoneverett.com/2014/02/resize-uitableview-height-with-auto-layout/
+http://iosmadesimple.blogspot.com/2012/10/uitableviewcell-using-interface-builder.html
+http://agilewarrior.wordpress.com/2012/05/19/how-to-add-a-custom-uitableviewcell-to-a-xib-file-objective-c/
+http://www.galloway.me.uk/tutorials/custom-uitableviewcell/ ( good - hướng dẫn tạo custom cell trong group - sử dụng làm cho Detail Location)
+http://www.mysamplecode.com/2013/06/ios-custom-uitableviewcell-example.html ( good )
+http://blog.spritebandits.com/2012/03/13/creating-custom-uitableviewcells-from-xibs-step-by-step-tutorial/ ( good )
+http://icode.letmeshare.org/expandable-custom-uitableviewcell-cell/ ( good )
+http://iosstuff.wordpress.com/2011/06/29/adding-a-uitableview-inside-a-uitableviewcell/
+http://www.cocoawithlove.com/2009/04/easy-custom-uitableview-drawing.html
+http://www.orientlightsoft.com/2013/10/custom-ios7-alertview.html
+http://www.phonesdevelopers.com/1808723/
+
+http://zeroheroblog.com/ios/how-to-create-simple-tableview-with-custom-cells
+zeroheroblog.com/ios/how-to-create-simple-tableview-with-custom-cells
+http://iosdev12.blogspot.com/2013/07/how-to-set-custom-section-header-in.html
+http://www.aboutobjects.com/community/iphone_development_tutorial/tutorial.html
+http://ios-blog.co.uk/tutorials/how-to-populate-a-uitableview-from-a-plist-property-list/
+https://www.google.com.vn/#q=custom+uitableviewcell+ios+7+%2B+xib&start=40
+
+
+
++ Custom UITableViewCell Group
+http://stackoverflow.com/questions/400965/how-to-customize-the-background-border-colors-of-a-grouped-table-view-cell
+http://stackoverflow.com/questions/9512856/how-to-use-a-custom-background-on-grouped-uitableview-cells
+http://www.idev101.com/code/User_Interface/UITableView/customizing.html
+http://www.planet1107.net/blog/tips-tutorials/custom-grouped-cell-tutorial/
+http://www.idev101.com/code/Xcode/renaming_refactoring.html
+https://developer.apple.com/library/ios/qa/qa1625/_index.html
+http://www.cocoawithlove.com/2009/04/easy-custom-uitableview-drawing.html
+
+https://gist.github.com/TonnyXu/1729463 ( good )
+http://sugartin.info/2011/06/22/uitableviewcellselection-style-custom-for-grouped-tables/
+http://urbanapps.com/blog/how-to-make-custom-drawn-gradient-backgrounds-in-a-grouped-uitableview-with-core-graphics
+http://blog.giorgiocalderolla.com/2011/04/16/customizing-uitableviewcells-a-better-way/
+http://oleb.net/blog/2011/12/tutorial-how-to-sort-and-group-uitableview-by-date/
+http://derekneely.com/2010/01/uitableviewcell-custom-selection-style-color/
+http://code4app.net/ios/Grouped-TableView-With-Shadows/509fa8776803fa5254000000
+https://github.com/schluete/GroupedTableViewWithShadows/tree/master/GroupedTableViewWithShadows
+http://code4app.net/ios/Styled-TableViewCell/50a1c35b6803fae116000000
+https://github.com/romaonthego/RETableViewManager
+http://code4app.net/ios/TSUIKit/521d74b96803fac601000003
+https://github.com/Augustyniak/RATreeView
+http://www.megatome.com/2012/09/11/setting-uitableview-with-grouped-style-background-in-ios/
+http://www.howlin-interactive.com/2013/01/creating-a-self-sizing-uitextview-within-a-uitableviewcell-in-ios-6/
+http://code4app.net/ios/Horizontal-table/513f446f6803fa7652000001
+http://code4app.net/ios/UploadProgressView/513bf22f6803fa491b000000
+http://code4app.net/ios/ExpansionTableView/5121cac66803fae949000002
+http://code4app.net/category/tableview/5
+https://github.com/Tibolte/TGFoursquareLocationDetail-Demo
+http://ios.biomsoft.com/2011/11/20/how-to-design-a-custom-uitableviewcell-from-scratch/ ( good )
+https://github.com/darioalessandro/BFAlienTableView
+http://i-phone-dev.blogspot.no/2014/04/keep-ios-6-uitableview-styles-in-ios-7.html
+http://stackoverflow.com/questions/19176179/workaround-for-rounded-corners-of-grouped-uitableview-ios7
+http://stackoverflow.com/questions/4923572/didselectrowatindexpath-with-section
+
+
+http://www.shaddeen.com/posts/read/id-1338076406
+http://www.icodeblog.com/2010/12/10/implementing-uitableview-sections-from-an-nsarray-of-nsdictionary-objects/ ( good )
+http://iphonedevsdk.com/forum/iphone-sdk-development/110221-adding-sections-to-uitableview-from-nsmutablearray.html
+http://iphonedevsdk.com/forum/iphone-sdk-development/8017-uitableview-nsmutablearray.html
+http://stackoverflow.com/questions/15631115/populate-uitableview-sections-table-with-single-nsmutablearray
+https://developer.apple.com/library/iOs/documentation/UserExperience/Conceptual/TransitionGuide/ContentViews.html
+http://captechconsulting.com/blog/tyler-tillage/ios-7-tutorial-series-custom-navigation-transitions-more
+http://keighl.com/post/ios7-interactive-pop-gesture-custom-back-button/
+http://pinkstone.co.uk/how-to-change-the-back-button-text-on-a-uinavigationcontroller-in-your-storyboard/
+http://stackoverflow.com/questions/18897470/ios7-excessive-navigationbar-button-padding
+http://stackoverflow.com/questions/14512065/how-do-i-change-the-location-of-the-back-button-on-ios
+http://stackoverflow.com/questions/19029833/ios-7-navigation-bar-text-and-arrow-color
+http://stackoverflow.com/questions/22768366/how-to-properly-position-the-back-button-in-ios7
+http://stackoverflow.com/questions/18876102/ios-7-back-button-pop-gesture
+ 
+The new method is:
+[self dismissViewControllerAnimated:NO completion:nil];
+The word modal has been removed; As it has been for the presenting API call:
+[self presentViewController:vc animated:NO completion:nil];
+
++ Lấy lên Section Index trong didSelectRowAtIndexPath
+http://stackoverflow.com/questions/4923572/didselectrowatindexpath-with-section
+http://stackoverflow.com/questions/11826945/how-to-find-section-in-didselectrowatindexpath-method
+http://owenandrewsblog.wordpress.com/2012/01/29/uitableview-sections-tutorial/ ( good )
+
++ Google maps API 
+http://stackoverflow.com/questions/6011104/mini-map-in-uitableview
+http://stackoverflow.com/questions/5442171/uitableview-header-not-section-header-problem
+https://github.com/ryanmaxwell/GoogleMapsCalloutView
+http://blog.objectgraph.com/index.php/2010/04/08/how-to-use-sqlite-with-uitableview-in-iphone-sdk/
+http://goo2k.blogspot.com/2012/03/embedding-google-admob-ads-within.html
+http://stackoverflow.com/questions/21143428/sending-api-data-to-uitableview-within-viewcontroller
+
+
+
+======================================================================== 07 - 05 - 2014  =========================================================================================================================================
+
+
+
+
+https://www.iconfinder.com/search/?q=map&maximum=64&style=smooth&price=free
+
+
+http://www.raywenderlich.com/5138/beginning-storyboards-in-ios-5-part-1
+https://developer.apple.com/library/IOs/documentation/General/Conceptual/Devpedia-CocoaApp/Storyboard.html
+http://stackoverflow.com/questions/9176215/understanding-performseguewithidentifier
+http://stackoverflow.com/questions/18007774/performseguewithidentifier-on-didselectrowatindexpath
+http://www.absoluteripple.com/1/post/2013/08/using-ios-storyboard-segues.html
+http://nscookbook.com/2012/12/ios-programming-recipe-3-creating-segues-with-the-storyboard-part-1/
+
+
++ Switch View 
+http://stackoverflow.com/questions/10365610/switch-between-view-controllers
+
+// presenting or "pushing"
+UIViewController *myViewController = [[UIViewController alloc] init];
+[self.navigationController pushViewController:myViewController animated:YES];
+ 
+// Call this from the pushed view controller to go back to the original view controller
+[self.navigationController popViewControllerAnimated:NO];
+
+
+
+http://www.shmoopi.net/tutorials/adding-views-to-your-ios-applications/
+http://fuelyourcoding.com/ios-basics-how-to-load-a-uiview-without-a-navigation-controller/
+http://stackoverflow.com/questions/5814752/changing-viewcontroller-on-button-click
+http://stackoverflow.com/questions/6946963/ios-adding-a-new-view-switching-views-on-button-press
+stackoverflow.com/questions/6946963/ios-adding-a-new-view-switching-views-on-button-press
+http://stackoverflow.com/questions/14181453/bar-button-item-image-is-turning-to-white-icon-even-if-its-black
+http://objective-c.wonderhowto.com/how-to/switch-views-iphone-application-with-view-controllers-333981/
+http://subjective-objective-c.blogspot.com/2011/08/writing-high-quality-view-controller.html
+https://github.com/Scott90/SDCSegmentedViewController
+http://cs354dory.wordpress.com/code-examples/switches-and-sliders/
+http://www.objc.io/issue-5/view-controller-transitions.html
+http://nshipster.com/method-swizzling/
+http://cocoaallocinit.com/2014/01/19/view-controller-with-no-nib/
+http://runningdeveloper.com/dev/navigate-with-segues
+https://parse.com/questions/how-to-load-a-view-from-push-notification-with-storyboard
+
+http://huygamer.wordpress.com/2013/08/15/cach-goi-segues-trong-ios-voi-du-lieu/
+
++ Icon for IOS
+http://www.iconbeast.com/free/
+http://icons8.com/download-free-icons-for-ios-tab-bar/
+http://www.glyphish.com/
+eddit.com
+http://icondock.com/icons
+http://abduzeedo.com/free-design-resources-icons-ui-kits-and-mockups
+http://www.hongkiat.com/blog/ios-7-freebies/
+http://speckyboy.com/2013/09/20/free-ios-7-gui-kits-templates/
+http://365psd.com/day/3-104/
+http://speckyboy.com/2010/04/30/iphone-and-ipad-development-gui-kits-stencils-and-icons/
+http://www.webappers.com/2009/10/21/iphone-ui-icons-for-iphone-applications/
+
+
+http://code4app.net/category/switch
+
+
+
++ Set Image cho Bar Item
+http://stackoverflow.com/questions/5933800/how-to-add-custom-image-in-navigation-bar-button-item
+[doneItem setImage:[UIImage imageNamed:@"yourImage.png"] forState:UIControlStateNormal];
+https://coderwall.com/p/kzdo7g
+http://eureka.ykyuen.info/2010/06/11/iphone-adding-image-to-uibarbuttonitem/
+https://developer.apple.com/library/ios/documentation/userexperience/conceptual/transitionguide/Bars.html
+http://www.appcoda.com/customize-navigation-bar-back-butto/
+
+
++ Chỉnh lại background cho Navigation 
+http://www.appcoda.com/customize-navigation-status-bar-ios-7/
+http://captechconsulting.com/blog/steven-beyers/ios-7-tutorial-series-tint-color-and-easy-app-theming
+
+
+
+http://www.appcoda.com/customize-table-view-cells-for-uitableview/
+www.appcoda.com/customize-table-view-cells-for-uitableview/
+https://developer.apple.com/library/mac/recipes/xcode_help-interface_builder/articles-connections_bindings/CreatingAction.html
+http://www.techotopia.com/index.php/Using_Storyboards_in_Xcode_5
+http://kurrytran.blogspot.com/2011/07/simple-ios-5-tutorial-using-storyboard.html
+http://beageek.biz/how-to-add-uibutton-view-code-objective-c-ios/
+
++ Đổi image cho button
+http://spyrestudios.com/how-to-use-custom-uibutton-graphics-for-iphone-applications/
+
+
++ Pass value between two view 
+http://stackoverflow.com/questions/5210535/passing-data-between-view-controllers?rq=1
+
+
++ UISwitch
+http://mobisoftinfotech.com/resources/blog/iphone-switch-control-uiswitch-control-tutorial/
+http://www.xprogress.com/post-30-uiswitch-tutorial-example-how-to-use-the-switch-in-xcode-for-iphone-sample-included/
+
++ Show hide control
+[label1 setHidden:TRUE];
+self.yourlabelname.hidden = YES;
+
++ Google maps sdk 
+http://stackoverflow.com/questions/17604634/google-maps-api-for-ios-using-storyboard
+http://weblog.invasivecode.com/post/43675553480/google-maps-api-for-ios-with-interface-builder
+http://www.tuaw.com/2012/12/13/google-releases-google-maps-sdk-for-ios-so-devs-can-use-googles/
+http://appadvice.com/appnn/2013/11/google-maps-sdk-for-ios-updated-with-64-bit-support-marker-opacity-and-more
+https://developers.google.com/maps/documentation/ios/start
+
+
 - (IBAction)btnLocation:(id)sender {
      LocationViewController *locationViewController = [[LocationViewController alloc] initWithNibName:@"LocationViewController" bundle:nil];
      [self presentViewController:locationViewController animated:YES completion:nil];
@@ -11,7 +416,7 @@
 
 }
 
-
+=================================================================================================================================================================================================================
 
 http://stackoverflow.com/questions/5161782/how-to-get-a-uitableview-row-height-to-auto-size-to-the-size-of-the-uitableviewc
 
