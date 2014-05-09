@@ -1,3 +1,18 @@
+
+- (IBAction)btnLocation:(id)sender {
+     LocationViewController *locationViewController = [[LocationViewController alloc] initWithNibName:@"LocationViewController" bundle:nil];
+     [self presentViewController:locationViewController animated:YES completion:nil];
+}
+
+
+
+- (IBAction)btnBack:(id)sender {
+    [self dismissViewControllerAnimated:YES completion:nil];
+
+}
+
+
+
 http://stackoverflow.com/questions/5161782/how-to-get-a-uitableview-row-height-to-auto-size-to-the-size-of-the-uitableviewc
 
 http://www.samrayner.com/posts/dynamic-tableview-cells/
