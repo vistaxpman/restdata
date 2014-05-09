@@ -1,4 +1,45 @@
++ Project chứa google maps 
+https://github.com/kishikawakatsumi/ClassicMap
 
++ Lưu lại trạng thái khi đang tìm kiếm với Google Maps 
+https://github.com/kishikawakatsumi/ClassicMap/blob/master/ClassicMap/WMMapViewController.m
+
+https://github.com/Oomph/MacMapKit
+MapKit for Mac is a framework for displaying maps in a Cocoa application that is API-compatible with Apple s MapKit framework for iOS.
+
+Demo of using MKOverlayView (iOS 4.0) to render custom tile server overlays in a native iPhone app.
+https://github.com/mtigas/iOS-MapLayerDemo
+
+https://github.com/bobthecow
+https://github.com/kishikawakatsumi/MapKit-Route-Directions ( good )
+
+http://d.hatena.ne.jp/KishikawaKatsumi/
+http://d.hatena.ne.jp/KishikawaKatsumi/20090812
+https://github.com/simonmaddox/GoogleTransit-iOS6
+https://github.com/mladjan/GoogleMapsOverlayiOS/blob/master/GoogleMapsiOS6Demo/GoogleTOSViewController.m
+
+https://github.com/myell0w/MTLocation
+https://github.com/spoletto/SPGooglePlacesAutocomplete ( good )
+http://www.appdesignvault.com/ios-7-update/ ( good )
+
+
+https://github.com/fawkeswei/GoogleMapsKit
+https://github.com/fawkeswei
+https://github.com/ryanmaxwell/GoogleMapsCalloutView ( cần tìm )
+https://github.com/googlemaps/hellomap-ios ( cần tìm )
+https://github.com/Djengo/GoogleMapsDirection ( cần tìm )
+https://github.com/search?l=Objective-C&p=2&q=google+map&ref=cmdform&type=Repositories ( cần tìm )
+---------------------------
+
+
+ UIImage *image = [[UIImage imageNamed:@"myImage.png"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
++ Chỉnh button và text
+http://stackoverflow.com/questions/2451223/uibutton-how-to-center-an-image-and-a-text-using-imageedgeinsets-and-titleedgei
+stackoverflow.com/questions/2451223/uibutton-how-to-center-an-image-and-a-text-using-imageedgeinsets-and-titleedgei
+http://iphonedev.tv/blog/2014/1/22/programmatic-uibutton-on-ios-70-create-a-uibutton-with-code
+http://commandshift.co.uk/blog/2013/03/12/uibutton-edge-insets/
+
+For what it's worth, here's a general solution to positioning the image centered above the text without using any magic numbers:
 
 ======================================================================== Những lỗi thường gặp trong IOS  =========================================================================================================================================
 + Những từ khóa cần tìm với google 
