@@ -1,3 +1,324 @@
+======================================================================== 11 - 05 - 2014  =========================================================================================================================================
+http://stackoverflow.com/questions/19177897/how-put-google-mapview-in-uiview
+How put Google MapView in UIView?
+
+http://stackoverflow.com/questions/19647096/dismiss-the-keyboard-multiple-uitextfields-in-ios-7
+http://stackoverflow.com/questions/10363856/iphone-how-to-get-uitextfields-text-while-typing
+http://stackoverflow.com/questions/20679410/how-to-add-some-text-after-end-editing-uitextfield-in-ios
+http://stackoverflow.com/questions/15076738/google-maps-ios-sdk-search-for-places?lq=1
+http://stackoverflow.com/questions/8282369/opening-native-google-maps-in-xcode?rq=1
+
+
++ Thêm hình icon chỉ địa chỉ trong google maps 
+http://stackoverflow.com/questions/15537206/how-can-i-add-a-button-to-google-maps-marker-info-window-on-ios
+http://stackoverflow.com/questions/15213049/add-buttons-to-view-returned-by-markerinfowindow-delegate-method
+http://stackoverflow.com/questions/15417811/cannot-put-a-google-maps-gmsmapview-in-a-subview-of-main-main-view
+
++ Thông tin chi tiết về các api của Google maps 
+https://developers.google.com/maps/documentation/ios/marker#info_windows
+
+
++ Dự án hay về google maps api
+http://drew5.net/2011/11/28/google-places-for-ios-5-sdk/
+https://github.com/jdruid/Google-Places-for-iOS-5
+https://github.com/jdruid/Google-Places-for-iOS-5/blob/master/GoogleLocations/GoogleLocations/GooglePlaces/GooglePlacesConnection.m
+https://github.com/route-me/route-me
+
+http://stackoverflow.com/questions/15417811/cannot-put-a-google-maps-gmsmapview-in-a-subview-of-main-main-view
+http://stackoverflow.com/questions/16497648/google-maps-ios-sdk-add-uiview-uibutton-over-a-gmsmapview
+
+http://stackoverflow.com/questions/15059123/using-the-google-maps-sdk-in-views-other-than-the-main-view ( can tim )
+http://stackoverflow.com/questions/15637665/setting-maximum-zoom-level-kgmsmaxzoomlevel-for-google-maps-for-ios-sdk
+Setting Maximum Zoom Level kGMSMaxZoomLevel for Google Maps for iOS SDK
+
+http://stackoverflow.com/questions/15040409/how-to-setregion-with-google-maps-sdk-for-ios
+http://stackoverflow.com/questions/20967496/google-maps-ios-sdk-getting-current-location-of-user
+Google Maps iOS SDK, Getting Current Location of user
+
+http://stackoverflow.com/questions/14354450/how-to-calculate-gmscamera-zoom
+
+----
+Here's how...
+
+add a UIView into the view controller where you're working
+set it's class to be GMSMapView in the identity inspector.
+Then control-drag it to your code as you would for any other outlet.
+
+You can lazily instantiate it in its setter...
+
+- (void) setMapView:(GMSMapView *)mapView {
+    if (!mapView) {
+        mapView = [[GMSMapView alloc] initWithFrame:mapView.bounds];
+    }
+    _mapView = mapView;
+}
+To display a map Google's sample code becomes...
+
+  GMSCameraPosition *camera = [GMSCameraPosition cameraWithLatitude:1.285
+                                                          longitude:103.848
+                                                               zoom:12];
+  self.mapView = [GMSMapView mapWithFrame:CGRectZero camera:camera];
+  ---------
+  https://github.com/ryanmaxwell/GoogleMapsCalloutView for an example project.
+  http://stackoverflow.com/questions/17078485/how-to-put-google-map-in-a-custom-uiview
+  http://stackoverflow.com/questions/19177897/how-put-google-mapview-in-uiview ( cần tìm - add google maps vào trong sub view )\
+GMSCameraPosition *camera = [GMSCameraPosition cameraWithLatitude:-33.86
+                                                            longitude:151.20
+                                                                 zoom:6];
+
+    // Indicating the map frame bounds
+    self.mapView_ = [GMSMapView mapWithFrame:self.mapView.bounds camera: camera]; 
+    self.mapView_.myLocationEnabled = YES;
+
+    // Add as subview the mapview
+    [self.mapView addSubview: self.mapView_]; 
+    -----------
+    + Khi click lên 1 toạ độ trong google maps 
+    - (void)loadView {
+  GMSCameraPosition *camera = [GMSCameraPosition cameraWithLatitude:1.285
+                                                          longitude:103.848
+                                                               zoom:12];
+  mapView_ = [GMSMapView mapWithFrame:CGRectZero camera:camera];
+  mapView_.delegate = self;
+  self.view = mapView_;
+}
+
+#pragma mark - GMSMapViewDelegate
+
+- (void)mapView:(GMSMapView *)mapView
+    didTapAtCoordinate:(CLLocationCoordinate2D)coordinate {
+  NSLog(@"You tapped at %f,%f", coordinate.latitude, coordinate.longitude);
+}
+--------------------------
++ Bị lỗi này khi làm với XCode
+Could not load “my-icon.png” image referenced from a nib (iPhone)
+
+
+http://stackoverflow.com/questions/6906246/how-do-i-dismiss-the-ios-keyboard
+grep -i -r --include=*.xib "my-icon.png" ./
+
+
++ Project chứa google maps 
+https://github.com/kishikawakatsumi/ClassicMap
+
++ Lưu lại trạng thái khi đang tìm kiếm với Google Maps 
+https://github.com/kishikawakatsumi/ClassicMap/blob/master/ClassicMap/WMMapViewController.m
+
+https://github.com/Oomph/MacMapKit
+MapKit for Mac is a framework for displaying maps in a Cocoa application that is API-compatible with Apple s MapKit framework for iOS.
+
+Demo of using MKOverlayView (iOS 4.0) to render custom tile server overlays in a native iPhone app.
+https://github.com/mtigas/iOS-MapLayerDemo
+
+https://github.com/bobthecow
+https://github.com/kishikawakatsumi/MapKit-Route-Directions ( good )
+
+http://d.hatena.ne.jp/KishikawaKatsumi/
+http://d.hatena.ne.jp/KishikawaKatsumi/20090812
+https://github.com/simonmaddox/GoogleTransit-iOS6
+https://github.com/mladjan/GoogleMapsOverlayiOS/blob/master/GoogleMapsiOS6Demo/GoogleTOSViewController.m
+
+https://github.com/myell0w/MTLocation
+https://github.com/spoletto/SPGooglePlacesAutocomplete ( good )
+http://www.appdesignvault.com/ios-7-update/ ( good )
+
+
+https://github.com/fawkeswei/GoogleMapsKit
+https://github.com/fawkeswei
+https://github.com/ryanmaxwell/GoogleMapsCalloutView ( cần tìm )
+https://github.com/googlemaps/hellomap-ios ( cần tìm )
+https://github.com/Djengo/GoogleMapsDirection ( cần tìm )
+https://github.com/search?l=Objective-C&p=2&q=google+map&ref=cmdform&type=Repositories ( cần tìm )
+
+
+How to use Google Map with Objective-C Part I
+http://webbuilders.wordpress.com/2009/05/24/how-to-use-google-map-with-objective-c-part-i/ ( good )
+
++ Lấy vị trí hiện tại dùng CLLocation của MapKit 
+CLLocation
+stackoverflow.com/questions/20967496/google-maps-ios-sdk-getting-current-location-of-user
+https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/LocationAwarenessPG/CoreLocation/CoreLocation.html#//apple_ref/doc/uid/TP40009497-CH2-SW1
+
+http://stackoverflow.com/questions/16879694/google-maps-ios-sdk-move-my-location-button-to-bottom-left-hand-corner?rq=1
+Google Maps iOS SDK move “My Location” button to bottom left hand corner
+
+http://stackoverflow.com/questions/16331767/how-to-get-current-location-in-google-map-sdk-in-iphone
+how to get current location in google map sdk in iphone ( can tim )
+http://stackoverflow.com/questions/15266118/about-positioning-myself-some-problems
+
+http://stackoverflow.com/questions/16436352/adding-a-subview-like-uislider-or-uibuttom-in-google-maps-in-iphone?rq=1
+Adding a subview like UISlider or UIButtom in Google Maps in iPhone
+Hiện vị trí hiện tại của người dùng trong Google maps sdk
+
+http://nfarina.com/post/78014139253/smcalloutview-for-ios-7
+SMCalloutView for iOS 7
+Check out SMCalloutView on Github.
+
+
+http://stackoverflow.com/questions/19165920/google-maps-sdk-for-ios-markers-are-being-overwritten?rq=1
+Google Maps SDK for IOS markers are being overwritten
+
+http://stackoverflow.com/questions/3385924/integrating-google-maps-data-api-with-iphone-and-performing-search/4931857#4931857
+Integrating Google Maps Data API with iPhone and performing search
+NSString *url =[[NSString alloc] initWithFormat:@"http://ajax.googleapis.com/ajax/services/search/local?v=1.0&q='%@'&sll=%f,%f&rsz=large&start=0",query, location.latitude, location.longitude];
+https://github.com/twoism/gkit
+
+
+http://stackoverflow.com/questions/6327315/how-to-use-google-maps-api-in-iphone
+how to use Google Map's API in Iphone? 
+
+
+http://www.raywenderlich.com/13160/using-the-google-places-api-with-mapkit ( can tim )
+Using the Google Places API With MapKit
+
+
+
+
++ Những project cần xem trong google maps sdk for ios 
+
+
+Google Map is back to iOS 6
+https://github.com/kishikawakatsumi/ClassicMap ( can tim )
+
+https://github.com/googlemaps
+https://github.com/googlemaps/google-maps-ios-utils
+https://github.com/googlemaps/hellomap-ios ( can tim )
+
+
+
+https://github.com/ryanmaxwell/GoogleMapsCalloutView
+https://github.com/nfarina/calloutview
+
+https://github.com/ryanmaxwell/iArrived
+https://github.com/ryanmaxwell/UIActionSheet-Blocks
+https://github.com/ryanmaxwell/UIAlertView-Blocks
+
+https://github.com/ryanmaxwell/UncrustifyX
+
+https://github.com/nfarina/xmldocument
+A lightweight XML Document class for iOS.
+http://nfarina.com/post/2843708636/a-lightweight-xml-parser-for-ios
+
+
+Keep tabs on your favorite website and RSS feeds from your Mac's menubar.
+https://github.com/nfarina/feeds
+
+
+
+A lightweight class for iOS for making asynchronous web requests.
+http://nfarina.com/post/3776625971/webrequest
+https://github.com/nfarina/webrequest
+
+https://github.com/vvanhee/Google-Local-Search-iOS
+Find businesses / other locations by name or address using Google's Local Search API JSON interface (in Objective C, for iPhone SDK).
+http://www.totagogo.com/2011/02/08/google-local-search-ios-code/
+
+https://github.com/twoism/gkit
+Google Local Search and Directions built on HTTPRiot
+
+https://github.com/twoism/iphone-json-example/tree/master/Classes
+An example iPhone app demonstrating asynch requests with TouchJSON and Cocoa.
+
+
+https://code.google.com/p/gdata-objectivec-client/wiki/BuildingTheLibrary
+https://code.google.com/p/gdata-objectivec-client/wiki/GDataObjCIntroduction
+
+https://github.com/gdyer/GDGooglePlaces ( can tim )
+... a Google places data viewer for iOS
+
+An objective-c wrapper around the Google Places autocomplete API. Includes sample application emulating the "Maps" app.
+https://github.com/gdyer/SPGooglePlacesAutocomplete
+
+
+https://github.com/mtigas/iOS-MapLayerDemo
+iOS Custom Map Layer Example
+
+http://www.raywenderlich.com/53459/google-analytics-ios
+http://www.raywenderlich.com/13160/using-the-google-places-api-with-mapkit
+http://www.raywenderlich.com/30001/overlay-images-and-overlay-views-with-mapkit-tutorial
+
+LPGoogleFunctions is an iOS library that provides easy access to certain Google API functions.
+http://lukapenger.eu
+https://github.com/luka1995/LPGoogleFunctions
+
+
+https://github.com/chenyuan/SPGooglePlacesAutocomplete
+An objective-c wrapper around the Google Places autocomplete API. Includes sample application emulating the "Maps" app
+
+http://maniacdev.com/2012/12/helper-library-that-makes-it-easy-to-work-with-the-google-maps-app-url-scheme
+
+
+https://github.com/ptwoms/P2MSRoutingView ( can tim ---xem cai nay truoc )
+ public ptwoms/P2MSRoutingView
+
+ https://github.com/myell0w/MTDirectionsKit ( can tim )
+ http://mtdirectionsk.it/
+ 
+ https://github.com/route-me/route-me ( can tim )
+ 
+https://github.com/intentkit/IntentKit
+An easier way to handle third-party URL schemes in iOS apps.
+http://intentkit.github.io
+
+https://github.com/Alterplay/APTimeZones
+The easiest offline way to get NSTimeZone from CLLocation by folks from
+http://alterplay.com
+
+
+
+An open source iOS app to find the nearest Starbucks store using NSURLSession, AFNetworking 2.0, Mantle and Starbucks private API.
+https://itunes.apple.com/us/app/doppio-coffee-locator/id788801790
+https://github.com/chroman/Doppio
+
+
++ Ứng dụng mẫu hay
+http://maniacdev.com/page/5?s=google+map&search=Search
+https://github.com/ParsePlatform/Anypic
+http://newsyc.me/
+
+Hash methods for NSString and NSData
+https://github.com/jerolimov/NSHash
+
+http://maniacdev.com/2012/12/news-google-releases-new-maps-sdk-for-ios-devices
+http://maniacdev.com/2010/06/35-open-source-iphone-app-store-apps-updated-with-10-new-apps ( good )
+
+http://maniacdev.com/2011/02/the-best-resources-in-ios-development-february-6th-2011
+http://www.alterplay.com/
+https://github.com/rfielding/Mugician
+http://edhita.bornneet.com/
+https://sites.google.com/site/gwgamedevelopment/
+https://github.com/ptwoms/P2MSTextView
+https://github.com/ptwoms/P2MSStoryboard
+https://github.com/ptwoms/Simple-Maze-Game
+https://github.com/ptwoms/Stanford-Machine-Learning
+https://github.com/chroman/CRMultiRowSelect
+https://github.com/chroman/CRGradientNavigationBar
+https://github.com/chroman/CRMotionView
+
+https://github.com/chroman/ANPR
+License plate recognition for iOS using OpenCV & Tesseract OCR Engine
+
+https://github.com/gdyer/MBS-Now
+a free, student-run iOS app made for the Morristown-Beard School.
+http://campus.mbs.net/mbsnow
+https://github.com/samvermette/SVProgressHUD
+https://github.com/samvermette/SVPullToRefresh
+https://github.com/samvermette/SVWebViewController
+https://github.com/samvermette/SVSegmentedControl
+https://github.com/samvermette/SVPulsingAnnotationView
+https://github.com/kishikawakatsumi/MapKit-Route-Directions
+
+
+
+
+Multiple line for UITextField và động chiều cao text trong UITableView 
+https://github.com/kishikawakatsumi/SECoreTextView
+
+
+https://github.com/kishikawakatsumi/UICKeyChainStore
+
+
+================================================================================================================================================================================================================
 + Project chứa google maps 
 https://github.com/kishikawakatsumi/ClassicMap
 
