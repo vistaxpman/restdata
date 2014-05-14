@@ -1,3 +1,545 @@
+======================================================================== 14 - 05 - 2014 =========================================================================================================================================
++ Danh sách tọa độ 
+10.786444,106.68471
+10.786737,106.684801
+10.787113,106.683999
+10.787174,106.685075
+10.787171,106.68467
+10.787379,106.685453
+10.787474,106.684946
+10.787767,106.684619
+10.78768,106.685131
+10.787772,106.685343
+10.787725,106.685882
+10.788236,106.684804
+10.788375,106.68498
+10.788678,106.683688
+10.788908,106.684828
+10.787888,106.685992
+10.788602,106.684978
+10.787456,106.684834
+10.788373,106.685472
+10.786816,106.684128
+
++
+http://itouchmap.com/latlong.html
+http://www.gps-coordinates.net/
+
+
++ Pase Json
+https://github.com/johnezang/JSONKit
+http://www.14oranges.com/2011/08/how-to-use-jsonkit-for-ios-and-the-rotten-tomatoes-api/
+http://cupsofcocoa.com/tag/json/ ( good )
+http://www.raywenderlich.com/58682/introduction-restkit-tutorial
+http://nscookbook.com/2013/03/ios-programming-recipe-16-populating-a-uitableview-with-data-from-the-web/
+http://thedarkdev.blogspot.com/2013/09/web-service-apps-in-ios7-json-with.html
+https://www.inkling.com/read/learning-ios-programming-alasdair-allan-2nd/chapter-8/parsing-json
+http://stackoverflow.com/questions/13943285/ios-uitableview-custom-sections-using-information-from-a-json-object-not-just
+http://www.mysamplecode.com/2013/04/convert-custom-ios-object-to-json-string.html
+http://jsonlint.com/
+http://stackoverflow.com/questions/12810450/parse-json-for-uitableview-ios
+http://stackoverflow.com/questions/16728017/how-to-parse-this-json-in-uitableview
+https://www.google.com.vn/search?q=json+valid&ie=utf-8&oe=utf-8&aq=t&rls=org.mozilla:en-US:official&client=firefox-a&channel=fflb&gfe_rd=cr&ei=RexyU9LlF-qQiAeLgIG4BQ#channel=fflb&q=convert+json+object+to+uitableview&rls=org.mozilla:en-US:official
+http://rypress.com/tutorials/objective-c/data-types/nsdictionary.html
+http://answers.oreilly.com/topic/2260-how-to-work-with-nsdictionary-in-objective-c/
+http://ios-blog.co.uk/tutorials/nsdictionary-objective-c-class-reference/
+http://stackoverflow.com/questions/3862473/nsdictionary-as-property
+http://stackoverflow.com/questions/4779343/how-to-understand-which-property-is-suitable-for-nsdictionary-eg-retain-or-assi
+stackoverflow.com/questions/4779343/how-to-understand-which-property-is-suitable-for-nsdictionary-eg-retain-or-assi
+http://www.cocoabuilder.com/archive/cocoa/311090-nsarray-nsdictionary-property-attribute-issue-retain-or-copy.html
+
+
+http://stackoverflow.com/questions/20175605/marker-clustering-with-google-maps-sdk-for-ios
+http://stackoverflow.com/questions/15537206/how-can-i-add-a-button-to-google-maps-marker-info-window-on-ios
+
+
+
++ Constant
+http://ios-blog.co.uk/tutorials/constants-in-objective-c/
+http://stackoverflow.com/questions/16082275/class-with-defined-static-constant-values-in-objective-c
+
+Parsing JSON using AFNetworking - Stack Overflow
+
+
++ Vẽ bản đồ 
+http://www.meonbinary.com/2014/02/route-directions-with-ios7-mapkit-and-google-maps-api
+http://stackoverflow.com/questions/10119235/draw-route-on-google-map-in-iphone ( can tim )
+http://stackoverflow.com/questions/9217274/how-to-decode-the-google-directions-api-polylines-field-into-lat-long-points-in
+https://developer.apple.com/library/ios/samplecode/Breadcrumb/Listings/Classes_CrumbPathView_m.html#//apple_ref/doc/uid/DTS40010048-Classes_CrumbPathView_m-DontLinkElementID_8
+http://objc.id.au/post/9245961184/mapkit-encoded-polylines
+http://stackoverflow.com/questions/17588507/how-to-show-route-and-calculating-distance-using-google-map-or-ios-mapkit?rq=1
+
+
+https://github.com/ManoMarks/demos/tree/master/DirectionsAPIAsync/MapsDirections ( can tim )
+https://github.com/TCLee/TCGoogleMaps
+
+
+http://www.raywenderlich.com/13160/using-the-google-places-api-with-mapkit
+https://github.com/kishikawakatsumi/MapKit-Route-Directions
+Using the Google Places API With MapKit
+
+
+======================================================================== 13 - 05 - 2014 =========================================================================================================================================
+http://www.mediafire.com/download/yzmwdhgr5xgpg82/mobile-application+-+13+-+05+-+2014.zip
+
+iOS google maps directions API used in code
+Google Maps SDK route
+Displaying google direction api response on Map
+Draw route on map in iphone sdk
+
++ Vẽ đường đi giữa hai điểm trong Google Maps sdk
+
+Sẽ làm như sau đây 
+	Đưa lên google api để lấy đường đi 
+	Dùng thông tin có trong google map api để tính ra đường đi
+	Vẽ đường đi dùng polygon
+	Hiện thông tin đường đi có trong google api lên trên UITextView, có thể hiện thêm thông tin đường đi  
+http://maps.googleapis.com/maps/api/directions/json?origin=Adelaide,SA&destination=Adelaide,SA&waypoints=optimize%3atrue|Barossa+Valley,SA|Clare,SA|Connawarra,SA|McLaren+Vale,SA&sensor=false
+
+
+http://stackoverflow.com/questions/10689328/google-directions-doesnt-return-any-routes-when-using-certain-waypoints?rq=1
+
+
+Tracing routes with MapKit ( can tim )
+http://iosguy.com/tag/directions-api/
+
+https://github.com/TCLee/TCGoogleMaps
+
+
+A navigation app built using Google Maps SDK for iOS, Google Places API and Google Directions API. ( can tim )
+http://tclee.github.io/TCGoogleMaps
+https://github.com/TCLee/TCGoogleMaps
+
+
+Simple class to get and draw route with optional waypoints using Google Maps SDK for iOS. ( can tim )
+http://lukagabric.com/google-maps-sdk-route/
+https://github.com/lukagabric/LRouteController
+
+
+
+Starting point for using the Google Maps SDK for iOS. Xcode 5. iOS 7. Storyboards. ARC.
+https://github.com/humphriesjm/google-maps-ios ( can tim )
+
+https://developers.google.com/live/shows/240588492-4001 ( can tim )
+Maps Shortcuts: Directions and the Google Maps iOS SDK
+https://github.com/ManoMarks/demos/tree/master/DirectionsAPIAsync
+
++ Project mẫu cho hiện và vẽ bản đồ trên Apple Maps
+http://mtdirectionsk.it/
+https://github.com/myell0w/MTDirectionsKit
+http://iphone.appstorm.net/reviews/lifestyle/use-google-maps-for-accurate-directions-and-information/
+
+
+
+
+http://trpevski.com/blog/?p=8
+http://maps.googleapis.com/maps/api/directions/output?parameters
+http://maps.googleapis.com/maps/api/directions/json?origin=Skopje&destination=Zagreb&sensor=false
+
+
+
+http://unitstep.net/blog/2008/08/02/decoding-google-maps-encoded-polylines-using-php/
+Decoding Google Maps Encoded Polylines using PHP
+
+http://iphonegeeksworld.wordpress.com/2010/09/08/drawing-routes-onto-mkmapview-using-unofficial-google-maps-directions-api/
+Drawing Routes onto MKMapView Using Unofficial Google Maps Directions API
+
+http://code.google.com/p/ashiphone/downloads/detail?name=MapWithRoutes.zip&can=2&q=
+ashiphone
+Demostration of iPhone app''s samples 
+
+http://iphonegeeksworld.wordpress.com/2010/09/13/core-location-and-map-kit-bringing-your-own-maps/
+Core Location and Map Kit: Bringing Your Own Maps
+
+http://iphonegeeksworld.wordpress.com/2010/09/09/using-compass-with-google-map-in-iphone/
+Using Compass with google map in iphone
+
+http://spitzkoff.com/craig/wp-content/uploads/2009/04/maplines.zip
+Drawing polyines or routes on a MKMapView (Using Map Kit on the iPhone)
+http://spitzkoff.com/craig/?p=65
+
+http://lukagabric.com/lplaceholdertextview-uitextview-subclass-with-placeholder/
+http://lukagabric.com/lasiimageview-download-image-with-progress-indicator/
+
+iOS Data Model using Core Data
+http://lukagabric.com/ios-data-model-using-core-data/
+
+
+
+LCDDataSource - iOS Core Data Model
+http://lukagabric.com/ios-data-model-using-core-data
+https://github.com/lukagabric/LCDDataSource
+
+
+
+NSString *googleMapUrlString = [NSString stringWithFormat:@"http://maps.google.com/?saddr=%f,%f&daddr=%@,%@", mapView.userLocation.coordinate.latitude, mapView.userLocation.coordinate.longitude, destinationLatitude, destinationLongtitude];
+[[UIApplication sharedApplication] openURL:[NSURL URLWithString:googleMapUrlString]];
+
+
+http://stackoverflow.com/questions/20905797/google-maps-ios-sdk-getting-directions-between-2-locations
+Google Maps iOS SDK, Getting Directions between 2 locations
+
+https://developers.google.com/maps/documentation/ios/reference/interface_g_m_s_path#a4060269354374332afbb532557c4899e
+https://developers.google.com/maps/documentation/ios/reference/interface_g_m_s_polyline
+
+https://developers.google.com/maps/documentation/directions/
+http://stackoverflow.com/questions/15816684/how-to-show-a-info-window-in-ios-google-maps-without-tapping-on-marker?rq=1
+How to show a Info window in iOS Google maps without tapping on Marker?
+
+
+http://googlegeodevelopers.blogspot.com/2014/02/gradient-polylines-and-structured.html
+
+How to show a Info window in iOS Google maps without tapping on Marker?
+http://stackoverflow.com/questions/15816684/how-to-show-a-info-window-in-ios-google-maps-without-tapping-on-marker?rq=1
+
++ Hiện nhiều địa chỉ lên trên Map
+http://stackoverflow.com/questions/21615811/ios-how-to-use-gmscoordinatebounds-to-show-all-the-markers-of-the-map?rq=1
+iOS, How to use GMSCoordinateBounds to show all the markers of the map?
+NSMutableArray *array = [[NSMutableArray alloc]initWithObjects:[[NSDictionary alloc]initWithObjectsAndKeys:@"44.66",@"latitude",@"21.33",@"longitude", nil],
+                         [[NSDictionary alloc]initWithObjectsAndKeys:@"44.66",@"latitude",@"21.453",@"longitude", nil],
+                         [[NSDictionary alloc]initWithObjectsAndKeys:@"44.44",@"latitude",@"21.993",@"longitude", nil],
+                         [[NSDictionary alloc]initWithObjectsAndKeys:@"44.635",@"latitude",@"21.553",@"longitude", nil],
+                         [[NSDictionary alloc]initWithObjectsAndKeys:@"44.3546",@"latitude",@"21.663",@"longitude", nil],
+                         [[NSDictionary alloc]initWithObjectsAndKeys:@"44.6643",@"latitude",@"21.212",@"longitude", nil],
+                         [[NSDictionary alloc]initWithObjectsAndKeys:@"44.63466",@"latitude",@"21.3523",@"longitude", nil],nil];
+GMSCoordinateBounds *bounds = [[GMSCoordinateBounds alloc] init];
+CLLocationCoordinate2D location;
+for (NSDictionary *dictionary in array)
+{
+    location.latitude = [dictionary[@"latitude"] floatValue];
+    location.longitude = [dictionary[@"longitude"] floatValue];
+    // Creates a marker in the center of the map.
+    GMSMarker *marker = [[GMSMarker alloc] init];
+    marker.icon = [UIImage imageNamed:(@"marker.png")];
+    marker.position = CLLocationCoordinate2DMake(location.latitude, location.longitude);
+    bounds = [bounds includingCoordinate:marker.position];
+    marker.title = dictionary[@"type"];
+    marker.map = mapView_;
+}
+[mapView_ animateWithCameraUpdate:[GMSCameraUpdate fitBounds:bounds withPadding:30.0f]];
+
+http://geoawesomeness.com/why-google-maps-api-still-rules-the-web-the-webs-most-popular-api/
+
+http://venturebeat.com/2012/06/27/google-maps-api-transit/
+Google adds public transit data to Maps API
+
+maps.google.com/maps?output=dragdir&saddr=37.774929,-122.419415&daddr=37.804372,-122.270803
+
+
++ Close info window of a marker programmatically google maps iOS
+http://stackoverflow.com/questions/15794797/close-info-window-of-a-marker-programmatically-google-maps-ios?rq=1
+mapView.selectedMarker = nil;
+The comments on the selectedMarker property in GMSMapView.h say this:
+
++ Google Maps iOS didTapInfoWindowOfMarker not triggered when on top of other markers
+http://stackoverflow.com/questions/16707536/google-maps-ios-didtapinfowindowofmarker-not-triggered-when-on-top-of-other-mark?rq=1
+
+
++ Lấy vị trí hiện tại 
+http://stackoverflow.com/questions/17057805/google-maps-api-getting-coordinates-of-current-location-ios?rq=1
+h
+#import <CoreLocation/CoreLocation.h>
+@property(nonatomic,retain) CLLocationManager *locationManager;
+
+.m
+- (NSString *)deviceLocation {
+NSString *theLocation = [NSString stringWithFormat:@"latitude: %f longitude: %f", locationManager.location.coordinate.latitude, locationManager.location.coordinate.longitude];
+return theLocation;}
+
+- (void)viewDidLoad
+{
+    locationManager = [[CLLocationManager alloc] init];
+    locationManager.distanceFilter = kCLDistanceFilterNone; 
+    locationManager.desiredAccuracy = kCLLocationAccuracyHundredMeters; // 100 m
+	[locationManager startUpdatingLocation];
+}
+
++ Google Maps SDK for IOS markers are being overwritten
+http://stackoverflow.com/questions/19165920/google-maps-sdk-for-ios-markers-are-being-overwritten?rq=1
+
++ Các URL Schema 
+URL scheme.  Some of the common ones include:
+
+    http: — a file from a web server
+    https: — a file from an encrypted web server
+    mailto: — send an email message
+    ftp: — access a file via FTP
+    telnet: — open terminal sessions to a server
+
+With iOS, the magic of being able to touch a phone number in an e-mail to open the dialer and start a call is made possible by URL schemes such as:
+
+    tel: — make a phone call
+    sms: — send a text message
+    itms-apps: — opens the app store
+    music: — go to the current playing song in the music app
+
+	
+--
+http://thenextweb.com/apps/2012/12/13/the-wait-is-over-google-finally-launches-standalone-google-maps-app-for-ios/
+
++ Google Maps IOS Show Routes ( can tim )
+http://stackoverflow.com/questions/16811965/how-to-draw-a-path-one-place-to-another-place-in-google-map-sdk-ios/20171859#20171859
+http://stackoverflow.com/questions/19532531/google-maps-ios-show-routes
+http://stackoverflow.com/questions/16811965/how-to-draw-a-path-one-place-to-another-place-in-google-map-sdk-ios/20171859#20171859
+http://stackoverflow.com/questions/15170491/geo-fencing-using-google-map-in-iphone?rq=1
+http://stackoverflow.com/questions/13879211/how-to-integrate-new-google-map-app-with-ios-app?rq=1
+comgooglemaps://?saddr=Google+Inc,+8th+Avenue,+New+York,+NY&daddr=John+F.+Kennedy+International+Airport,+Van+Wyck+Expressway,+Jamaica,+New+York&directionsmode=transit
+https://maps.google.com/maps?saddr=source.latitude,source.longitude&daddr=destination.latitude,destination.longitude
+
+
++ Drawing a route in mapkit in iphone sdk ( can tim )
+http://stackoverflow.com/questions/2834523/drawing-a-route-in-mapkit-in-iphone-sdk
+https://github.com/Surya121/SBMapWithRoute
+http://iphonegeeksworld.wordpress.com/2010/09/08/drawing-routes-onto-mkmapview-using-unofficial-google-maps-directions-api/
+https://github.com/leviathan/nvpolyline
+http://stackoverflow.com/questions/10598322/iphone-how-to-draw-line-between-two-points-on-mapkit?lq=1
+http://stackoverflow.com/questions/13246702/how-to-draw-routes-on-maps-in-ios-6?lq=1
+http://stackoverflow.com/questions/14155671/drawing-a-route-on-apple-map-ios-6?lq=1
+http://www.techotopia.com/index.php/Using_MKDirections_to_get_iOS_7_Map_Directions_and_Routes ( dành cho Apple Maps )
+http://iphonedevsdk.com/forum/iphone-sdk-development/38072-draw-route-using-maps-application.html
+http://iphonedevsdk.com/forum/iphone-sdk-development/8100-opening-the-maps-app-with-a-given-route-direction.html
+
+
+
+http://webhole.net/2010/03/10/turnaddress-to-latitude-and-longitude/
+How to Convert Address to GPS Coordinates
+http://maps.google.com/maps/geo?q=udaipur&output=csv
+http://maps.googleapis.com/maps/api/geocode/json?latlng=44.42514,26.10540&sensor=false
+http://maps.googleapis.com/maps/api/staticmap?center=26.9260,75.8235&zoom=11&size=200x200&sensor=false
+https://maps.google.com/maps?saddr=jaipur,Rajasthan&daddr=ajmer,rajasthan
+http://rajneesh071.blogspot.com/2013/03/show-route-from-current-location-to.html
+
++ AfNetworking
+http://www.raywenderlich.com/59255/afnetworking-2-0-tutorial
+http://code.tutsplus.com/tutorials/working-with-nsurlsession-afnetworking-20--mobile-22651
+
+
+h
+NSEnumerator *arrenum = [myarray objectEnumerator];
+id cobj;     
+while ( cobj = [arrenum nextObject] ) {
+   NSLog(@"%@", cobj);
+}
+
+
++ Basic JSON parsing in iOS
+https://github.com/TouchCode/TouchJSON
+http://www.intertech.com/Blog/basic-json-parsing-in-ios/
+http://blog.safaribooksonline.com/2013/03/06/parsing-json-in-objective-c-using-nsjsonserialization/
+http://www.raywenderlich.com/5492/working-with-json-in-ios-5
+
+JSON with Objective-C
+http://www.flaviodiez.com/2013/08/json-with-objective-c/
+
+http://stackoverflow.com/questions/20533890/afnetworking-2-0-track-file-upload-progress
+http://www.iosmanual.com/tutorials/afnetworking-2-0-migration-guide/
+https://github.com/AFNetworking/AFNetworking
+http://stackoverflow.com/questions/20533890/afnetworking-2-0-track-file-upload-progress
+http://tutorialsios.blogspot.com/2013/08/post-multipart-form-data-using.html
+
+
+---------------------
++ how to show route and calculating distance using google map or ios mapkit ( can tim )
+http://stackoverflow.com/questions/17588507/how-to-show-route-and-calculating-distance-using-google-map-or-ios-mapkit?rq=1
+
+
++ Document cho Google Direction API
+https://developers.google.com/maps/documentation/business/webservices/auth#digital_signatures
+https://developers.google.com/maps/documentation/business/webservices/auth
+https://developers.google.com/maps/documentation/business/webservices/#client_id
+https://developers.google.com/maps/documentation/directions/
+
+
+
+a delightful networking framework for iOS and OSX
+http://afnetworking.com/
+
++ Project mẫu 
+http://facebook.github.io/three20/api/
+https://github.com/kwylez/MapKitTurnByTurnExample
+https://github.com/kwylez/Universal-iOS-App-Template
+https://github.com/kwylez/SMS-Message-Bubbles
+https://github.com/kwylez/SMS-Message-Bubbles
+https://github.com/kwylez/CWPhotoViewer
+https://github.com/kwylez/CustomizedActionSheet
+https://github.com/TCLee/PhotoGallery
+https://github.com/TCLee/ArtFlow
+https://github.com/TCLee/TCImageFilter
+https://github.com/TCLee/TCMusicPlayer
+http://iphone.appstorm.net/reviews/lifestyle/keep-track-of-your-weight-with-weightless/
+http://iphone.appstorm.net/roundups/lifestyle-roundups/the-best-free-paid-alternatives-to-first-party-apps/
+https://github.com/myell0w/MTLocation
+https://github.com/myell0w/MTStatusBarOverlay
+https://github.com/myell0w/MTDirectionsKit
+https://github.com/myell0w/MTZoomWindow
+https://github.com/myell0w/MTDURLPreview
+
+https://github.com/myell0w/TSMessages
+https://github.com/myell0w/NJKWebViewProgress
+https://github.com/myell0w/SDWebImage
+https://github.com/myell0w/PSCCoreDataStack
+https://github.com/myell0w/PSTCollectionView
+
+https://github.com/myell0w/Localytics-iOS
+Yet Another Mirror of the Localytics iOS library
+
+https://github.com/myell0w/XCDYouTubeVideoPlayerViewController
+XCDYouTubeVideoPlayerViewController forked from 0xced/XCDYouTubeVideoPlayerViewController
+https://github.com/myell0w/MTDirectionsKitDemo
+https://github.com/TCLee/GoogleBooksDownloader
+http://gmaps-samples.googlecode.com/svn/trunk/streetview/streetview_directions.html
+
+https://github.com/TCLee/TCKnowledgeGraph
+TCKnowledgeGraph is a sample iOS app that uses the API provided by Freebase to search and fetch topics from its giant knowledge graph. This app also makes use of the Wikipedia API to pull in images that are currently missing from Freebase''s database.
+
+https://github.com/TCLee/TCGoogleMaps
+cdn1.raywenderlich.com/wp-content/uploads/2014/01/WeatherStarter.zip
+http://dl.google.com/android/adt/22.6.2/adt-bundle-windows-x86-20140321.zip
+
++ Thư viện dùng để làm game cho IOS
+http://coronalabs.com/pricing/
+
++
+
+======================================================================== 12 - 05 - 2014 =========================================================================================================================================
++ Json
+How To Fetch and Parse JSON Using iOS SDK
+http://www.appcoda.com/fetch-parse-json-ios-programming-tutorial/
+
++ Tính khoảng cách giữa hai tọa độ 
+http://iphonedevsdk.com/forum/iphone-sdk-development/9079-calculate-distance-between-two-location.html
+http://iphonedevsdk.com/forum/iphone-sdk-development/9211-calculate-distance-with-google-maps-api.html
+http://iphonedevsdk.com/forum/iphone-sdk-development/35043-calculate-distance-between-two-latitudes-longitudes.html
+http://stackoverflow.com/questions/16852564/google-maps-ios-sdk-distance-between-east-and-west-points-on-the-map
+
+
+An Phu Plaza
+10.787503,106.684809
+
+
+Studio Ling
+10.785867,106.684759
+
+
+
+10.786771,106.684796
+Công Ty Cp Đấu Giá Bắc Trung Nam - Cn
+
+SCG Việt Nam
+10.787459,106.684949
+
+10.787722,106.685008
+Công Ty Vinamit
+
+Cửa Hàng Hồ Cá Kiểng Hải Dương
+10.787985,106.684941
+
+
+http://maps.google.com/maps/api/geocode/json?address=240%20Ly%20Chinh%20Thang%20Street,%20Ward%209,%20District%203,%20Ho%20Chi%20Minh%20City,%20Vietnam&sensor=false
+
++ Lấy tọa độ của một địa chỉ 
+Longitude
+Latitude
+
+http://stackoverflow.com/questions/16082254/how-to-get-current-longitude-and-latitude-in-xcode-simulator
+IPHone simulator always give 0.0000 for lat and long because it does not  detect the location.
+You can add Custom Location using this path: Select iPhone Simulator and select Debug -->Loction --> Custom Location
+
+I suggest searching for "LocateMe" in the XCode docs. That will lead you to a sample app that shows how to use the location manager. You then need to play with it to get the results you want. 
+
+http://www.edumobile.org/iphone/iphone-programming-tutorials/how-to-get-current-latitude-and-longitude-in-iphone/ ( good )
+
+http://stackoverflow.com/questions/19921987/getting-latitude-and-longitude-in-ios7 ( good z)
+
+
+
+
+
++ Calculate distance between two latitudes / longitudes
+Calculate distance between two points 
+http://www.shinobicontrols.com/blog/posts/2013/10/08/ios7-day-by-day-day-13-route-directions-with-mapkit
+
+Draw Route between 2 points on Map with iOS7 MapKit API
+http://technet.weblineindia.com/mobile/draw-route-between-2-points-on-map-with-ios7-mapkit-api/
+http://technet.weblineindia.com/mobile/draw-route-between-2-points-on-map-with-ios7-mapkit-api/2/
+
+http://technet.weblineindia.com/mobile/get-iphone-location-information-using-corelocation-framework/
+http://stackoverflow.com/questions/8568574/pretty-print-distances-for-ios ( good )
+
+
+http://www.perspecdev.com/blog/2012/02/22/using-corelocation-on-ios-to-track-a-users-distance-and-speed/
+Using CoreLocation (GPS) on iOS to Track a User s Distance and Speed
+
+http://stackoverflow.com/questions/5058798/easiest-way-of-getting-reverse-geocoded-current-location-from-ios
+http://stackoverflow.com/questions/4152003/how-can-i-get-current-location-from-user-in-ios
+
+http://geoawesomeness.com/why-google-maps-api-still-rules-the-web-the-webs-most-popular-api/
+
+
+
++ Tìm kiếm trên bản đồ 
+https://support.google.com/maps/answer/3092445?hl=vi
+
+
++ Lấy sự kiện khi zoom bản đồ 
+- (void)mapView:(GMSMapView *)mapView didChangeCameraPosition:(GMSCameraPosition *)position;
+
+EDIT
+
+with this code you can get the corners of the visibile area:
+
+NSLog(@"%f,%f",_mapView.projection.visibleRegion.farLeft.latitude,_mapView.projection.visibleRegion.farLeft.longitude);//north west
+NSLog(@"%f,%f",_mapView.projection.visibleRegion.farRight.latitude,_mapView.projection.visibleRegion.farRight.longitude);//north east
+NSLog(@"%f,%f",_mapView.projection.visibleRegion.nearLeft.latitude,_mapView.projection.visibleRegion.nearLeft.longitude);//south west
+NSLog(@"%f,%f",_mapView.projection.visibleRegion.nearRight.latitude,_mapView.projection.visibleRegion.nearRight.longitude);//south east
+
+
+
++ MapBox iOS SDK, an open source alternative to MapKit.
+http://www.mapbox.com/mapbox-ios-sdk/
+https://github.com/soffes/mapbox-ios-sdk
+
+
++ Lấy khoảng cách giữa hai điểm 
+http://stackoverflow.com/questions/16852564/google-maps-ios-sdk-distance-between-east-and-west-points-on-the-map
+
+
++ Vẽ đường đi giữa hai điểm 
+http://stackoverflow.com/questions/20956793/about-tracing-routes-on-google-maps-sdk-in-ios
+https://developers.google.com/maps/documentation/directions/#JSON
+http://stackoverflow.com/questions/9217274/how-to-decode-the-google-directions-api-polylines-field-into-lat-long-points-in
+http://blog.kadirpekel.com/2010/05/30/drawing_routes_onto_mkmapview_using_unofficial_google_maps_directions_api/
+http://sourceforge.net/projects/sag333ar/postdownload?source=dlp ( can tim )
+http://laurilarjo.wordpress.com/2010/10/23/using-google-directions-api-and-drawing-routes-in-iphone-mkmapview/
+http://www.meonbinary.com/2014/02/route-directions-with-ios7-mapkit-and-google-maps-api ( good )
+http://www.meonbinary.com/2014/03/draw-animated-shapes-with-bezier-path
+
+
+http://cocoapods.org/
+http://blog.fawkeswei.com/2012/12/17/googlemapskit-launch-google-maps-for-iphone-from-your-app/
+
+
+Make an URL request to Google Directions API and when you receive a JSON file go through all steps and decode the points objects.
+
+
+http://stackoverflow.com/questions/20512578/draw-polyline-using-google-map-in-ios-7 ( can tim )
+https://github.com/Djengo/GoogleMapsDirection
+
+
+Drawing Route Between Two Places on GMSMapView in iOS.
+http://stackoverflow.com/questions/22550849/drawing-route-between-two-places-on-gmsmapview-in-ios
+Make an URL request to Google Directions API and when you receive a JSON file go through all steps and decode the points objects.
+http://stackoverflow.com/questions/14756762/google-maps-sdk-for-ios-and-routes
+http://iosguy.com/tag/directions-api/
+
+
+
++ Github
+https://github.com/perspecdev/PSLocationManage
+https://github.com/perspecdev/PSGoogleReader
+https://github.com/perspecdev/PSGenericSegue
+
+https://github.com/progrmr/SDK_Utilities/blob/master/Utils/UtilitiesGeo.c
 ======================================================================== 11 - 05 - 2014  =========================================================================================================================================
 http://stackoverflow.com/questions/19177897/how-put-google-mapview-in-uiview
 How put Google MapView in UIView?
