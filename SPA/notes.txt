@@ -1,3 +1,197 @@
+
+======================================================================== 16 - 05 - 2014  =================================================================================================================================================
++ Parse XML
+http://www.intertech.com/Blog/query-an-xml-document-using-linq-to-xml/
+http://broadcast.oreilly.com/2010/10/understanding-c-simple-linq-to.html
+
+public List<string> GetBooks(XDocument xdoc, string titleSearch)
+{
+    var query = from t in xdoc.Descendants("title")
+                where t.Value.ToLower().Contains(titleSearch.ToLower())
+                select t.Value;
+ 
+    return query.ToList<string>();
+}
+
++ Find Parameter trong XDocument 
+
+static XElement FindParameter(XElement element, string type)
+{
+    return element.Elements("parameter")
+                  .SingleOrDefault(p => (string) p.Attribute("type") == type);
+}
+
+
+var mydata = from item in document.Root.Elements("item")
+            select new {
+                 Label = (string) item.Element("label"),
+                 Description = (string) item.Element("description"),
+                 Id = (int) FindParameter(item, "id"),
+                 Name = (string) FindParameter(item, "name"),
+                 Zip = (string) FindParameter(item, "zip")
+            };
+
+msdn.microsoft.com/en-us/library/bb675167.aspx
+https://www.google.com.vn/search?q=.Nodes%28%29+Descendants+%2B+linq+to+xml&ie=utf-8&oe=utf-8&aq=t&rls=org.mozilla:en-US:official&client=firefox-a&gfe_rd=cr&ei=Y8B1U6-kK66QiAebjYGYDw
+http://forums.asp.net/t/1436970.aspx?Reading+child+nodes+of+XDocument
+http://yinyangit.wordpress.com/2011/07/05/linq-basic%E2%80%93linq-to-xml-architecture-overview/
+http://www.joe-stevens.com/2010/01/08/linq-to-xml-tutorial/
+http://codesamplez.com/programming/linq-to-xml-tutorial
+http://blog.pedroliska.com/2011/03/29/reading-xml-with-c-and-some-linq/
+http://forums.asp.net/t/1593223.aspx?How+to+get+child+Descendants+by+Xdocument+
+http://stackoverflow.com/questions/9185226/best-way-to-query-xdocument-with-linq
+
++ Add dynamic control
+http://visualcsharptutorials.com/windows-forms/dynamically-adding-controls
+http://csharp.net-informations.com/gui/dynamic-controls-cs.htm
+
+
+http://www.learncs.org/en/Dictionaries
+Run c# online 
+
+======================================================================== Parse Xml  =================================================================================================================================================
++ Download bộ design 
+http://designmodo.com/polaris-free/
+http://www.designshock.com/phoebus-gui-set/
+http://designmodo.com/wp-content/uploads/2012/03/impressionist-free.jpg
+http://designmodo.com/impressionist-free/
+http://www.webdesignerdepot.com/2012/01/free-download-balio-web-ui-kit/
+
+
++ Những ý tưởng khi design layout
+http://www.uiparade.com
+http://photoshoptutorials.wizapps.org/apps/web-elements-create-a-clean-pagination-layout-in-photoshop/
+http://99designs.com/designer-blog/2012/11/21/create-an-app-icon-using-photoshop-in-20-easy-steps/
+http://www.webdesigndev.com/photoshop/20-best-free-gui-sets-use-projects
+
++ Design icon trong photoshop
+http://www.webdesigndev.com/photoshop/create-a-glossy-home-icon-in-photoshop ( good )
+http://boonage.pjss2.net/2007/04/15/perfect-shine-button-or-icon/
+
+
+
++ Tạo round button in Photoshop
+http://www.hongkiat.com/blog/photoshop-create-web-20-button/
+https://thethemefoundry.com/blog/button-tutorial-photoshop/
+http://abduzeedo.com/stylish-metallic-button-photoshop
+http://code.tutsplus.com/tutorials/learn-to-create-buttons-in-photoshop--mobile-6372
+http://design.tutsplus.com/tutorials/quick-tip-create-a-round-switch-button-in-photoshop--psd-16955
+
+http://naldzgraphics.net/tutorials/40-best-photoshop-tutorials-for-creating-buttons-and-badges/
+http://wpbriefly.com/photoshop-button-tutorials/
+http://www.secondpicture.com/tutorials/digital_image_processing/glass_button_in_photoshop.html
+http://www.garethbotha.com/blog/tutorial/how-to-create-a-detailed-brushed-steel-button-in-photoshop/
+http://photoshop911.typepad.com/help/2004/04/making_round_co.html
+https://www.udemy.com/blog/photoshop-rounded-corners/
+http://paper-leaf.com/blog/2012/01/how-to-design-an-inset-button-in-photoshop/
+http://www.tripwiremagazine.com/2012/06/photoshop-button-tutorials.html
+http://harkable.com/blog/photoshop-buttons-ui-tutorial/
+http://blog.amazeelabs.com/en/how-round-corner-rectangle-photoshop
+http://skeeterz71.com/create-rounded-corners-for-your-picture-in-adobe-photoshop-cs6/#.U1CtLax-Ycs
+http://www.sessions.edu/notes-on-design/resources/web-design/glossy-buttons-in-photoshop/
+http://howtonestforless.com/2012/03/26/how-to-make-a-blog-button/
+http://speckyboy.com/2009/08/11/30-useful-photoshop-buttons-and-badges-tutorials/
+http://www.uiparade.com/portfolio/player-controls/
+http://breadandpepper.com/
+https://dribbble.com/shots/220353-Round-Button-Navigation
+http://www.digimantra.com/tutorials/create-rounded-corner-buttons-in-photoshop-using-gradient/
+http://www.dezineguide.com/tutorial/20-amazing-photoshop-button-tutorials/
+http://ggnome.com/wiki/Basic_three_state_button_in_Photoshop
+http://abad1dea.tumblr.com/post/23487860422/analyzing-binaries-with-hoppers-decompiler
+https://github.com/hankbao?tab=repositories
+
+
+
+http://stackoverflow.com/questions/5002487/getting-number-of-days-for-a-specific-month
+Lấy tổng số ngày trong năm và tháng
+DateTime.DaysInMonth(int year, int month);
+http://vbcity.com/blogs/xtab/archive/2013/08/27/windows-forms-adding-system-icons-to-treeview-nodes.aspx
+
++ Image Button
+http://www.codeproject.com/Articles/29010/WinForm-ImageButton
+http://www.codeproject.com/Articles/15730/RoundButton-Windows-Control-Ever-Decreasing-Circle
+
+Creating Gel Buttons with Windows Forms : Part 2
+http://blogs.msdn.com/b/cjacks/archive/2006/02/23/538164.aspx
+http://blogs.msdn.com/b/cjacks/archive/2006/03/01/541384.aspx
+
+http://stackoverflow.com/questions/15907868/winform-change-backgroundimage-property-of-a-button-on-hover
+http://msdn.microsoft.com/en-us/library/ms172532%28v=vs.90%29.aspx
+http://www.authorcode.com/how-to-make-round-button-in-c/
+http://stackoverflow.com/questions/9399215/c-sharp-winforms-custom-button-unwanted-border-when-form-unselected
+http://stackoverflow.com/questions/361271/best-free-controls-for-net/361331#361331
+http://www.codeproject.com/Articles/315013/WinForms-Button
+http://www.devcomponents.com/dotnetbar/SwitchButtonControl.aspx
+
++ Metro Style
+https://github.com/viperneo/winforms-modernui
+http://elysium.codeplex.com/releases/view/112957
+http://elysium.asvishnyakov.com/en/downloads
+http://bizvise.com/2012/09/27/how-to-create-metro-style-window-on-wpf-using-elysium/
+https://www.devcomponents.com/dotnetbar/metro-ui-controls.aspx
+http://aerobraintech.blogspot.com/2013/03/convert-winform-to-wpf-metro-style.html
+http://aruny408.blogspot.com/p/free-windows-8-style-button-control.html
+
+
++ Paging style 
+http://codepen.io/FernE97/details/zDpwo
+http://www.cssflow.com/snippets/dark-pagination/demo
+http://www.dreamtemplate.com/dreamcodes/documentation/pagination.html ( good  - rất nhiều paging đẹp )
+http://www.cssflow.com/snippets/simple-to-do-list/demo
+http://www.cssflow.com/snippets/dark-pagination/demo
+http://www.thepixelweb.com/css-based-pagination-styles
+http://designshack.net/tutorialexamples/css3-pagination/index-4.html ( good )
+http://designshack.net/tutorialexamples/css3-pagination/index-5.html ( good )
+http://www.crazyleafdesign.com/blog/beautiful-pagination/ ( good )
+http://www.dreamtemplate.com/dreamcodes/documentation/pagination.html#
+
+Dribbble - Pagination by Asif Aleem.htm
+http://dribbble.com/shots/499948-Pagination
+
+www.freebiesgallery.com/pagination/
+
+border-radius:16px 16px 16px 16px
+
+
++ Clickable TreeView
+http://stackoverflow.com/questions/5471756/using-treeview-click-event-on-treeview-nodes
+http://stackoverflow.com/questions/17062987/how-to-working-in-tree-view-child-node-click-event-in-c-sharp
+http://bytes.com/topic/c-sharp/answers/525561-treenode-click-event
+
+void treeView_NodeMouseClick(object sender, TreeNodeMouseClickEventArgs e) 
+{
+	TreeNode clickedNode = e.Node;
+}
+
++ CollapseAll and ExplainAll
+http://msdn.microsoft.com/en-us/library/system.windows.forms.treeview.collapseall%28v=vs.110%29.aspx
+
+http://stackoverflow.com/questions/4745896/c-sharp-winform-node-expand-and-collapse-in-treeview
+treeNode.Expand()
+treeNode.Collapse()
+
+http://stackoverflow.com/questions/1307891/solved-c-sharp-system-windows-forms-treeview-stop-auto-expand-collapse-on-doub
+
+
+http://stackoverflow.com/questions/11406669/collapse-other-nodes-of-treeview-on-selection-of-one-node
+Collapse Other Nodes of TreeView on Selection of One Node
+private void TreeViewAfterSelect(object sender, TreeViewCancelEventArgs e)
+{
+    foreach (TreeNode node in e.Node.Parent.Nodes)
+    {
+        if(node != e.Node)
+            node.Collapse();
+    }
+}
+
+http://www.stevefenton.co.uk/Content/Blog/Date/201309/Blog/How-To-Ignore-Tree-View-Click-Events-Related-To-Expand-And-Collapse-Icons/
+http://www.windows-tech.info/3/7e0c717e7acb6675.php
+
+
++ Xml Parse 
+https://www.altamiracorp.com/blog/employee-posts/performance-linq-to-sql-vs
+
+
 http://angularjs.org/
 http://durandaljs.com/
 http://requirejs.org/
