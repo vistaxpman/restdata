@@ -1,0 +1,48 @@
++ Async keyword
+social.msdn.microsoft.com/Forums/vstudio/en-US/3bdb1f6c-3b97-4f73-9582-161f0191f9e8/how-to-async-download-multiple-files-using-webclient-simultaneously?forum=csharpgeneral
+http://codereview.stackexchange.com/questions/18519/real-world-async-and-await-code-example
+http://www.daniweb.com/software-development/csharp/threads/447375/c-downloadfileasync-problem
+http://blogs.msdn.com/b/csharpfaq/archive/2012/01/23/using-async-for-file-access-alan-berman.aspx
+http://stuff.seans.com/2009/01/05/using-httpwebrequest-for-asynchronous-downloads/
+http://www.4mghc.com/topics/262951/1/asynchronous-c-download-file-with-progress-indicator-and-then-install-file
+http://www.vbforums.com/showthread.php?669733-Asynchronous-File-Download-Using-WebClient
+http://www.developer.com/net/csharp/asynchronous-programming-in-c.html
+http://www.slideshare.net/stpraveen1/c-5-deep-drive-into-asynchronous-programming
+http://www.slideshare.net/valdisiljuconoks/csharp-5-async
+http://www.c-sharpcorner.com/UploadFile/dacca2/asynchronous-programming-in-C-Sharp-5-0-part-1-understand-async/
+http://stackoverflow.com/questions/5164243/catching-execeptions-using-async-programming
+http://www.dotnetcurry.com/showarticle.aspx?ID=797
+http://msdn.microsoft.com/en-us/magazine/hh456402.aspx
+
+http://www.csharphelp.com/2010/11/asynchronous-programming-using-c-async-and-c-await/
+Asynchronous Programming using C# Async and C# Await
+
+http://www.matlus.com/httpwebrequest-asynchronous-programming/
+HttpWebRequest - Asynchronous Programming Model/Task.Factory.FromAsyc
+
+http://developer.nokia.com/community/wiki/Asynchronous_Programming_For_Windows_Phone_8
+Asynchronous Programming For Windows Phone 8
+
+My Take on Task-base Asynchronous Programming in C# 5.0 and ASP.NET MVC Web Applications
+http://www.tugberkugurlu.com/archive/my-take-on-task-base-asynchronous-programming-in-c-sharp-5-0-and-asp-net-mvc-web-applications
+
+http://www.codeproject.com/Tips/360447/Asynchronous-methods-using-Csharp-Part-I
+Asynchronous methods using C#: Part I
+
+http://www.asp.net/web-forms/tutorials/aspnet-45/using-asynchronous-methods-in-aspnet-45
+Using Asynchronous Methods in ASP.NET 4.5 
+
+http://www.csharp-examples.net/asynchronous-method-progress/
+Asynchronous Method Progress Reporting [C#]
+
+http://www.jayway.com/2012/10/07/asyncawait-in-c-a-disaster-waiting-to-happen/
+http://nikosbaxevanis.com/blog/2010/10/31/the-task-based-asynchronous-pattern-part-1-the-basics/
+http://www.codeproject.com/Tips/591586/Asynchronous-Programming-in-Csharp-using-async
+http://blogs.msdn.com/b/cdndevs/archive/2013/12/23/c-async-and-await-a-deeper-dive.aspx
+
+http://richnewman.wordpress.com/2012/12/03/tutorial-asynchronous-programming-async-and-await-for-beginners/ ( good )
+http://www.itwriting.com/blog/4913-a-simple-example-of-async-and-await-in-c-5.html ( good )
+http://stackoverflow.com/questions/14455293/async-and-await ( good )
+http://stackoverflow.com/questions/13082074/brief-explanation-of-async-await-in-net-4-5 ( good )
+http://www.dotnetperls.com/async ( good )
+https://www.google.com.vn/#q=await+and+async+%2B+c%23&start=10
