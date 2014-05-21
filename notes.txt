@@ -6,6 +6,14 @@ https://github.com/EllisLab/CodeIgniter/wiki/DOM-library
 
 + DomCrawler - Symfony
 http://symfony.com/doc/current/components/dom_crawler.html
+http://www.ymc.ch/en/webscraping-in-php-with-guzzle-http-and-symfony-domcrawler
+http://docs.guzzlephp.org/en/latest/
+https://symfony2-document.readthedocs.org/en/latest/components/dom_crawler.html?highlight=crawler
+http://symfony2.openthinklabs.com/home/dokumentasi-symfony2/panduan/testing/crawler
+http://www.phpkode.com/source/p/symfony-framework/Symfony/vendor/symfony/symfony/src/Symfony/Component/DomCrawler/Tests/CrawlerTest.php
+http://stackoverflow.com/questions/16300958/symfony-domcrawler-find-element-with-specific-attribute-value
+http://www.phparch.com/2010/04/four-new-php-5-3-components-and-goutte-a-simple-web-scraper/
+http://the-phpjs-ldc.rgou.net/symfony2/2.3/components/dom_crawler.html
 
 
 
