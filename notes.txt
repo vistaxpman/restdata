@@ -1,7 +1,12 @@
 + php dom document
+http://symfony.com/doc/current/components/dom_crawler.html
 http://beerpla.net/projects/smartdomdocument-a-smarter-php-domdocument-class/
 http://www.phpclasses.org/package/1652-PHP-Edit-XML-documents-with-Expat-DOM-implementation.html
 https://github.com/EllisLab/CodeIgniter/wiki/DOM-library
+
++ DomCrawler - Symfony
+http://symfony.com/doc/current/components/dom_crawler.html
+
 
 
 =========================================================== 19 - 05 - 2014 =================================================================
