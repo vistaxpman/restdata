@@ -1,3 +1,9 @@
++ php dom document
+http://beerpla.net/projects/smartdomdocument-a-smarter-php-domdocument-class/
+http://www.phpclasses.org/package/1652-PHP-Edit-XML-documents-with-Expat-DOM-implementation.html
+https://github.com/EllisLab/CodeIgniter/wiki/DOM-library
+
+
 =========================================================== 19 - 05 - 2014 =================================================================
 + Async keyword
 social.msdn.microsoft.com/Forums/vstudio/en-US/3bdb1f6c-3b97-4f73-9582-161f0191f9e8/how-to-async-download-multiple-files-using-webclient-simultaneously?forum=csharpgeneral
