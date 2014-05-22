@@ -1,3 +1,318 @@
+======================================================================== 22 - 05 - 2014  =================================================================================================================================================
++ Tìm với các từ khóa về Async như sau 
+Progress of a Task in C#
+C# async
+Task Asynchronous Programming Model 
+Using C#’s Async Effectively
+
+
+Asynchronous Programming in c# 5.0
+Async Programming in C# 5
+C# 2012: Asynchronous Programming
+
++ Async
+http://tutorials.csharp-online.net/Task_Combinators
+
+Progress of a Task in C#
+http://jaliyaudagedara.blogspot.com/2013/07/progress-of-task-in-c.html
+http://marcominerva.wordpress.com/2013/07/04/async-operations-and-progress-updates/
+http://www.slideshare.net/conceptdev/c-5-asyncawait-for-eastbaynet
+http://www.nickbutler.net/Articles
+http://books.google.com.vn/books?id=t1de8nSVYnkC&pg=PT930&lpg=PT930&dq=async+%2B+Progress+Reporting+%2B+c%23&source=bl&ots=25mdXrHo6D&sig=9YOEec46F0k7d2KzFYQL3uK_xj4&hl=vi&sa=X&ei=z3h9U-HGApTd8AXz_IDQBg&ved=0CDMQ6AEwATge#v=onepage&q=async%20%2B%20Progress%20Reporting%20%2B%20c%23&f=false
+http://rxwiki.wikidot.com/
+http://rxwiki.wikidot.com/101samples
+http://www.hanselman.com/blog/ReactiveExtensionsRxIsNowOpenSource.aspx
+http://www.reactiveui.net/
+
+Async Samples 4: Reporting progress
+https://billwagner.azurewebsites.net/blog/async-samples-4-reporting-progress
+http://www.informit.com/store/c-sharp-async-fundamentals-livelessons-video-training-9780321940131
+https://github.com/BillWagner/AsyncVoid
+
+Managing the number of concurrent tasks using the TAP
+https://billwagner.azurewebsites.net/blog/managing-the-number-of-concurrent-tasks-using-the-tap
+
+
+
+http://www.dotnetexamples.com/2012/06/multi-threading-how-to-report.html
+Multi Threading - How to report Asynchronous Method Progress/Status? 
+http://www.dotnetexamples.com/search/label/Multi%20Threading
+http://www.dotnetexamples.com/2012/06/c-how-to-invoke-asynchronous-method.html
+http://www.dotnetexamples.com/2012/06/multi-threading-how-to-report.html
+http://www.dotnetexamples.com/2012/06/multithreading-asynchronous-method.html
+http://www.dotnetexamples.com/2012/07/how-to-create-thread-in-net.html
+http://mentormate.com/blog/the-asynchronous-pattern-in-net-4-5/
+http://www.damirscorner.com/CallingTaskbasedAsynchronousMethodsFromClassConstructors.aspx
+http://www.parago.de/2011/04/how-to-implement-a-modern-progress-dialog-for-wpf-applications/
+http://softwarekishorekoney.blogspot.com/2009/05/asynchronous-calls-using-delegates-in-c.html
+
+How to cancel an async query the right way
+http://answer.techwikihow.com/421559/cancel-async-query.html
+
+
+
+
+
+https://gist.github.com/SHSE/7551942
+https://gist.github.com/kadukf/7553682
+https://github.com/BillWagner/PracticalLINQ
+https://billwagner.azurewebsites.net/Media/Default/Presentations/TAPExplained.pdf
+https://billwagner.azurewebsites.net/Media/Default/media/ScotlandDemo.zip
+https://billwagner.azurewebsites.net/Media/Default/media/Async%20Programming%20in%20C.pdf
+
+
++ Ví dụ mẫu 
+http://kurapaty.blogspot.com/2009/12/reporting-progress-status-using.html
+Reporting Progress status using Asynchronous / BackgroundWorker 
+
+
+C# 4.5 async example
+https://github.com/golsby/async
+
+Async Example
+http://pastebin.com/q8Jgc9x6
+
++ Những software của PasteBin
+http://pastebin.com/tools#iphone
+
+http://www.listener.com.ba/thepage/2011/01/22/copy-files-in-c-with-progress-report/
+
+https://github.com/neuecc/AsyncOAuth
+Portable Client Library and HttpClient based OAuth library, including all platform(for PCL).
+
+Adds the new C# 5 async for older .NET 3.5 and .NET 4.0 projects.
+http://omermor.github.com/AsyncBridge/
+https://github.com/OmerMor/AsyncBridge
+
+
+An async C# client for Magento REST API
+https://github.com/nickvane/Magento-RestApi
+
+Helper library for doing async io in .net
+https://github.com/davidfowl/AsyncIO
+
+https://github.com/ReedCopsey/Effective-Async
+https://github.com/moodmosaic-attic/BonusBits.CodeSamples
+https://github.com/matiasurrutia/async
+https://github.com/sinhpham/ASync
+https://github.com/sinhpham/DoneDone-API-C-Sharp/blob/master/IssueTracker.cs
+https://github.com/malixsys/AsyncParse.Net
+https://github.com/koush/AsyncTask
+https://github.com/onlytiancai/AsyncHttpClient
+https://github.com/sinhpham/SharpRSync
+https://github.com/sinhpham/tanka
+https://github.com/sinhpham/BufferZoneCalculator
+
+
+
+KeePass reader for Windows Phone 7
+http://social.zune.net/redirect?type=phoneApp&id=2f1d7d92-cef4-df11-9264-00237de2db9e
+https://github.com/sinhpham/7Pass
+
+https://github.com/phmiller/AsyncWorker
+https://github.com/lcamlibel/AsyncORM
+https://github.com/golsby/async
+https://github.com/golsby/appengine-json-rest-sample
+https://github.com/golsby/appengine-json-rest
+https://github.com/puffpio/awssdk-async
+https://github.com/luiscubal/NWarpAsync
+https://github.com/svick/AsyncParallel
+https://github.com/torkelo/FuAsync
+https://github.com/tugberkugurlu/AsyncWpfApplication/tree/master/AsyncWpfApplication
+https://github.com/izevaka/AsyncHttpListener
+https://github.com/tomfaber/asyncdemo
+https://github.com/cerikpete/asynchdemo
+https://github.com/gleblebedev/asynccommand
+
+https://github.com/ChadMcCallum/AOPExamples
+Brief overview of using PostSharp in .NET to create reusable chunks of code to apply to method execution
+
+https://github.com/vasilevsky/AsyncOperation
+AsyncOperation
+
+
+https://github.com/ZeroMQLondon/AsyncServer
+https://github.com/parshim/AsyncVisitor
+https://github.com/hermitdave/AsyncTask
+https://github.com/vasilevsky/AsyncOperation
+https://github.com/ChadMcCallum/AsyncDemo
+https://github.com/sauberwind/AsyncSample
+https://github.com/jlopezr/async-examples
+https://github.com/KevM/FubuAsync
+https://github.com/YersonKira/AsyncTest
+https://github.com/runceel/AsyncMessenger
+https://github.com/pensacola1989/ftpAsync
+https://github.com/AndersMagnusson/AsyncAwaitProgressBarDemo
+https://github.com/emret/AsyncSample
+https://github.com/gabe19/AsyncDemo
+
+
+
+
+
+
+
+
+======================================================================== 21 - 05 - 2014  =================================================================================================================================================
++ http://stackoverflow.com/questions/14962969/how-can-i-use-async-to-increase-winform-performance
+how can i use async to increase winform performance
+private async void button2_Click(object sender, EventArgs e)
+{
+    string file = files[0];
+    Task<string> task = Task.Run(() => ProcessFile(file));       
+    rtTextArea.Text = await task;
+}
+
+private string ProcessFile(string file)
+{
+    using (TesseractEngine tess = new TesseractEngine("tessdata", "dic", 
+                                                      EngineMode.TesseractOnly))
+    {
+        Page p = tess.Process(Pix.LoadFromFile(file));
+        return p.GetText();
+    }
+}
+
+---
++ How to Async Files.ReadAllLines and await for results?
+http://stackoverflow.com/questions/13167934/how-to-async-files-readalllines-and-await-for-results?rq=1
+private async void button1_Click(object sender, RoutedEventArgs e)
+{
+    button1.IsEnabled = false;
+    try
+    {
+        var s = await Task.Run(() => File.ReadAllLines("Words.txt").ToList());
+        // do something with s
+    }
+    finally
+    {
+        button1.IsEnabled = true;
+    }
+}
+using (var reader = File.OpenText("Words.txt"))
+{
+    var s = await reader.ReadToEndAsync();
+    // Do something with s...
+}
++ How to wait for async method to complete?
+http://stackoverflow.com/questions/15149811/how-to-wait-for-async-method-to-complete?rq=1
+private async Task RequestToSendOutputReport(List<byte[]> byteArrays)
+{
+    foreach (byte[] b in byteArrays)
+    {
+        while (condition)
+        {
+            // we ll typically execute this code many times until the condition is no longer met
+            Task t = SendOutputReportViaInterruptTransfer();
+            await t;
+        }
+
+        // read some data from device; we need to wait for this to return
+        await RequestToGetInputReport();
+    }
+}
+
+private async Task RequestToGetInputReport()
+{
+    // lots of code prior to this
+    int bytesRead = await GetInputReportViaInterruptTransfer();
+}
+
++ Why you should (almost) never write void asynchronous methods?
+http://www.tonicodes.net/blog/why-you-should-almost-never-write-void-asynchronous-methods/
+
+http://stackoverflow.com/questions/17972268/async-await-with-a-winforms-progressbar?rq=1
+
++ Metro UI
+http://mui.codeplex.com/
+http://xamlspy.com/
+
+http://www.c-sharpcorner.com/uploadfile/logisimo/the-C-Sharp-asynchronous-programming-model ( good )
+The C# Asynchronous Programming Model
+
+Progress Streamed File download and Upload with Resume facility
+http://www.abhisheksur.com/2010/09/progress-streamed-file-download-and.html ( good )
+
+http://www.abhisheksur.com/2012/08/notifyicon-with-wpf-applications.html
+NotifyIcon with WPF applications
+
+ 
++ Những bài viết hay về Async và await trong c#
+http://blogs.msdn.com/b/dotnet/archive/2012/06/06/async-in-4-5-enabling-progress-and-cancellation-in-async-apis.aspx
+
+Task-based Asynchronous Pattern (TAP)
+http://msdn.microsoft.com/en-us/library/hh873175.aspx
+
+The Progress Reporting Pattern in C# 5 async
+http://simplygenius.net/Article/AncillaryAsyncProgress
+
+Simple .Net progress bar using async/await
+http://www.codeproject.com/Tips/729674/Simple-Net-progress-bar-using-async-await
+
+
+
+Async and Await
+http://blog.stephencleary.com/2012/02/async-and-await.html
+
+
+Simple .Net progress bar using async/await
+http://www.codeproject.com/Tips/729674/Simple-Net-progress-bar-using-async-await
+
+Asynchronous Programming with Async and Await (C# and Visual Basic)
+http://msdn.microsoft.com/en-us/library/vstudio/hh191443.aspx
+
+Progress Reporting in C# 5 Async
+http://www.codeproject.com/Articles/129447/Progress-Reporting-in-C-Async
+
+Async, Await, Tasks, and UI synchronization with C# 5, .NET 4.5 and WinForms
+http://www.danderson.me/posts/async-and-await-ui-synchronization-with-c-5-net-4-5-and-winforms/
+
+http://codereview.stackexchange.com/questions/20820/use-and-understanding-of-async-await-in-net-4-5
+Use and Understanding of async/await in .NET 4.5 +
+
+http://social.msdn.microsoft.com/Forums/vstudio/en-US/19310be1-8dfb-4932-9f50-3181e15609aa/how-to-do-progress-reporting-using-asyncawait?forum=csharpgeneral
+
+PHẦN MỀM QUÉT UID GETFACE
+http://www.mediafire.com/download/r7yi5kj9aj3yx2r/GetFace.exe
+
+http://msdn.microsoft.com/en-us/magazine/dn683795.aspx
+
+http://www.dotnetcurry.com/showarticle.aspx?ID=869
+Async & Await in C# 5.0
+
+http://blog.peterritchie.com/?p=1931
+Comparing BackgroundWorker and async/await
+
+http://vkhangyang.wordpress.com/2014/03/30/wpf-data-binding-voi-dispatcher-v-async/
+
+
+
+http://blog.shadowmoses.co.uk/2012/04/long-running-processes-c-5-visual.html
+Long running processes: C# 5, Visual Studio 11, async and await; updating a Winforms UI asynchronously 
+
+http://www.basarat.com/2011/06/best-tutorial-of-c-async.html
+http://www.codeguru.com/csharp/csharp/introduction-to-async-and-await-keywords-in-c-5.0.htm
+
+https://github.com/brooklynDev/AsyncAwaitProgressBarDemo
+Code from Async/Await File download with Progress Bar at Litmus
+
+http://bhrnjica.net/2012/10/16/ho-to-convert-your-old-sequential-code-in-to-async/
+http://www.blackwasp.co.uk/AsyncAwait.aspx
+http://www.piotrwalat.net/downloading-files-in-windows-8-apps-using-background-transfer-feature/
+http://www.slideshare.net/iseltech/paulo-morgado-whats-new-in-c-50
+http://www.michielpost.nl/PostDetail_1076.aspx
+http://simonsdotnet.wordpress.com/2013/10/11/updating-your-ui-asynchronously-part-3-reporting-progress/
+http://www.damirscorner.com/CallingTaskbasedAsynchronousMethodsFromClassConstructors.aspx
+http://evolpin.wordpress.com/2011/05/02/c-5-await-and-async-in-asp-net/
+http://egywin8lovers.wordpress.com/2014/04/12/progressbar/
+
+
+http://stackoverflow.com/questions/19980112/how-to-do-progress-reporting-using-async-await
+http://stackoverflow.com/questions/17972268/async-await-with-a-winforms-progressbar
+
+ 
+====================================================================================================================================================================================
+
 + php dom document
 http://symfony.com/doc/current/components/dom_crawler.html
 http://beerpla.net/projects/smartdomdocument-a-smarter-php-domdocument-class/
