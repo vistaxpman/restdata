@@ -1,3 +1,49 @@
+for (NSDictionary *dict in locationList)
+    {
+        NSString *latitude = dict[LATITUDE_COL];
+        NSString *longitude = dict[LONGTITUDE_COL];
+        location.latitude = [latitude floatValue];
+        location.longitude = [longitude floatValue];
+        CLLocationCoordinate2D position = CLLocationCoordinate2DMake([latitude floatValue], [longitude floatValue]);
+        // Creates a marker in the center of the map.
+        //GMSMarker *marker = [[GMSMarker alloc] init];
+        GMSMarker *marker = [GMSMarker markerWithPosition:position];
+        marker.userData = dict;
+        marker.icon = [UIImage imageNamed:(@"marker.png")];
+       // marker.position = CLLocationCoordinate2DMake(location.latitude, location.longitude);
+        bounds = [bounds includingCoordinate:marker.position];
+        marker.title = dict[NAME_COL];
+        //marker.snippet = @"Population: 8,174,100";
+        marker.infoWindowAnchor = CGPointMake(0.5, 0.5);
+
+        marker.map = self.mapView_;
+    }
+    
+    - (BOOL)mapView:(GMSMapView *)mapView didTapMarker:(GMSMarker *)marker
+{
+	CGPoint point = [mapView.projection pointForCoordinate:marker.position];
+	point.y = point.y - 100;
+	GMSCameraUpdate *camera =
+    [GMSCameraUpdate setTarget:[mapView.projection coordinateForPoint:point]];
+	[mapView animateWithCameraUpdate:camera];
+	
+	mapView.selectedMarker = marker;
+	return YES;
+}
+
+-(void)mapView:(GMSMapView *)mapView didTapInfoWindowOfMarker:(GMSMarker *)marker
+{
+    NSDictionary *rowData = marker.userData;
+    if(rowData)
+    {
+        AddressDetailController *addressDetail = [[AddressDetailController alloc] initWithNibName:@"AddressDetailController" bundle:nil];
+        addressDetail.rowData = rowData;
+        [self presentViewController:addressDetail animated:YES completion:nil];
+    }
+}
+
+
+
 http://www.designcontest.com/ecommerce-and-business-icon-set/
 ======================================================================== 14 - 05 - 2014 =========================================================================================================================================
 + Danh sách tọa độ 
