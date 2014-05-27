@@ -1,3 +1,38 @@
+
+======================================================================== 27 - 05 - 2014 =========================================================================================================================================
++ Coding Guideline
+blogs.msdn.com/b/brada/archive/2005/01/26/361363.aspx
+http://sourceforge.net/apps/mediawiki/openpetraorg/index.php?title=Coding_Standard_and_Guidelines
+http://submain.com/download/guidelines/
+http://msdn.microsoft.com/en-us/library/czefa0ke%28VS.71%29.aspx
+http://www.amazedsaint.com/2010/11/top-6-coding-standards-guideline.html
+
+
+
++ Objective-c Coding Guideline
+
+
+
+http://alexgorbatchev.com/SyntaxHighlighter/manual/installation.html
+
+
+http://cocoadevcentral.com/articles/000082.php
+https://github.com/NYTimes/objective-c-style-guide
+http://markup.su/highlighter/
+http://www.raywenderlich.com/62570/objective-c-style-guide
+https://github.com/raywenderlich/objective-c-style-guide
+http://stackoverflow.com/questions/7010678/ios-sample-projects-to-learn-from
+http://www.cocoawithlove.com/
+http://www.cocoawithlove.com/2011/06/process-of-writing-ios-application.html
+http://www.raywenderlich.com/55384/ios-7-best-practices-part-1
+http://lifehacker.com/loggr-lets-you-roll-your-own-health-fitness-or-habit-1579330242
+http://lifehacker.com/gratuity-for-ios-is-a-clean-simple-tip-calculator-with-1579965509
+https://itunes.apple.com/us/app/gratuity-simple-tip-calculator/id846177978
+https://itunes.apple.com/us/app/loggr-graph-your-life/id803317594?mt=8&ign-mpt=uo%3D4
+http://www.baara.com/q10/
+https://www.duolingo.com/mobile
+ 
+================================================================================================================================================
  -(void) parserJsonToObject:(id)jsonObjects
 {
     if(jsonObjects)
