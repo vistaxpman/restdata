@@ -1,3 +1,38 @@
+ -(void) parserJsonToObject:(id)jsonObjects
+{
+    if(jsonObjects)
+    {
+        for (NSDictionary *dataDict in jsonObjects) {
+            NSString *location_id = [dataDict objectForKey:LOCATION_ID_COL];
+            NSString *code = [dataDict objectForKey:CODE_COL];
+            NSString *name = [dataDict objectForKey:NAME_COL];
+            NSString *phone = [dataDict objectForKey:PHONE_COL];
+            NSString *logo = [dataDict objectForKey:LOGO_COL];
+            NSString *map_link = [dataDict objectForKey:MAP_LINK_COL];
+            NSString *status = [dataDict objectForKey:STATUS_COL];
+              NSString *longtitude = [dataDict objectForKey:LONGTITUDE_COL];
+              NSString *latitude = [dataDict objectForKey:LATITUDE_COL];
+            dictionary = [NSDictionary dictionaryWithObjectsAndKeys:location_id, LOCATION_ID_COL,
+                code, CODE_COL,
+                name, NAME_COL,
+                phone, PHONE_COL,
+                logo, LOGO_COL,
+                map_link, MAP_LINK_COL,
+                status, STATUS_COL,
+                longtitude, LONGTITUDE_COL,
+                latitude, LATITUDE_COL, nil
+            ];
+            [locationList addObject:dictionary];
+        }
+    }
+    [self.tblViewListMap reloadData];
+    [self loadMapView];
+}
+
+ 
+ ----
+ 
+ 
  static NSString * const BaseURLString = @"http://www.abac";
  
  NSString *string = [NSString stringWithFormat:@"%@GetLocations/Json", BaseURLString];
