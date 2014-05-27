@@ -1,3 +1,33 @@
+ static NSString * const BaseURLString = @"http://www.abac";
+ 
+ NSString *string = [NSString stringWithFormat:@"%@GetLocations/Json", BaseURLString];
+    
+    AFHTTPRequestOperationManager  *operation = [AFHTTPRequestOperationManager manager];
+    operation.requestSerializer = [AFJSONRequestSerializer serializer];
+    operation.responseSerializer.acceptableContentTypes = [operation.responseSerializer.acceptableContentTypes setByAddingObject:@"text/plain"];
+    
+    [operation POST:string parameters:nil
+            success:^(AFHTTPRequestOperation *operation, id responseObject) {
+                if ([responseObject isKindOfClass:[NSArray class]]) {
+                    NSArray *responseArray = responseObject;
+                    NSData * jsonSource = [NSJSONSerialization dataWithJSONObject:responseArray
+                                                                        options:kNilOptions
+                                                                          error:nil];
+                    id jsonObjects = [NSJSONSerialization JSONObjectWithData:
+                                      jsonSource options:NSJSONReadingMutableContainers error:nil];
+                    
+                    [self parserJsonToObject:jsonObjects];
+                } else if ([responseObject isKindOfClass:[NSDictionary class]]) {
+
+                }
+            
+            }
+            failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+                NSLog(@"Error: %@", error);
+            }
+     ];
+
+
 for (NSDictionary *dict in locationList)
     {
         NSString *latitude = dict[LATITUDE_COL];
