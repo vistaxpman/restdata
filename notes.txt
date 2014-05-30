@@ -1,3 +1,575 @@
+======================================================================== 30 - 05 - 2014  =================================================================================================================================================
++ Spell English
+http://www.learnenglish.de/spelling/spellingtext.html
+http://dictionary.reference.com/
+http://grammar.yourdictionary.com/spelling-and-word-lists/how-to-spell-a-word.html
+http://grammar.yourdictionary.com/spelling-and-word-lists/Difficult-Spelling-Words.html
+http://grammar.about.com/od/words/tp/spellrules.htm
+http://lopngoaingu.com/english-GT/phatam/
+http://www.mshoatoeic.com/unit-1-phuong-phap-tu-luyen-phat-am-tieng-anh-chuan-nd461892
+http://tuhoctienganhhieuqua.com/cach-phat-am-tieng-anh-chuan/
+
+
++ Tải image này 
+http://www.uiwebsolutions.com/wp-content/themes/doover/css/themes/blue/images/buttons/pager.png
+
+https://www.behance.net/search?field=132
+
++ Serializable
+Tiếng Việt 
+http://www.slideshare.net/tuoitrecomvn/bi-9-serialization
+https://yinyangit.wordpress.com/2011/06/02/net-serialization-and-deserialization-in-csharp/comment-page-1/
+http://d.jou.vn/
+http://www.c-sharpcorner.com/
+http://cool-develop.blogspot.com/2012/05/advance-net-demo-serializable.html
+http://linkit.vn/webservice-restfull-la-gi-461695515.htm
+http://msdn.microsoft.com/en-us/library/182eeyhh%28v=vs.110%29.aspx
+http://tech.pro/tutorial/798/csharp-tutorial-xml-serialization
+http://www.codeproject.com/Articles/4491/Load-and-save-objects-to-XML-using-serialization
+http://www.codeproject.com/Articles/483055/XML-Serialization-and-Deserialization-Part
+http://www.codeproject.com/Tips/394133/XML-Serialization-and-Deserialization-in-Csharp
+https://www.google.com.vn/search?q=Serializable+xml+%2B+c%23&ie=utf-8&oe=utf-8&aq=t&rls=org.mozilla:en-US:official&client=firefox-a&gfe_rd=cr&ei=QfyHU4eUBse8iAfljIH4Dw
+http://www.codeproject.com/Tips/366993/Convert-XML-to-Object-using-LINQ
+http://www.codeproject.com/Articles/22291/LINQ-to-SQL-Serialization
+http://www.hanselman.com/blog/MixingXmlSerializersWithXElementsAndLINQToXML.aspx
+http://www.codeproject.com/Articles/37609/Serialize-and-Deserialize-Objects-as-XML-using-Gen ( good )
+http://www.codinginsight.com/xml-serialization-in-csharp/ ( good )
+http://codesamplez.com/programming/serialize-deserialize-c-sharp-objects ( good )
+http://csharpcodewhisperer.blogspot.com/2013/06/namespace-xmlserializabledictionary.html
+http://www.jonasjohn.de/snippets/csharp/xmlserializer-example.htm
+http://www.c-sharpcorner.com/UploadFile/Nimusoft/Serialization106262007072102AM/Serialization1.aspx
+http://dotnet.dzone.com/articles/serializing-and-deserializing
+http://theburningmonk.com/2010/05/net-tips-xml-serialize-or-deserialize-dictionary-in-csharp/
+http://www.java2s.com/Code/CSharp/File-Stream/SetXMLtagnameforSerialization.htm
+http://www.daveoncsharp.com/2009/07/xml-serialization-of-collections/ ( best )
+http://www.daveoncsharp.com/2009/07/basic-xml-serialization-in-csharp/ ( good )
+http://stackoverflow.com/questions/8510671/xmlserializer-serialize-with-a-default-xmlroot
+http://martinnormark.com/serialize-c-dynamic-and-anonymous-types-to-xml/ ( best - Tạo ra Extension Method )
+http://stackoverflow.com/questions/2404685/can-i-serialize-anonymous-types-as-xml/2404984#2404984
+http://www.agiledeveloper.com/articles/XMLSerialization.pdf
+http://tlevesque.developpez.com/dotnet/xml-serialization/
+http://www.thomaslevesque.com/2009/06/12/c-parentchild-relationship-and-xml-serialization/
+http://softwarebydefault.com/2013/02/04/xml-serialization-generics/
+http://www.dotnetperls.com/serialize-list
+https://www.google.com.vn/search?q=c%23+xmlserializer+xml+root&ie=utf-8&oe=utf-8&aq=t&rls=org.mozilla:en-US:official&client=firefox-a&gfe_rd=cr&ei=gSaIU5qiNaqPiAe__ICQBA#q=c%23+xmlserializer+xml+root&rls=org.mozilla:en-US:official&start=10
+http://stackoverflow.com/questions/2292480/xmlserializer-list-item-element-name
+
+
+
+
+Authentication using Facebook, Google and Microsoft Account in WP8.0 App (MVVM)
+http://www.c-sharpcorner.com/UploadFile/3789b7/authentication-using-facebook-google-and-microsoft-account/
+
+http://www.c-sharpcorner.com/UploadFile/87b8e4/C-Sharp-code-for-making-an-introductory-splash-screen-for-a-windo/
+Making An Introductory Splash Screen For A Windows Desktop Application in C#
+
+http://www.c-sharpcorner.com/UploadFile/87b8e4/C-Sharp-programming-code-for-creating-a-windows-form-with-add-ed/
+
+
+
+HttpClient with IProcess
++ HttpClient
+http://stackoverflow.com/questions/15176538/net-httpclient-how-to-post-string-value
+http://www.jayway.com/2012/03/13/httpclient-makes-get-and-post-very-simple/
+http://www.asp.net/web-api/overview/web-api-clients/calling-a-web-api-from-a-net-client
+http://www.dotnetperls.com/httpclient
+http://msdn.microsoft.com/en-us/library/windows/apps/xaml/hh781239.aspx
+http://msdn.microsoft.com/en-us/library/system.net.http.httpclient.aspx
+http://www.matlus.com/httpclient-net-4-5/ ( best )
+http://weblog.west-wind.com/posts/2014/Jan/29/Using-NET-HttpClient-to-capture-partial-Responses
+https://github.com/cmcdonaldca/shopify.net
+http://docs.shopify.com/api/libraries/net
+http://1n73r.net/readme.pdf
+
+
++ C# HttpClient 4.5 multipart/form-data upload
+http://stackoverflow.com/questions/16416601/c-sharp-httpclient-4-5-multipart-form-data-upload 
+http://stackoverflow.com/questions/18059588/httpclient-multipart-form-post-in-c-sharp
+http://www.thomaslevesque.com/2013/11/30/uploading-data-with-httpclient-using-a-push-model/
+http://www.codescales.com/send-a-post-request-with-files/
+http://blogs.msdn.com/b/henrikn/archive/2012/02/11/httpclient-is-here.aspx ( good )
+http://social.msdn.microsoft.com/Forums/windowsapps/en-US/829dcb07-2040-4fff-a83e-a8a7e1a43435/how-to-upload-files-to-skydrive-by-httpclient
+http://code.msdn.microsoft.com/windowsapps/Live-SDK-Windows-Developer-8ad35141 ( good )
+http://code.msdn.microsoft.com/wpapps/HttpClient-sample-55700664
+http://restsharp.org/
+http://www.jayway.com/2012/03/13/httpclient-makes-get-and-post-very-simple/
+http://www.intstrings.com/ramivemula/articles/file-upload-using-multipartformdatastreamprovider-in-asp-net-webapi/
+http://www.matlus.com/httpclient-net-4-5/
+http://blogs.msdn.com/b/webdev/archive/2012/08/26/asp-net-web-api-and-httpclient-samples.aspx
+http://blog.alexonasp.net/post/2011/07/27/POSTing-Uploading-Files-using-the-WCF-Web-API.aspx
+http://www.bizcoder.com/httpclient-it-lives-and-it-is-glorious
+benfoster.io/blog/web-api-multipart-file-upload-additional-form-data
+http://sylvester-lee.blogspot.com/2013/04/httpclient-httpwebrequest-confusion.html
+http://www.snip2code.com/Snippet/13895/Simple-C---NET-4-5-HTTPClient-Request-Us
+
+
+
+
+
+There is an error in XML document (9, 7).
+
+must declare a body because it is not marked abstract, extern, or partial	D:\norman\_ Selenium\MiniTool\MiniTools\ParseXml\Info\LearnLinqToXml.cs	31	13	ParseXml
+
+
++ Xml Document
+http://stackoverflow.com/questions/11250992/deserialize-xml-string-to-object-error-there-is-an-error-in-xml-document-1-2
+
+
++ Đọc file 
+http://stackoverflow.com/questions/2161895/reading-large-text-files-with-streams-in-c-sharp
+
+using (FileStream fs = File.Open(path, FileMode.Open, FileAccess.Read, FileShare.ReadWrite))
+using (BufferedStream bs = new BufferedStream(fs))
+using (StreamReader sr = new StreamReader(bs))
+{
+    string line;
+    while ((line = sr.ReadLine()) != null)
+    {
+
+    }
+}
+
+
+======================================================================== 29 - 05 - 2014  =================================================================================================================================================
++ Tạo composer trong php 
+http://studentduniya.in/manage-package-dependency-php-composer/
+https://getcomposer.org/
+https://getcomposer.org/doc/00-intro.md
+https://getcomposer.org/download/
+
+
++ C#
+http://csharphardcoreprogramming.wordpress.com/
+http://www.pwop.com/feed.aspx?show=dotnetrocks&filetype=master
+http://www.4guysfromrolla.com/
+http://dl.e-book-free.com/2013/07/c_5.0_in_a_nutshell_5th_edition.pdf
+http://www.linqpad.net/
+https://github.com/madebysource/ioshat-example
+
++ Xml
+https://developer.github.com/v3/
+
+http://www.doublecloud.org/2013/08/parsing-xml-in-c-a-quick-working-sample/
+http://snipd.net/parsing-xml-in-c
+http://tech.pro/tutorial/743/introduction-to-linq-simple-xml-parsing ( good )
+http://www.itdevspace.com/2012/07/parse-xml-to-dynamic-object-in-c.html
+http://www.drdobbs.com/windows/parsing-xml-files-in-net-using-c/184416669?pgno=3 ( good )
+http://forums.asp.net/t/1839797.aspx?How+to+parse+XML+result+using+LinqToSQL+in+C+ ( good )
+http://techoctave.com/c7/posts/113-c-reading-xml-with-namespace
+https://www.captechconsulting.com/blog/kevin-hazzard/fluent-xml-parsing-using-cs-dynamic-type-part-1
+http://mantascode.com/c-parse-a-website-and-save-specific-content-as-xml/ ( good )
+http://ronniediaz.com/2013/08/23/parse-xml-to-dynamic-expandoobject-c-net-4-0/
+http://developer.nokia.com/community/wiki/Parse_Local_XML_file_in_Windows_Phone
+
+http://atsung.wordpress.com/2010/04/14/using-linq-to-parse-xml/
+https://groups.google.com/forum/#!topic/subsonic-app-developers/LSZVSs4LNrc
+http://dandar3.blogspot.com/2011/11/parsing-large-xmls-with-xmlreader-and.html
+http://www.midniteblog.com/?p=15
+
+
+XPath meets Linq To XML in C#
+http://omegacoder.com/?p=252 ( good )
+
+C# XML Parsing Extracting Values and using XML to Linq with XDocument
+http://omegacoder.com/?p=254
+
+http://technico.qnownow.com/parse-read-xml-using-xml-reader-in-c/
+How to Parse (Read) XML using XML Reader in C#
+
+How Parse XML Using Regular Expressions in Asp.net with C#
+private String ExtractContentFromXml(String xml, String element, String defaultValue)
+{
+         String RegExpression = String.Format(@"(?<={0}>)[\S\s]*?(?=\<\/{0})", element);
+         Match ThisMatch = Regex.Match(xml, RegExpression);
+        if (ThisMatch.Success)
+                  return ThisMatch.Value;
+        else
+                 return defaultValue;
+}
+
+
+http://www.dotnetfunda.com/articles/show/2342/xml-parsing-in-csharp ( good )
+Understanding C#: Simple LINQ to XML examples (tutorial) ( good )
+http://broadcast.oreilly.com/2010/10/understanding-c-simple-linq-to.html
+
+http://csharphardcoreprogramming.wordpress.com/tag/parse/ ( good )
+
+http://csharphardcoreprogramming.wordpress.com/2014/01/20/xml-part-2-basics-embedded-xdocument-xmldocument-xmltextreader-xpathnavigator/
+http://csharphardcoreprogramming.wordpress.com/2014/01/21/xml-part-3-basics-advanced-serialize/ ( best - chuyển đổi toàn bột XML artribute vào trong object )
+http://csharphardcoreprogramming.wordpress.com/2014/01/22/xml-part-4-advanced-xsd-verification/
+
+
+http://techprogrammings.blogspot.com/2013/07/pass-xml-file-in-stored-procedure-as.html ( good )
+http://www.lessthanweb.com/blog/reading-xml-in-c-net-with-xmltextreader ( good )
+http://xml.sys-con.com/node/40761
+
+http://www.dotnetcurry.com/showarticle.aspx?ID=564 ( good )
+http://www.dreamincode.net/forums/topic/218979-linq-to-xml/
+http://www.codeproject.com/Articles/24376/LINQ-to-XML
+http://stackoverflow.com/questions/670563/linq-to-read-xml
+http://codesamplez.com/programming/linq-to-xml-tutorial ( good - cập nhật lại thông tin của từng nút trong file xml )
+http://www.dotnetfunda.com/articles/show/2526/read-xml-file-using-csharp-linq
+https://www.udemy.com/blog/linq-to-xml/
+http://dotnet.dzone.com/articles/using-linq-xml-query-xml-data ( good )
+http://blogs.msdn.com/b/wriju/archive/2008/05/29/linq-to-xml-querying-xml-with-namespaces.aspx ( good )
+http://forums.asp.net/t/1580460.aspx?How+to+read+child+elements+of+each+XML+element+using+Linq+to+XML+ ( good )
+
+http://www.hookedonlinq.com/LINQtoXML5MinuteOverview.ashx
+LINQ to XML - 5 Minute Overview
+
+http://www.programminghelp.com/dotnet/using-linq-to-xml-to-add-data-to-xml-file-in-c/
+http://www.devinterface.com/blog/en/2009/11/linq-from-xml-to-c-classes/ ( good )
+http://chodounsky.net/2013/10/23/descendants-vs-elements-in-linq-to-xml/ ( good )
+http://www.dbtutorials.com/retrieve/linq-to-xml-cs/
+http://visualcsharptutorials.com/linq/linq-to-xml
+http://atsung.wordpress.com/2010/04/14/using-linq-to-parse-xml/
+http://www.esasp.net/2010/02/linq-to-xml-leer-archivo-xml-c.html
+http://www.4guysfromrolla.com/articles/062310-1.aspx
+http://www.pwop.com/feed.aspx?show=dotnetrocks&filetype=master
+http://www.codemag.com/Article/1210021
+http://www.aspose.com/docs/display/wordsnet/How+to++Mail+Merge+from+XML+using+LINQ+to+XML ( good )
+http://robbincremers.me/2012/01/29/using-linq-to-xml-with-xdocument-xelement-xattribute-and-xnamespace/ ( good )
+http://developingfor.net/2008/01/31/upgrade-your-c-skills-part-5-linq-to-xml/
+http://www.xmlplease.com/update-xml-linq
+http://blog.dreamlabsolutions.com/post/2008/12/04/LINQ-to-XML-and-LINQ-to-XML-with-XPath-performance-review.aspx
+http://www.hanselman.com/blog/ImprovingLINQCodeSmellWithExplicitAndImplicitConversionOperators.aspx
+http://blog.pedroliska.com/2011/03/29/reading-xml-with-c-and-some-linq/
+
+
+
+
+http://bitsupdater.codeplex.com/
+http://bonoboirclibrary.codeplex.com/
+http://bonoboreader.codeplex.com/
+http://bonobogitserver.com/
+http://bonobogitserver.com/install/
+
+
+
+
+
+
+
+https://www.temboo.com/library/ ( tai thu vien nay ve )
+
++ XMLBooster
+http://www.raincode.com/xmlbooster/downloads/
+
++ Background image 
+http://www.doublecloud.org/2013/08/parsing-xml-in-c-a-quick-working-sample/
+
+
++ Design Pattern
+www.postsharp.net/download
+http://design-pattern-framework-c.software.informer.com/4.0/
+http://dotnetcodr.com/2013/04/25/design-patterns-and-practices-in-net-the-adapter-pattern/
+http://www.dotnetglobe.com/2012_11_01_archive.html
+http://www.abhisheksur.com/2010/05/design-patterns.html
+http://www.jasondeoliveira.com/2011/05/tutorial-common-design-patterns-in-c-40.html
+http://diendan.congdongcviet.com/threads/t29456::design-pattern-framework-2-0-3-5-4-0.cpp?s=ea629915d508f8bc450928c17a573fe0
+
+
+======================================================================== 28 - 05 - 2014  =================================================================================================================================================
++ Search với từ khóa 
+C# 5.0 async with winform
+
+
+
+
++ HttpClient với upload file + .net framework 4.5.1 và c# 5.0
+
+
+
+o bài toán bữa tối của các triết gia (dining philosophers), mặc dù nó không ngăn được hết các deadlock.
+http://coltech.vnu.edu.vn/httt/components/com_joomlaboard/uploaded/files/nlhdh_tuan4.pdf
+http://rosettacode.org/wiki/Dining_philosophers
+http://www.codeproject.com/Articles/15017/The-Dining-philosophers
+http://www.codeguru.com/csharp/article.php/c18119/Solving-the-Dining-Philosophers-Problem-with-NET-Framework-40-Task-Parallel-Library.htm
+http://www.getcodesamples.com/src/C13314C2
+http://www.sanfoundry.com/csharp-program-dining-philosopher-problem/
+http://code.msdn.microsoft.com/windowsdesktop/Dining-Philosophers-in-C-9ec1dcef
+
++ Async
+http://www.getcodesamples.com/src/41C620D4
+http://www.getcodesamples.com/src/18485348
+http://www.getcodesamples.com/src/18485348
+http://www.getcodesamples.com/src/2CA46CCD
+http://www.getcodesamples.com/src/69FEA8F9
+http://www.getcodesamples.com/src/865B1778
+
+http://www.codeproject.com/Articles/719697/Simplifying-async-calls
+http://www.codeproject.com/Tips/441841/Csharp-Named-Pipes-with-Async
+
+Continuous asynchronous Ping using TAP and IProgress in C#5
+http://www.codeproject.com/Articles/481080/Continuous-asynchronous-Ping-using-TAP-and-IProgre
+
+Asynchrony in C# 5: Deep Dive
+http://yow.eventer.com/YOW-2011-1004/Asynchrony-in-C%23-5:-Deep-Dive-by-Joe-Albahari-1067
+
+http://yow.eventer.com/yow-2011-1004
+
+Simple .Net progress bar using async/await ( good )
+http://www.codeproject.com/Tips/729674/Simple-Net-progress-bar-using-async-await
+
+How to run method in separate thread
+new MethodInvoker(MyMethod).BeginInvoke(null, null);
+
+
+Asynchronous models and patterns
+http://www.codeproject.com/Articles/562021/Asynchronous-models-and-patterns
+
+http://www.codeproject.com/Articles/127291/C-vNext-New-Asynchronous-Pattern
+http://www.codeproject.com/Articles/504197/Await-Tasks-in-Csharp-using-Iterators
+http://www.codeproject.com/Articles/599756/Five-Great-NET-Framework-Features
+http://www.codeproject.com/Articles/259621/Google-Image-Search-Client-in-Csharp-and-WPF
+http://www.codeproject.com/Articles/472826/C-plus-plusAsync-fAwaitplusDemoplusCode
+http://www.codeproject.com/search.aspx?q=async&x=0&y=0&sbo=kw&pgnum=4
+
+======================================================================== 27 - 05 - 2014  =================================================================================================================================================
+http://www.c-sharpcorner.com/UploadFile/asmabegam/image-folder-view-using-C-Sharp-net-winforms/
+http://cyotek.com/blog/creating-a-scrollable-and-zoomable-image-viewer-in-csharp-part-2
+https://sites.google.com/site/webcamlibrarydotnet/winfrom-and-csharp-sample-code-and-download
+http://www.dotnettutorials.com/tutorials/graphics/winforms-drawing-cs/
+
+http://www.rasteredge.com/
+Professional .NET Imaging SDK to view, process, 
+Powerful .NET PDF Generating SDK to generate, manipulate, read and convert PDF documents with a few seconds. 
+Robust .NET Word Plug-in to read, write, view, render, report and convert word document without need for Microsoft Word. 
+
+http://tech.pro/tutorial/620/csharp-tutorial-image-editing-saving-cropping-and-resizing
+http://www.codeproject.com/Tips/743923/Csharp-Automatically-Resize-Controls-Runtime
+
+http://www.roelvanlisdonk.nl/?p=2511
+http://www.microtuts.com/c-resize-an-image-proportionally-specify-max-widthheight/
+
+
+
+======================================================================== 23 - 05 - 2014  =================================================================================================================================================
+Examine the .NET Coding Standards and Guidelines Others Have Written 
+
+The Microsoft All-In-One Code Framework (AIOCF) 
+The IDesign C# Coding Standards
+
+http://msdn.microsoft.com/en-us/library/ms182142.aspx
+
+Sample code của MSDN
+http://code.msdn.microsoft.com/
+
+
+Pro .NET Performance: Optimize Your C# Applications
+http://pdf.th7.cn/down/files/1312/pro_.net_performance.pdf
+
+http://code.msdn.microsoft.com/site/search?f[0].Type=SearchText&f[0].Value=download&pageIndex=2
+http://www.idesign.net/Downloads
+
+
+
++ FxCop
+http://www.codeproject.com/Articles/78599/How-to-Use-FxCop
+http://www.codeproject.com/Articles/78599/How-to-Use-FxCop
+http://www.ndepend.com/Features.aspx#CQL
+http://www.ndepend.com/Features.aspx
+www.ndepend.com/Features.aspx#WarningsAndAdvices
+http://social.msdn.microsoft.com/Forums/vstudio/en-US/800973d2-4f85-43d3-ae89-5775b2e4918f/fxcop-vs-vs2012-code-analysis?forum=vsdebug
+
+======================================================================== 22 - 05 - 2014  =================================================================================================================================================
++ Tìm với các từ khóa về Async như sau 
+Progress of a Task in C#
+C# async
+Task Asynchronous Programming Model 
+Using C#’s Async Effectively
+
+http://woothemess3.s3.amazonaws.com/free-downloads/woothemes-e-commerce-icons.zip
+
+
+Asynchronous Programming in c# 5.0
+Async Programming in C# 5
+C# 2012: Asynchronous Programming
+
++ Async
+http://tutorials.csharp-online.net/Task_Combinators
+
+Progress of a Task in C#
+http://jaliyaudagedara.blogspot.com/2013/07/progress-of-task-in-c.html
+http://marcominerva.wordpress.com/2013/07/04/async-operations-and-progress-updates/
+http://www.slideshare.net/conceptdev/c-5-asyncawait-for-eastbaynet
+http://www.nickbutler.net/Articles
+http://books.google.com.vn/books?id=t1de8nSVYnkC&pg=PT930&lpg=PT930&dq=async+%2B+Progress+Reporting+%2B+c%23&source=bl&ots=25mdXrHo6D&sig=9YOEec46F0k7d2KzFYQL3uK_xj4&hl=vi&sa=X&ei=z3h9U-HGApTd8AXz_IDQBg&ved=0CDMQ6AEwATge#v=onepage&q=async%20%2B%20Progress%20Reporting%20%2B%20c%23&f=false
+http://rxwiki.wikidot.com/
+http://rxwiki.wikidot.com/101samples
+http://www.hanselman.com/blog/ReactiveExtensionsRxIsNowOpenSource.aspx
+http://www.reactiveui.net/
+
+Async Samples 4: Reporting progress
+https://billwagner.azurewebsites.net/blog/async-samples-4-reporting-progress
+http://www.informit.com/store/c-sharp-async-fundamentals-livelessons-video-training-9780321940131
+https://github.com/BillWagner/AsyncVoid
+
+Managing the number of concurrent tasks using the TAP
+https://billwagner.azurewebsites.net/blog/managing-the-number-of-concurrent-tasks-using-the-tap
+
+
+
+http://www.dotnetexamples.com/2012/06/multi-threading-how-to-report.html
+Multi Threading - How to report Asynchronous Method Progress/Status? 
+http://www.dotnetexamples.com/search/label/Multi%20Threading
+http://www.dotnetexamples.com/2012/06/c-how-to-invoke-asynchronous-method.html
+http://www.dotnetexamples.com/2012/06/multi-threading-how-to-report.html
+http://www.dotnetexamples.com/2012/06/multithreading-asynchronous-method.html
+http://www.dotnetexamples.com/2012/07/how-to-create-thread-in-net.html
+http://mentormate.com/blog/the-asynchronous-pattern-in-net-4-5/
+http://www.damirscorner.com/CallingTaskbasedAsynchronousMethodsFromClassConstructors.aspx
+http://www.parago.de/2011/04/how-to-implement-a-modern-progress-dialog-for-wpf-applications/
+http://softwarekishorekoney.blogspot.com/2009/05/asynchronous-calls-using-delegates-in-c.html
+
+How to cancel an async query the right way
+http://answer.techwikihow.com/421559/cancel-async-query.html
+
+
+
+
+
+https://gist.github.com/SHSE/7551942
+https://gist.github.com/kadukf/7553682
+https://github.com/BillWagner/PracticalLINQ
+https://billwagner.azurewebsites.net/Media/Default/Presentations/TAPExplained.pdf
+https://billwagner.azurewebsites.net/Media/Default/media/ScotlandDemo.zip
+https://billwagner.azurewebsites.net/Media/Default/media/Async%20Programming%20in%20C.pdf
+
+
++ Ví dụ mẫu 
+http://kurapaty.blogspot.com/2009/12/reporting-progress-status-using.html
+Reporting Progress status using Asynchronous / BackgroundWorker 
+
+
+C# 4.5 async example
+https://github.com/golsby/async
+
+Async Example
+http://pastebin.com/q8Jgc9x6
+
++ Những software của PasteBin
+http://pastebin.com/tools#iphone
+
+http://www.listener.com.ba/thepage/2011/01/22/copy-files-in-c-with-progress-report/
+
+https://github.com/neuecc/AsyncOAuth
+Portable Client Library and HttpClient based OAuth library, including all platform(for PCL).
+
+Adds the new C# 5 async for older .NET 3.5 and .NET 4.0 projects.
+http://omermor.github.com/AsyncBridge/
+https://github.com/OmerMor/AsyncBridge
+
+
+An async C# client for Magento REST API
+https://github.com/nickvane/Magento-RestApi
+
+Helper library for doing async io in .net
+https://github.com/davidfowl/AsyncIO
+
+https://github.com/ReedCopsey/Effective-Async
+https://github.com/moodmosaic-attic/BonusBits.CodeSamples
+https://github.com/matiasurrutia/async
+https://github.com/sinhpham/ASync
+https://github.com/sinhpham/DoneDone-API-C-Sharp/blob/master/IssueTracker.cs
+https://github.com/malixsys/AsyncParse.Net
+https://github.com/koush/AsyncTask
+https://github.com/onlytiancai/AsyncHttpClient
+https://github.com/sinhpham/SharpRSync
+https://github.com/sinhpham/tanka
+https://github.com/sinhpham/BufferZoneCalculator
+
+
+
+KeePass reader for Windows Phone 7
+http://social.zune.net/redirect?type=phoneApp&id=2f1d7d92-cef4-df11-9264-00237de2db9e
+https://github.com/sinhpham/7Pass
+
+https://github.com/phmiller/AsyncWorker
+https://github.com/lcamlibel/AsyncORM
+https://github.com/golsby/async
+https://github.com/golsby/appengine-json-rest-sample
+https://github.com/golsby/appengine-json-rest
+https://github.com/puffpio/awssdk-async
+https://github.com/luiscubal/NWarpAsync
+https://github.com/svick/AsyncParallel
+https://github.com/torkelo/FuAsync
+https://github.com/tugberkugurlu/AsyncWpfApplication/tree/master/AsyncWpfApplication
+https://github.com/izevaka/AsyncHttpListener
+https://github.com/tomfaber/asyncdemo
+https://github.com/cerikpete/asynchdemo
+https://github.com/gleblebedev/asynccommand
+
+https://github.com/ChadMcCallum/AOPExamples
+Brief overview of using PostSharp in .NET to create reusable chunks of code to apply to method execution
+
+https://github.com/vasilevsky/AsyncOperation
+AsyncOperation
+
+
+https://github.com/ZeroMQLondon/AsyncServer
+https://github.com/parshim/AsyncVisitor
+https://github.com/hermitdave/AsyncTask
+https://github.com/vasilevsky/AsyncOperation
+https://github.com/ChadMcCallum/AsyncDemo
+https://github.com/sauberwind/AsyncSample
+https://github.com/jlopezr/async-examples
+https://github.com/KevM/FubuAsync
+https://github.com/YersonKira/AsyncTest
+https://github.com/runceel/AsyncMessenger
+https://github.com/pensacola1989/ftpAsync
+https://github.com/AndersMagnusson/AsyncAwaitProgressBarDemo
+https://github.com/emret/AsyncSample
+https://github.com/gabe19/AsyncDemo
+https://github.com/westleyl/AsyncProgNet2010
+https://github.com/bacm/AsyncBinding
+https://github.com/hermitdave/AsyncTask
+https://github.com/hermitdave/TwitterStreamClient/blob/master/DataStore.cs
+https://github.com/vasilevsky/AsyncOperation
+https://github.com/ChadMcCallum/AsyncDemo
+https://github.com/ExM/AsyncToolkit
+https://github.com/search?l=C%23&p=8&q=async&ref=cmdform&type=Repositories
+
+https://github.com/bsk/async-demo/blob/master/AsyncDemo/Models/GuidanceLinks.cs
+https://github.com/Mr-Byte/awnet-async
+https://github.com/Mr-Byte/AW.Tools
+https://github.com/Mr-Byte/AlphaMapper
+https://github.com/nunofilipecosta/AsyncTests/blob/master/src/WebformsTests/Models/Worker.cs
+https://github.com/etishor/AsyncTests/blob/master/Async.Test/ThreadStartExample.cs
+https://github.com/etishor/AsyncTests/blob/master/Async.Test/TaskFactoryStartNewExample.cs
+https://github.com/etishor/AsyncTests/blob/master/Async.Test/ThreadPoolQueueWorkItemExample.cs
+
+https://github.com/NeilsC/AsyncDemo ( good )
+https://github.com/bcuff/AsyncPrimitives
+https://github.com/toiiggww/AsyncSocketer
+https://github.com/niujiale/asyncProgramming ( good )
+https://github.com/jmrgn/AsyncTesting ( good )
+https://github.com/StephenCleary/AsyncEx
+https://github.com/abhisheksubbu/SyncAsync ( best )
+https://github.com/vcaraulean/CaliburnMicro.AsyncDemo ( good )
+https://github.com/hermitdave/AsyncTask
+https://github.com/ChadMcCallum/AsyncDemo/tree/master/AsyncDemo
+https://github.com/sauberwind/SakuraEpubUtility
+https://github.com/sauberwind/Nov2Epub
+https://github.com/bacm/AsyncBinding ( good )
+
+https://github.com/bacm/FileIntegrator
+https://github.com/bacm/FormulaLanguage
+https://github.com/jlopezr/async-examples
+https://github.com/runceel/AsyncMessenger/blob/master/AsynMvvmcMessenger/AsynMvvmcMessenger/MessengerExtensions.cs
+https://github.com/niik/switchboard
+https://github.com/bvanderveen/httpmachine
+https://github.com/ChosunOne/Asynchronous_Socket
+https://github.com/vansickle/asyncWinForms ( good )
+
++ Đang tìm tới đây, sẽ cập nhật thêm 
+https://github.com/search?l=C%23&p=14&q=async&ref=cmdform&type=Repositories
+
+
+
+
+
+
 ======================================================================== 22 - 05 - 2014  =================================================================================================================================================
 + Tìm với các từ khóa về Async như sau 
 Progress of a Task in C#
