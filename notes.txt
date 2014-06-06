@@ -1,3 +1,293 @@
+
+======================================================================== 06 - 06 - 2014  =================================================================================================================================================
+stackoverflow.com/questions/9301268/how-can-i-convert-comma-separated-string-into-a-listint
+
+
++ Regular expression
+[1111-aaaa]
+(\w+)-\d{3,}+\b
+
+http://stackoverflow.com/questions/1732348/regex-match-open-tags-except-xhtml-self-contained-tags
+
+======================================================================== 05 - 06 - 2014  =================================================================================================================================================
++ Từ khóa
+C# Serialization Helper 
+XmlSerializerHelper
+
+http://en.wikipedia.org/wiki/Comparison_of_IRC_clients
+
+
++ Wordpress
+http://code.tutsplus.com/categories/wordpress
+
++ Helper class
+https://github.com/JaCraig/Craig-s-Utility-Library
+https://github.com/JaCraig/Batman
+https://github.com/JaCraig/Copernicus
+http://davidhayden.com/
+http://jesseliberty.com/2012/06/28/c-5making-inotifypropertychanged-easier/
+http://www.cnblogs.com/Mainz/p/3531097.html
+https://bitbucket.org/
+http://dotnet-assembly.blogspot.com/2012/12/c-sql-helper-class.html
+http://www.dominikschmidt.net/2010/04/netc-xml-serialization-generic-helper-for-loadingsaving/
+http://ashishkelo.wordpress.com/2013/04/26/csharp-serialization-helper-class/
+
+http://www.sky.franken.de/doxy/xmlstorage/cs/XMLHelper_8cs_source.html
+XMLHelper.cs
+
+
+
+http://pragmaticparag.blogspot.com/2012/07/soap-parser-utility-using-xml.html
+http://commonlibrarynet.codeplex.com/
+
+A C# helper class to read and write XML from and to objects
+https://gist.github.com/bleroy/5384405 ( good )
+
+http://www.dotnetframework.org/default.aspx/4@0/4@0/untmp/DEVDIV_TFS/Dev10/Releases/RTMRel/ndp/fx/src/Xml/System/Xml/Core/ReadContentAsBinaryHelper@cs/1305376/ReadContentAsBinaryHelper@cs
+http://www.avantprime.com/blog/13/xml-serialization-and-de-serialization-helper-class-using-generics
+http://myadventuresincoding.wordpress.com/2009/09/19/validating-xml-with-a-schema-in-an-nunit-test-netc/
+http://weblog.west-wind.com/posts/2012/Feb/08/Creating-a-dynamic-extensible-C-Expando-Object
+http://james.newtonking.com/json/help/index.html?topic=html/ConvertingJSONandXML.htm
+http://www.drowningintechnicaldebt.com/ShawnWeisfeld/archive/2010/08/22/using-c-4.0-and-dynamic-to-parse-json.aspx
+http://nugetmusthaves.com/Tag/C%23
+
+======================================================================== 04 - 06 - 2014  =================================================================================================================================================
++ Từ khóa
+Generic User Controls
+
+
++ Google maps
+https://github.com/Logicify/jquery-locationpicker-plugin
+http://www.birdwingfx.com/jQuery_gps/demo_gps/gps_demo.html
+https://github.com/LaGrangeMtl/WhatsNearby
+http://www.jqueryrain.com/?5pVQbI57
+http://geektub.com/
+http://bloggerspath.com/
+http://skytechgeek.com/
+http://fungagz.com/
+http://dotnetaid.com/
+
++ DotNetBar
+http://www.devcomponents.com/dotnetbar/applicationgallery/
+http://www.devcomponents.com/dotnetbar/features.aspx
+http://www.devcomponents.com/dotnetbar/screenshots.aspx
+
+DotNetBar 11.8 version mới nhất
+http://pastebin.com/gp7etAWp
+http://www.irdevelopers.com/post.aspx?post=Download-DotNetBar-for-winform-11.8.0.0
+http://pastebin.com/jB8Bh6Au
+http://supersan.net/web/
+
+
+
++ Generic
+http://stackoverflow.com/questions/12559730/creating-a-generic-array-at-runtime
+http://stackoverflow.com/questions/767181/c-sharp-generics-array
+http://tutorials.csharp-online.net/CSharp_Generics_Recipes%E2%80%94Replacing_the_ArrayList_with_Its_Generic_Counterpart
+http://www.tutorialspoint.com/csharp/csharp_generics.htm
+www.dotnetperls.com/generic-method
+http://www.codeproject.com/Articles/25139/Useful-Generic-Array-Functions
+http://www.codeproject.com/Articles/25139/Useful-Generic-Array-Functions
+http://answers.unity3d.com/questions/210076/arrays-declaration-c.html
+http://wiki.unity3d.com/index.php?title=Which_Kind_Of_Array_Or_Collection_Should_I_Use%3F
+
++ DevExpress
+http://vndevexpress.blogspot.com/
+http://www.vn-zoom.com/f138/mf-maxspeed-devexpress-13-1-8-cong-cu-dac-luc-cho-visual-studio-2839862.html
+http://hung.com.vn/csharp/devexpress-universal-13.html
+http://www.5giay.vn/chuyen-tro/6441443-tong-hop-devexpress-dxperience-tu-v7-2-2-den-v12-2-6-full-crack-cho-anh-em-lap-tinh.html
+https://www.devexpress.com/Products/NET/Application_Framework/demos.xml
+https://www.devexpress.com/Products/NET/Controls/WinForms/demos.xml
+	
+
+
++ Perfomance
+http://www.microsoft.com/en-us/download/details.aspx?id=28567
+PerfView is a performance-analysis tool that helps isolate CPU- and memory-related performance issues. 
+
+CLR Profiler for .NET Framework 4 
+http://www.microsoft.com/en-us/download/details.aspx?id=16273
+
+
++ Tab control
+http://www.codeproject.com/Articles/12185/A-NET-Flat-TabControl-CustomDraw
+http://www.advancedcomputing.ch/Blog/tabid/73/EntryId/7/Custom-Draw-TabControl.aspx
+http://www.componentfactory.com/
+http://www.c-sharpcorner.com/uploadfile/mahesh/c-sharp-tabcontrol/
+http://www.devcomponents.com/dotnetbar/
+http://www.vn-zoom.com/f216/dotnetbar-11-2-0-1-full-ho-tro-visual-studio-2012-a-2652096.html
+http://officeribbon.codeplex.com/
+http://officeribbon.codeplex.com/documentation
+http://www.codeproject.com/Articles/364272/Easily-Add-a-Ribbon-into-a-WinForms-Application-Cs
+http://thuvienwinform.blogspot.com/p/dotnetbar.html
+
+
+======================================================================== 03 - 06 - 2014  =================================================================================================================================================
++ Async Winform
+http://stackoverflow.com/questions/17972268/async-await-with-a-winforms-progressbar
+http://msdn.microsoft.com/en-us/library/hh873175.aspx
+http://blog.stephencleary.com/2012/02/async-and-await.html
+http://blog.stephencleary.com/ ( best )
+http://psycodedeveloper.wordpress.com/ ( best )
+http://psycodedeveloper.wordpress.com/ ( best )
+http://dotnetvisio.blogspot.com/ ( best )
+
+http://girishanar.wordpress.com/2013/02/12/basic-understanding-of-async-await/
+
+Best Practices in Asynchronous Programming
+http://msdn.microsoft.com/en-us/magazine/jj991977.aspx
+
+Patterns for Asynchronous MVVM Applications: Services
+http://msdn.microsoft.com/en-us/magazine/dn683795.aspx
+
+Patterns for Asynchronous MVVM Applications: Commands
+http://msdn.microsoft.com/en-us/magazine/dn630647.aspx
+
+Explore the Microsoft .NET Framework 4.5.1
+http://msdn.microsoft.com/en-us/magazine/dn574802.aspx
+
+http://blogs.msdn.com/b/dotnet/archive/2013/10/17/net-framework-4-5-1-rtm-gt-start-coding.aspx
+http://stackoverflow.com/questions/19028374/accessing-ui-controls-in-task-run-with-async-await-on-winforms
+http://stackoverflow.com/questions/14962969/how-can-i-use-async-to-increase-winform-performance
+http://simplygenius.net/Article/AncillaryAsyncProgress ( good )
+http://www.danderson.me/posts/async-and-await-ui-synchronization-with-c-5-net-4-5-and-winforms/ ( good )
+http://www.codeproject.com/Articles/357724/Async-Await-Could-Be-Better ( good )
+http://putridparrot.com/blog/basics-of-async-and-await/
+http://psycodedeveloper.wordpress.com/2013/04/02/how-to-download-a-file-with-httpclient-in-c/
+http://psycodedeveloper.wordpress.com/2013/03/20/handling-standard-media-keys-in-your-c-media-player/
+http://psycodedeveloper.wordpress.com/2013/03/12/updating-the-windows-forms-ui-from-async-threads/
+http://psycodedeveloper.wordpress.com/2013/01/29/displaying-progress-in-the-windows-7-taskbar/
+http://www.roufa.com/articles/async-await-through-the-looking-glass/
+http://www.devcurry.com/2013/03/async-and-await-in-aspnet-45_14.html
+http://www.gamlor.info/wordpress/2010/10/c-5-0-async-feature-be-aware-of-the-synchronization-context/
+
+http://blog.prabir.me/posts/facebook-csharp-sdk-outercurve-foundation-and-v6-rtw
+https://github.com/facebook-csharp-sdk
+https://github.com/facebook-csharp-sdk/facebook-winclient-sdk ( best )
+
+
++ A Better INotifyPropertyChanged Implementation
+http://www.gamlor.info/wordpress/2009/11/a-better-inotifypropertychanged-implementation/ ( best )
+http://www.gamlor.info/wordpress/wp-content/uploads/2009/11/NotifyExtensions.cs
+http://www.gamlor.info/wordpress/wp-content/uploads/2009/11/TestNotifyExtensions.cs
+
+Download FxCop as part of Microsoft Windows SDK for Windows 7 and .NET Framework 4:
+http://www.microsoft.com/downloads/en/details.aspx?FamilyID=6b6c21d2-2006-4afa-9702-529fa782d63b
+Also available as ISO here : http://www.microsoft.com/download/en/details.aspx?displaylang=en&id=8442
+http://www.microsoft.com/en-us/download/details.aspx?id=8279
+http://msdn.microsoft.com/en-us/windows/hardware/hh852363.aspx
+
+The Reactive Extensions (Rx)...
+http://msdn.microsoft.com/en-us/data/gg577609
+
+http://www.aboutmycode.com/reactive-extensions/using-reactive-extensions-for-streaming-data-from-database/
+
+
+
+C# Async Await Example in WPF 
+http://www.codearsenal.net/2012/11/csharp-5-async-and-await-example.html#.U42Ssax-Ycs
+
+http://blogs.msdn.com/b/cdndevs/archive/2013/12/18/c-async-and-await-why-do-we-need-them-part-1.aspx
+C# async and await: Why Do We Need Them?
+
+http://blogs.msdn.com/b/cdndevs/archive/2013/12/18/c-async-and-await-why-do-we-need-them-part-1.aspx
+http://wouterdekort.blogspot.com/2013/10/async-and-await-and-ui-thread.html
+http://mentormate.com/blog/the-asynchronous-pattern-in-net-4-5/
+http://blog.shadowmoses.co.uk/2012/04/long-running-processes-c-5-visual.html ( good )
+http://scatteredcode.wordpress.com/category/asyncawait/
+http://www.codearsenal.net/2013/12/csharp-multithreading-loop-parallel-for.html#.U42Ue6x-Ycs
+http://www.codearsenal.net/2013/04/singleton-design-pattern-csharp-example.html#.U42UmKx-Ycs
+http://www.codearsenal.net/2013/04/csharp-design-patterns-factory.html#.U42Ux6x-Ycs
+http://www.codearsenal.net/2012/12/csharp-object-to-object-mapping-automapper.html#.U42U1Kx-Ycs
+http://www.codearsenal.net/2012/11/wpf-start-new-background-process-using-task.html#.U42VMax-Ycs
+http://www.codearsenal.net/2012/11/csharp-5-async-and-await-example.html#.U42VR6x-Ycs
+http://www.codearsenal.net/2012/10/writing-custom-configuration-section-in-csharp.html#.U42VZqx-Ycs
+http://www.codearsenal.net/2012/09/csharp-custom-event-handling.html#.U42Vmqx-Ycs ( good )
+http://www.codearsenal.net/2012/07/wpf-datagrid-columnheaderstyle.html#.U42VyKx-Ycs
+http://www.codearsenal.net/2012/07/wpf-datagrid-cellstyle-centercellstyle.html#.U42V3ax-Ycs
+http://www.codearsenal.net/2012/07/wpf-datagrid-rowdetailstemplate.html#.U42V_ax-Ycs
+http://www.codearsenal.net/2012/06/wpf-menu-with-icons.html#.U42V_qx-Ycs
+http://www.codearsenal.net/2012/06/wpf-textbox-validation-idataerrorinfo.html#.U42WCqx-Ycs
+http://www.codearsenal.net/2012/06/wpf-animation-fifteen-puzzle-game.html#.U42WI6x-Ycs
+http://www.codearsenal.net/2012/06/enum-with-string.html#.U42WLax-Ycs
+http://www.codearsenal.net/2012/03/wpf-datetimepicker-in-datagrid.html#.U42Wb6x-Ycs
+http://www.codearsenal.net/2012/03/wpf-datagrid-edit-row-toggle-button.html#.U42Wcqx-Ycs
+http://smellegantcode.wordpress.com/2013/03/03/eventless-programming-part-5-asyncawait-and-throttling/
+http://www.martinwilley.com/net/fcl/async.html
+http://our.componentone.com/2013/06/12/winrt-make-non-asynchronous-code-asynchronous/
+http://dotnetvisio.blogspot.com/2014/01/download-html-from-web-using-async.html
+
+
+
++ Facebook SDK
+http://blog.prabir.me/posts/facebook-csharp-sdk-upload-progress
+https://www.facebook.com/csharpsdk
+http://blog.prabir.me/posts/facebook-csharp-sdk-what%CE%93%C3%87%C3%96s-new-in-v5-3
+
+
+
+http://psycodedeveloper.wordpress.com/2013/01/21/concurrent-asynchronous-processing-of-all-the-files-in-a-directory-with-support-for-cooperative-pausing-in-c/ ( good )
+
+http://psycodedeveloper.wordpress.com/2013/09/27/fun-with-c-code-a-disabled-progressbar/
+https://skydrive.live.com/redir?resid=92058CF27A72D1FE!173&authkey=!ABixa4yNDqpzNLM ( good )
+http://psycodedeveloper.wordpress.com/2013/08/19/my-parallel-taskscheduler-revisited/ ( good )
+
+
+https://github.com/brooklynDev/AsyncAwaitProgressBarDemo ( best )
+http://www.youtube.com/watch?v=3sUZJQKuCkU
+http://umaranis.wordpress.com/2014/06/02/async-await-and-synchronicationcontext-c-net/
+http://psycodedeveloper.wordpress.com/2013/03/12/updating-the-windows-forms-ui-from-async-threads/ ( good )
+https://github.com/brooklynDev/DownmarkerWPF ( good )
+
+https://github.com/Code52/carnac
+https://github.com/Code52/ColourCode
+http://www.dotblogs.com.tw/jaigi/archive/2012/10/14/77474.aspx?fid=69369
+https://github.com/roufamatic/Ga.net
+
+
+
++ EPPlus
+https://epplus.codeplex.com/discussions/404112
+tedgustaf.com/blog/2012/11/create-excel-20072010-spreadsheets-with-c-and-epplus/
+https://epplus.codeplex.com/discussions/357526
+http://epplus.codeplex.com/discussions/243458
+http://epplus.codeplex.com/discussions/349927
+http://epplus.codeplex.com/discussions/404758
+http://stackoverflow.com/questions/18983399/reading-from-a-excel-cell
+http://forums.asp.net/t/1976792.aspx?How+to+set+Date+format+in+excel+export+using+EPPlus+
+
++ serialization
+http://www.thomaslevesque.com/2009/06/12/c-parentchild-relationship-and-xml-serialization/
+
+======================================================================== 02 - 06 - 2014  =================================================================================================================================================
++ Tìm kiếm với các từ khóa sau đây
+Asynchronous UI
+Async winform 
+Await winform 
+Cần kết hợp 3 loại Async, await, IProgress và hiện thông tin lên UI
+Returning Values from async Methods
+
+
++ Game IOS
+http://www.sprite-kit.com/opensource/
+
+
++ Multiple Thread
+http://blog.stephencleary.com/2013/08/startnew-is-dangerous.html
+http://blog.mischel.com/2013/07/18/simple-multithreading-part-2/
+http://saravananarumugam.wordpress.com/about/
+http://stackoverflow.com/questions/17468994/log-file-not-created-inside-task-factory-startnew
+msdn.microsoft.com/en-us/library/hh194845(v=vs.110).aspx
+http://stevenhollidge.blogspot.com/2012/06/async-taskdelay.html
+http://blogs.msdn.com/b/pfxteam/archive/2012/08/02/processing-tasks-as-they-complete.aspx
+http://msdn.microsoft.com/en-us/library/hh194845%28v=vs.110%29.aspx
+http://mikehadlow.blogspot.com/2011/07/task-parallel-library-how-to-write.html
+http://mark.mymonster.nl/2013/02/15/cancel-a-threadsleep-uh-taskdelay-the-right-way
+http://billwagner.azurewebsites.net/blog/managing-the-number-of-concurrent-tasks-using-the-tap
+http://www.codethinked.com/net-40-and-systemthreadingtasks
+http://stackoverflow.com/questions/4990602/correct-way-to-delay-the-start-of-a-task
+http://stackoverflow.com/questions/17258428/thread-sleep-vs-task-delay
+
 ======================================================================== 30 - 05 - 2014  =================================================================================================================================================
 + Spell English
 http://www.learnenglish.de/spelling/spellingtext.html
