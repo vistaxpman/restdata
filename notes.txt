@@ -1,4 +1,140 @@
+======================================================================== 09 - 06 - 2014  =================================================================================================================================================
++ Database
++ PageManagement
+pageId
+pageName
+sortOrder
+active
+createDate
 
++ PostPage
+postId
+pathFile
+pageId
+createDate
+
++ UrlWebsite
+urlId
+websiteName
+sortOrder
+active
+createDate
+
++ PostLink
+Id
+postId
+urlId
+active
+createDate
+
+
++ Thông tin của trang quản lý các Article 
+	- Sẽ có một màn hình chính, trong đó, sẽ hiện thị toàn bộ thông tin của tất cả các trang 
+	- Khi click vào từng trang, sẽ hiện thị thông tin, trang đó đã có bao nhiêu article được post lên các website trước đó 
+	- Khi click vào chi tiết, sẽ hiển thị thông tin của bài viết
+	- Có thể xem một ngày, có tất cả bao nhiêu bài viết đã được post lên các trang liên quan 
+	- Export ra file dạng excel hoặc là dạng file excel
+	- Hiện dấu tick lên mỗi article của trang hiện tại, sẽ biết dc, article này đã có một bài viết lên các website 
+
+				All	=== Trang A === Trang B === Trang C
+		Calendar
+
+	- Khi post lên thông tin của một article lên website sẽ lưu thông tin vào trong db.
+	- Các bảng trong database 
+		
+
+
++ 
+http://ninjamock.com/?gclid=CjkKEQjwttWcBRCuhYjhouveusIBEiQAwjy8ICRmjX_iDMd9YE3QnDlZcWwQ3X8nBo9bxgCulCc0QMbw_wcB
+http://ninjamock.com/Designer/NewWorkplace/WebProject/napkin/0/1
+https://pidoco.com/en/lp/wireframe-tool?piwik_campaign=en_W41_wireframe-tool&piwik_kwd=free%20website%20wireframe%20tool
+
+
++ Asp.net CMS
+http://orchardproject.net/
+http://www.composite.net/
+http://www.kentico.com/Download-Demo
+http://www.dnnsoftware.com/
+http://www.kooboo.com/
+http://umbraco.com/
+http://blog.dreamcss.com/content-management-system/asp-net-based-cms/
+http://www.microsoft.com/web/gallery/categories.aspx?category=ContentMgmt
+http://webmasterformat.com/blog/top-asp-net-cmss
+
+
+
++ Good
+	http://stackoverflow.com/questions/9539466/how-to-use-curl-with-headers
+	https://answers.atlassian.com/questions/140197/base64-encode-username-and-password-in-php
+	http://daif.net/script/cloudflare.phps
+	http://stackoverflow.com/questions/22956445/not-able-to-fetch-rss-from-website-because-of-cloudflare
+	http://stackoverflow.com/questions/11886711/curl-cant-fetch-rss-from-website-because-of-cloudflare?rq=1.Still
+	https://developers.cloudflare.com/test-app-framework.html
+	https://github.com/antoligy/MyBB-Plugins/blob/master/Cloudflare%20Management/Cloudflare.php
+	http://www.emidee.net/index.php/2013/11/07/automatic-dynamic-dns-update-with-cloudflare/
+	http://community.mybb.com/thread-131181-page-2.html
+	http://artvk.blogspot.com/2014/05/php-curl-https-curloptfollowlocation.html
+	https://github.com/ScottHelme/CloudFlareDDNS/blob/master/updateCloudFlare.php
+	
+	
+http://stackoverflow.com/questions/15134575/can-i-call-curl-setopt-with-curlopt-httpheader-multiple-times-to-set-multiple-he
+http://stackoverflow.com/questions/356705/how-to-send-a-header-using-a-http-request-through-a-curl-call
+http://stackoverflow.com/questions/8115683/php-curl-custom-headers
+http://stackoverflow.com/questions/9183178/php-curl-retrieving-response-headers-and-body-in-a-single-request
+
+http://stackoverflow.com/questions/12331224/how-to-include-authorization-header-in-curl-post-http-request-in-php
+curl_setopt($crl, CURLOPT_SSL_VERIFYHOST, false);
+curl_setopt($crl, CURLOPT_SSL_VERIFYPEER, false);
+
+http://www.lornajane.net/posts/2011/posting-json-data-with-php-curl
+http://magp.ie/2013/08/21/how-to-request-just-the-response-headers-with-curl/
+http://api.figshare.com/docs/demo_php.html
+
+
+--
+curl_setopt($ch, CURLOPT_PROXY, "127.0.0.1");
+        curl_setopt($ch, CURLOPT_PROXYPORT, "8080");
+        curl_setopt($ch, CURLOPT_PROXYTYPE, CURLPROXY_SOCKS5);
+--
+
+
+<?php
+  
+$username = 'testclient';
+$password = 'test@123';
+   
+$url = "https://xxxxxx.atlassian.net/rest/api/2/project";
+$ch = curl_init();
+   
+$headers = array(
+    'Accept: application/json',
+    'Content-Type: application/json'
+);
+   
+$test = "This is the content of the custom field.";
+   
+curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+curl_setopt($ch, CURLOPT_VERBOSE, 1);
+curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
+curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, 0);
+curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
+curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "GET");
+//curl_setopt($ch, CURLOPT_POSTFIELDS, $data);
+curl_setopt($ch, CURLOPT_URL, $url);
+curl_setopt($ch, CURLOPT_USERPWD, "$username:$password");
+   
+$result = curl_exec($ch);
+$ch_error = curl_error($ch);
+   
+if ($ch_error) {
+    echo "cURL Error: $ch_error";
+} else {
+    echo $result;
+}
+   
+curl_close($ch);
+  
+?>
 ======================================================================== 06 - 06 - 2014  =================================================================================================================================================
 stackoverflow.com/questions/9301268/how-can-i-convert-comma-separated-string-into-a-listint
 
