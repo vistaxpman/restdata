@@ -1,3 +1,55 @@
+
+======================================================================== 10 - 06 - 2014  =================================================================================================================================================
++ Ebook sql
+The Morgan Kaufmann Series in Data Management Systems
+Joe Celko''s SQL for Smarties, Third Edition: Advanced SQL Programming (The Morgan Kaufmann Series in Data Management Systems) 
+Joe Celko''s Trees and Hierarchies in SQL for Smarties
+Joe Celko''s Thinking in Sets: Auxiliary, Temporal, and Virtual Tables in SQL: Auxiliary, Temporal, and Virtual Tables in SQL (The Morgan Kaufmann Series in Data Management Systems)
+SQL Antipatterns: Avoiding the Pitfalls of Database Programming (Pragmatic Programmers)
+Joe Celko''s SQL Programming Style 
+Joe Celko''s Analytics and OLAP in SQL
+Joe Celko''s SQL Puzzles and Answers, Second Edition
+Joe Celko''s SQL for Smarties: Advanced SQL Programming
+Joe Celko''s Complete Guide to NoSQL: What Every SQL Professional Needs to Know about Non-Relational Databases
+Joe Celko''s Data and Databases: Concepts in Practice
+
+http://datubaze.files.wordpress.com/2010/10/celkos-sql-for-smarties-2005.pdf
+http://ebooks.cawok.pro/Morgan.Kaufmann.Joe.Celkos.Trees.and.Hierarchies.in.SQL.for.Smarties.May.2004.eBook-DDU.pdf
+http://worldtracker.org/media/library/Computers/Computer%20Science/Databases%20and%20SQL/Celko%20-%20Thinking%20in%20Sets%20-%20Auxiliary,%20Temporal%20and%20Virtual%20Tables%20in%20SQL%20%28Elsevier,%202008%29.pdf
+http://read.pudn.com/downloads139/ebook/599471/Morgan.Kaufmann.Joe.Celkos.SQL.Puzzles.and.Answers.2nd.Edition.pdf
+
+Joe Celko’s SQL Programming Style – Joe Celko - PDF, EPUB, FREE DOWNLOAD EBOOK AND AUDIOBOOK
+http://bookalist.net/wp-content/themes/wegraphics_bello/book_pdf.php
+
+
+http://htmlagilitypack.codeplex.com/
+http://fizzlerex.codeplex.com
+http://www.blackbeltcoder.com/Articles/strings/parsing-html-tags-in-c
+https://bitbucket.org/antiufo/htmlagilitypack-for-metro/
+http://htmlparsing.com/php.html
+
+http://web-harvest.sourceforge.net/
+http://stackoverflow.com/questions/2168610/which-html-parser-is-the-best
+http://jsoup.org/
+jsoup: Java HTML Parser
+
+http://htmlcleaner.sourceforge.net/
+http://nekohtml.sourceforge.net/
+http://jtidy.sourceforge.net/
+http://about.validator.nu/htmlparser/
+https://github.com/google/gumbo-parser
+https://github.com/BipSync/gumbo
+https://github.com/google/gumbo-parser
+http://htmlparser.sourceforge.net/
+http://jericho.htmlparser.net/docs/index.html
+http://www.netsurf-browser.org/projects/hubbub/
+http://en.wikipedia.org/wiki/Comparison_of_HTML_parsers
+
+http://www.crummy.com/software/BeautifulSoup/bs4/doc/
+Beautiful Soup
+
+http://lxml.de/
+
 ======================================================================== 09 - 06 - 2014  =================================================================================================================================================
 + Database
 + PageManagement
