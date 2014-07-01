@@ -1,4 +1,247 @@
+======================================================================== 01 - 07 - 2014  =================================================================================================================================================
++ Dapper
+https://github.com/StackExchange/dapper-dot-net
+https://github.com/StackExchange/dapper-dot-net
+http://www.codeproject.com/Articles/212274/A-Look-at-Dapper-NET
+http://liangwu.wordpress.com/2012/08/16/dapper-net-samples/
 
+
++ Ebooks
+Object-Oriented JavaScript Create scalable, reusable high-quality JavaScript applications, and libraries
+http://www39.zippyshare.com/v/98542650/file.html
+http://www.embedupload.com/?d=5AHRVSMRHV
+http://www.embedupload.com/?d=8IMJBAYRYT
+http://www.pdfmagaz.in/01274111-object-oriented-javascript-2nd-edition/
+
+
+
+The Principles of Object-Oriented JavaScript
+Head First JavaScript Programming by Eric T. Freeman and Elisabeth Robson (Apr 10, 2014) 
+JavaScript and JQuery: Interactive Front-End Web Development by Jon Duckett (Jun 30, 2014) 
+JavaScript Objects Functions and Arrays Explained by Tony de Araujo (May 31, 2014) 
+   
+Speaking JavaScript by Axel Rauschmayer (Mar 24, 2014) 
+JavaScript Enlightenment by Cody Lindley (Jan 7, 2013) 
+JavaScript Creativity: Exploring the Modern Capabilities of JavaScript and HTML5 by Shane Hudson (Jun 17, 2014)  
+Expert JavaScript (Expert Voice in Web Development) by Mark E. Daggett (Nov 13, 2013) 
+Web Design with HTML, CSS, JavaScript and jQuery Set by Jon Duckett (Jul 8, 2014) 
+Data Structures and Algorithms with JavaScript by Michael McMillan (Mar 24, 2014) 
+Modern JavaScript: Develop and Design by Larry Ullman (Feb 27, 2012) 
+Rapid Prototyping with JS: Agile JavaScript Development by Azat Mardan (May 30, 2014) 
+Programming JavaScript Applications: Robust Web Architecture with Node, HTML5, and Modern JS Libraries by Eric Elliott (Jul 24, 2014) 
+Automate with Grunt: The Build Tool for JavaScript by Brian P. Hogan (May 3, 2014) 
+Object-Oriented JavaScript by Newton Saber (Mar 25, 2014) 
+JavaScript Step by Step (3rd Edition) (Step by Step Developer) by Steve Suehring (Jun 25, 2013)
+Node.js in Action by Mike Cantelon, Marc Harter, TJ Holowaychuk and Nathan Rajlich (Nov 28, 2013)
+Third-Party JavaScript by Ben Vinegar and Anton Kovalyov (Mar 22, 2013)
+Pro JavaScript Development: Coding, Capabilities, and Tooling by Den Odell (Aug 5, 2014)
+Node.js the Right Way: Practical, Server-Side JavaScript That Scales by Jim R. Wilson (Dec 5, 2013)
+Testable JavaScript by Mark Ethan Trostler (Jan 31, 2013)
+DOM Scripting: Web Design with JavaScript and the Document Object Model by Jeremy Keith and Jeffrey Sambells (Dec 27, 2010) 
+JavaScript with Promises by Daniel Parker (Oct 25, 2014)
+
+Behaviour Driven Development with JavaScript - An introduction to BDD with Jasmine by Marco Emrich (Nov 19, 2013)
+Object-Oriented JavaScript, 2nd Edition
+JavaScript and JSON Essentials by Sai Srinivas Sriparasa (Oct 24, 2013) 
+JavaScript and Node FUNdamentals: A Collection of CoffeeScript, Node.js, Backbone.js Essential Basics by Azat Mardan (Dec 14, 2013) 
+JavaScript Programming: Pushing the Limits by Jon Raasch (Aug 12, 2013)
+JavaScript & jQuery: The Missing Manual by David Sawyer McFarland (Sep 25, 2014)
+Getting Started with Grunt: The JavaScript Task Runner by Jaime Pillora (Feb 19, 2014)
+Pro JavaScript Techniques: Second Edition by John Paxton and John Resig (Sep 23, 2014)
+JavaScript: The Web Technologies Series by Don Gosselin (Feb 11, 2010)
+Learning Node.js: A Hands-On Guide to Building Web Applications in JavaScript by Marc Wandschneider (Jun 29, 2013)
+Async JavaScript: Build More Responsive Apps with Less Code (Pragmatic Express) by Trevor Burnham (Dec 8, 2012)
+JavaScript Testing with Jasmine: JavaScript Behavior-Driven Development by Evan Hahn (Apr 4, 2013)
+
+
+ 
++ Thư viện cho JS
+https://github.com/jnicklas/capybara
+
+http://api.jquery.com/jquery.parsehtml/
+https://www.npmjs.org/package/htmlparser
+http://ejohn.org/blog/pure-javascript-html-parser/
+https://github.com/blowsie/Pure-JavaScript-HTML5-Parser
+http://lobobrowser.org/cobra/java-html-parser.jsp
+http://maxogden.com/scraping-with-node.html
+https://github.com/fb55/htmlparser2/ ( good )
+http://krasimirtsonev.com/blog/article/Convert-HTML-string-to-DOM-element
+http://blog.cinu.pl/2013/09/crawling-and-parsing-web-pages-in.html ( good )
+http://marijnhaverbeke.nl/blog/acorn.html
+http://www.html5rocks.com/en/tutorials/internals/howbrowserswork/ ( best )
+http://stringjs.com/
+http://www.raymondcamden.com/index.cfm/2013/11/12/Building-a-Contact-Form-with-Parse-and-Mailgun
+https://www.parse.com/
+http://www.blackpepper.co.uk/using-node-js-to-parse-and-split-html-files/
+http://dev.panlex.org/workflow/tabularization/parsing-html/
+
+
+http://stackoverflow.com/questions/18453993/use-phantomjs-to-extract-html-and-text
+var page = require('webpage').create();
+page.settings.userAgent = 'SpecialAgent';
+page.open('http://www.httpuseragent.org', function (status) {
+    if (status !== 'success') {
+        console.log('Unable to access network');
+    } else {
+        var ua = page.evaluate(function () {
+            return document.getElementsByTagName('html')[0].outerHTML;
+        });
+        console.log(ua);
+    }
+    phantom.exit();
+});
+
+
+http://techslides.com/grabbing-html-source-code-with-phantomjs-or-casperjs/
+http://techslides.com/how-to-parse-and-search-json-in-javascript/
+http://techslides.com/top-5-free-json-viewers/
+
++ Parse json online
+{"FullName":"Nguyễn Đình Gia Nghĩa", "Age":30, "Class":["A", "B", "C"]}
+http://chris.photobooks.com/json/default.htm
+http://jsonviewer.stack.hu/
+http://json.bloople.net/#_output
+http://json.parser.online.fr/
+
+
++ How to scrape web pages with PhantomJS and jQuery
+http://snippets.aktagon.com/snippets/534-how-to-scrape-web-pages-with-phantomjs-and-jquery
+http://snippets.aktagon.com/
+https://github.com/sgentle/phantomjs-node/issues/1
+
++ Scraping HTML5 Sites Using Capybara + PhantomJS
+http://www.chrisle.me/2012/12/scraping-html5-sites-using-capybara-phantomjs/
+
+https://github.com/jnunemaker/httparty
+
++ Taking website screenshots using PhantomJS
+http://www.codediesel.com/javascript/phantomjs-to-headlessly-analyze-web-pages/
+http://www.codediesel.com/javascript/taking-website-screenshots-using-phantomjs/
+console.log('Loading a web page');
+ 
+var page = new WebPage();
+var url = "http://www.smashing-magazine.com/";
+page.open(url, function (status) {
+    if(status == 'success') {
+       var results = page.evaluate(function() {
+            var allParas = document.getElementsByTagName("article");
+            var num = allParas.length;
+            var title = new Array();
+ 
+            for(var i=0; i < num; i++) {
+              title[i] = allParas[i].childNodes[1].childNodes[0].innerHTML;
+            }
+ 
+            return title;
+        });
+ 
+        for(var i=0; i < results.length; i++) {
+          console.log(results[i]) + "\n";
+        }
+    }
+    phantom.exit();
+});
+C:\phantomjs>phantomjs example.js
+
+
++ Lưu nội dung của một website ra file 
+http://kochi-coders.com/2014/05/06/scraping-a-javascript-enabled-web-page-using-beautiful-soup-and-phantomjs/
+var page = require('webpage').create();
+var fs = require('fs');// File System Module
+var args = system.args;
+var output = './temp_htmls/test1.html'; // path for saving the local file 
+page.open('http://www.regulations.gov/#!docketBrowser;rpp=50;po=0;dct=PS;D=OSHA-2013-0020', function() { // open the file 
+  fs.write(output,page.content,'w'); // Write the page to the local file using page.content
+  phantom.exit(); // exit PhantomJs
+});
+
+http://casperjs.readthedocs.org/en/latest/cli.html
+http://blog.founddrama.net/2012/09/headless-javascript-testing-with-jasmine-and-phantomjs/comment-page-1/
+
+http://code.tutsplus.com/tutorials/screen-scraping-with-nodejs--net-25560
+https://www.google.com.vn/search?q=phantomjs+parse+html&ie=utf-8&oe=utf-8&aq=t&rls=org.mozilla:en-US:official&client=firefox-a&gfe_rd=cr&ei=wzWyU_fvMOuJ8QfSxoDIBw#q=phantomjs+parse+html&rls=org.mozilla:en-US:official&start=10
+
+======================================================================== 30 - 06 - 2014  =================================================================================================================================================
++ Thư viện trong Javascript
+http://requirejs.org/
+http://www.commonjs.org/
+http://jasmine.github.io/
+http://jasmine.github.io/2.0/introduction.html
+http://jasmine.github.io/edge/introduction.html
+
+
+
++ Tạo script bằng phantomjs gồm những yêu cầu sau đây 
+	Chờ cho trang tải xong toàn bộ nội dung
+	Tránh dc check ddos
+	Tự động chuyển hướng trang hay login vào trong hệ thống 
+	Lưu toàn bộ cookie khi load xong trang
+	Lưu nội dung file ra dạng xml ( thực tế là phantomjs đang hổ trợ lưu ra dạng json )
+	Tạo ra các module riêng biệt khi cần có thể include hoặc exclude
+	
+======================================================================== 27 - 06 - 2014  =================================================================================================================================================
++ Mã hóa chuỗi kết nối trong Sql Server
+http://chiragrdarji.wordpress.com/2008/08/11/how-to-encrypt-connection-string-in-webconfig/
+http://www.asp.net/web-forms/tutorials/data-access/advanced-data-access-scenarios/protecting-connection-strings-and-other-configuration-information-cs
+http://www.codeproject.com/Tips/598863/EncryptionplusDecryptionplusConnectionplusStringpl
+http://www.codeproject.com/Articles/23375/Encryption-of-Connection-Strings-Inside-the-Web-co
+http://www.aspdotnet-suresh.com/2011/11/encrypt-and-decrypt-configuration.html
+http://www.mwrabadi.com/blog/post/2011/06/07/Extend-SqlMembershipProvider-but-regain-internal-data.aspx
+http://www.mattjcowan.com/funcoding/2012/11/10/simplemembershipprovider-in-mvc4-for-mysql-oracle-and-more-with-llblgen/
+
+
+http://freegeoip.net/json/172.24.128.197
+{"ip":"64.90.182.55","country_code":"US","country_name":"United States","region_code":"NY","region_name":"New York","city":"New York","zipcode":"10038","latitude":40.7089,"longitude":-74.0012,"metro_code":"501","area_code":"212"}
+
+D:\norman\_ Ebooks\_ PhantomJS\phantomjs-1.9.7-windows>phantomjs.exe --debug=yes --proxy=proxy.hcnet.vn:8080 --proxy-auth= msa_testing.js
+
+======================================================================== 25 - 06 - 2014  =================================================================================================================================================
++ Từ khóa
+headless browser
+
++ PhantomJS
+https://www.google.com.vn/search?q=phantomjs+example&ie=utf-8&oe=utf-8&aq=t&rls=org.mozilla:en-US:official&client=firefox-a&gfe_rd=cr&ei=4qOqU_2oNsSL8QeGp4GgBQ#q=phantomjs+example&rls=org.mozilla:en-US:official&start=20
+http://code.tutsplus.com/tutorials/testing-javascript-with-phantomjs--net-28243
+http://www.sitepoint.com/headless-webkit-and-phantomjs/
+http://benjaminbenben.com/2013/07/28/phantomjs-webserver/
+http://www.princeton.edu/~crmarsh/static/pdf/Charles_Marsh_CV.pdf
+http://jasperproject.github.io/
+http://casperjs.readthedocs.org/en/latest/quickstart.html
+http://assertselenium.com/2013/03/25/getting-started-with-ghostdriver-phantomjs/
+http://metaskills.net/mocha-phantomjs/
+http://simonsmith.io/headless-testing-with-jasmine-phantomjs-and-grunt/
+http://www.codediesel.com/javascript/taking-website-screenshots-using-phantomjs/
+http://sideshowcoder.com/post/56172452305/vagrant-by-example-setting-up-phantomjs
+http://mobiletestingfordummies.tumblr.com/post/87004870957/proxy-authentication-in-phantomjs
+
+https://www.google.com.vn/search?q=phantomjs+proxy+authentication&ie=utf-8&oe=utf-8&aq=t&rls=org.mozilla:en-US:official&client=firefox-a&gfe_rd=cr&ei=pkOtU6qMK-qJ8Qet8oCIAg
+
+Use PhantomJS to Create PDFs from HTML 
+https://coderwall.com/p/5vmo1g
+
+Taking Retina screenshots with PhantomJS
+https://filippo.io/taking-retina-screenshots-with-phantomjs/
+
+Improved image export with PhantomJS 
+http://www.highcharts.com/component/content/article/2-articles/news/56-improved-image-export-with-phantomjs
+
++ Có tính năng waitfor cho PhantomJS
+http://www.princeton.edu/~crmarsh/phantomjs/
+
+
+
++ Yeoman
+http://yeoman.io/
+
+
+
+http://www.mssqltips.com/sql-server-tip-category/9/performance-tuning/
+http://www.mssqltips.com/sqlservertip/1955/sql-server-2008-64bit-query-optimization-trick/
+http://sqlmag.com/site-files/sqlmag.com/files/archive/sqlmag.com/content/content/144603/top_10_tips_for_optimizing-final.pdf.pdf
+
+
+======================================================================== 20 - 06 - 2014  =================================================================================================================================================
+https://github.com/sjdirect/abot/blob/master/Abot/Crawler/PoliteWebCrawler.cs
 ======================================================================== 10 - 06 - 2014  =================================================================================================================================================
 + Ebook sql
 The Morgan Kaufmann Series in Data Management Systems
