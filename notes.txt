@@ -1,3 +1,22 @@
+======================================================================== 03 - 07 - 2014  =================================================================================================================================================
++ PhantomJS load content 
+	- Good	
+		https://groups.google.com/forum/#!topic/phantomjs/20z8N8rwITw
+		https://groups.google.com/forum/#!topic/phantomjs/20z8N8rwITw
+		http://www.garrettpatterson.com/2012/10/05/phantomjs-and-asynchronous-resources-after-load/
+		https://www.codersclan.net/ticket/59
+		http://newspaint.wordpress.com/2013/03/19/how-to-click-on-a-div-or-span-using-phantomjs/
+		
+		
+https://gist.github.com/gmarik/1305062
+http://joseoncode.com/2011/08/08/javascript-continuous-testing-with-qunit-phantomjs-and-powershell/
+http://newspaint.wordpress.com/2013/04/05/waiting-for-page-to-load-in-phantomjs/
+http://stackoverflow.com/questions/11340038/phantomjs-not-waiting-for-full-page-load
+http://stackoverflow.com/questions/15739263/phantomjs-click-an-element
+http://stackoverflow.com/questions/10112477/click-on-a-link-with-phantom-js-and-retrieve-the-document-html
+
+https://www.google.com.vn/search?q=phantomjs+waitfor+timeout&ie=utf-8&oe=utf-8&aq=t&rls=org.mozilla:en-US:official&client=firefox-a&channel=sb&gfe_rd=cr&ei=Pm61U4eFOqKJ8QfS94DIBA#channel=sb&q=phantomjs+waitfor+and+click+link&rls=org.mozilla:en-US:official
+
 ======================================================================== 01 - 07 - 2014  =================================================================================================================================================
 + Dapper
 https://github.com/StackExchange/dapper-dot-net
