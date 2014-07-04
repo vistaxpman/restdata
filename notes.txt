@@ -9,7 +9,19 @@
 		https://www.codersclan.net/ticket/59
 		http://newspaint.wordpress.com/2013/03/19/how-to-click-on-a-div-or-span-using-phantomjs/
 		
-		
++ Login voi facebook
+http://viget.com/extend/testing-google-analytics-with-phantomjs
+http://stackoverflow.com/questions/9246438/how-to-submit-a-form-using-phantomjs
+https://speakerdeck.com/ariya/phantomjs-for-web-page-automation
+http://stackoverflow.com/questions/9246438/how-to-submit-a-form-using-phantomjs
+http://stackoverflow.com/questions/15183492/casperjs-login-to-facebook
+http://yslow.org/phantomjs/
+https://groups.google.com/forum/#!forum/phantomjs
+
+
+phantomjs ./login_facebook.js 
+http://pastebin.com/ZS6cj7F3
+
 https://gist.github.com/gmarik/1305062
 http://joseoncode.com/2011/08/08/javascript-continuous-testing-with-qunit-phantomjs-and-powershell/
 http://newspaint.wordpress.com/2013/04/05/waiting-for-page-to-load-in-phantomjs/
