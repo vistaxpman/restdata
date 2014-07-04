@@ -1,3 +1,225 @@
+======================================================================== 04 - 07 - 2014  =================================================================================================================================================
++ Những việc cần làm
+	- Duyệt ter
++ Step by step
+- Good	
+		https://groups.google.com/forum/#!topic/phantomjs/20z8N8rwITw
+		https://groups.google.com/forum/#!topic/phantomjs/20z8N8rwITw
+		http://www.garrettpatterson.com/2012/10/05/phantomjs-and-asynchronous-resources-after-load/
+		https://www.codersclan.net/ticket/59
+		http://newspaint.wordpress.com/2013/03/19/how-to-click-on-a-div-or-span-using-phantomjs/
+		
+		
+https://gist.github.com/gmarik/1305062
+http://joseoncode.com/2011/08/08/javascript-continuous-testing-with-qunit-phantomjs-and-powershell/
+http://newspaint.wordpress.com/2013/04/05/waiting-for-page-to-load-in-phantomjs/
+http://stackoverflow.com/questions/11340038/phantomjs-not-waiting-for-full-page-load
+http://stackoverflow.com/questions/15739263/phantomjs-click-an-element
+http://stackoverflow.com/questions/10112477/click-on-a-link-with-phantom-js-and-retrieve-the-document-html
+
+https://github.com/n1k0/casperjs/issues/139
+
+https://nicolas.perriault.net/code/2012/introducing-casperjs-toolkit-phantomjs/
+https://groups.google.com/forum/#!topic/phantomjs/P_VKdArvZ7s
+
+
+https://www.google.com.vn/search?q=phantomjs+waitfor+timeout&ie=utf-8&oe=utf-8&aq=t&rls=org.mozilla:en-US:official&client=firefox-a&channel=sb&gfe_rd=cr&ei=Pm61U4eFOqKJ8QfS94DIBA#channel=sb&q=phantomjs+waitfor+and+click+link&rls=org.mozilla:en-US:official
+
++ PhantomJS
+http://mobiletestingfordummies.tumblr.com/post/87004870957/proxy-authentication-in-phantomjs
+http://stackoverflow.com/questions/19807957/how-to-proxy-auth-on-phantomjs-proxy-script
+http://phantomjs.org/api/command-line.html
+https://code.google.com/p/phantomjs/issues/detail?id=811
+https://github.com/ariya/phantomjs/issues/10811
+http://darrendev.blogspot.com/2013/04/phantomjs-post-auth-and-timeouts.html
+http://stackoverflow.com/questions/18767739/phantomjs-version-1-9-1-issues-with-proxy-authentication?rq=1
+http://www.kobashicomputing.com/a-look-at-phantomjs
+http://opennodes.arecord.us/md/phantomjs.md
+http://watirmelon.com/category/watir-webdriver-2/
+http://proxymesh.com/http-client-examples/
+http://casperjs.org/
+http://triflejs.org/
+
+http://code.google.com/p/phantomjs/downloads/list
+
+
+http://www.lullabot.com/blog/article/testing-front-end-casperjs
+http://blog.newrelic.com/2013/06/04/simpler-ui-testing-with-casperjs-2/
+http://blog.codeship.io/2013/03/07/smoke-testing-with-casperjs.html
+
+
+casperjs.exe --casper-path=D:\1\bin\casperjs.exe testing.js
+
+
+2014-07-04T09:37:06 [DEBUG] WebPage - updateLoadingProgress: 10
+2014-07-04T09:37:06 [DEBUG] WebPage - updateLoadingProgress: 50
+2014-07-04T09:37:06 [DEBUG] Network - Resource request error: 105 ( "Proxy requires authentication" ) URL: "http://www.myhomecredit.vn/"
+2014-07-04T09:37:06 [DEBUG] WebPage - updateLoadingProgress: 100
+
+http://computers.tutsplus.com/tutorials/40-terminal-tips-and-tricks-you-never-thought-you-needed--mac-51192
+https://github.com/0nn0/terminal-mac-cheatsheet/wiki/Terminal-Cheatsheet-for-Mac-%28-basics-%29
+
+
+proxy.hcnet.vn:8080
+172.24.65.6:8080
+
+phantomjs.exe --proxy=http://172.24.65.6:8080 --proxy-auth=hcnet\nghia.nguyendinh:dsds --proxy-type=http msa_testing.js
+
+
++ click link
+http://www.myhomecredit.vn/tin-tuc-my-hc
+
+
++ PhantomJs waitfor
+https://github.com/geuis/helium-css
+https://gist.github.com/gmarik/1305062
+http://joseoncode.com/2011/08/08/javascript-continuous-testing-with-qunit-phantomjs-and-powershell/
+http://stackoverflow.com/questions/16807212/how-to-wait-for-element-visibility-in-phantomjs
+http://code.google.com/p/phantomjs/source/browse/examples/waitfor.js?r=42ff411c6381646050ba59951d95abdd840c6d0d
+http://code.google.com/p/phantomjs/issues/detail?id=394
+http://newspaint.wordpress.com/2013/04/05/waiting-for-page-to-load-in-phantomjs/
+
+https://gist.github.com/cjoudrey/1341747
+// This example shows how to render pages that perform AJAX calls
+// upon page load.
+//
+// Instead of waiting a fixed amount of time before doing the render,
+// we are keeping track of every resource that is loaded.
+//
+// Once all resources are loaded, we wait a small amount of time
+// (resourceWait) in case these resources load other resources.
+//
+// The page is rendered after a maximum amount of time (maxRenderTime)
+// or if no new resources are loaded.
+ 
+var resourceWait = 300,
+maxRenderWait = 10000,
+url = 'https://twitter.com/#!/nodejs';
+ 
+var page = require('webpage').create(),
+count = 0,
+forcedRenderTimeout,
+renderTimeout;
+ 
+page.viewportSize = { width: 1280, height : 1024 };
+ 
+function doRender() {
+page.render('twitter.png');
+phantom.exit();
+}
+ 
+page.onResourceRequested = function (req) {
+count += 1;
+console.log('> ' + req.id + ' - ' + req.url);
+clearTimeout(renderTimeout);
+};
+ 
+page.onResourceReceived = function (res) {
+if (!res.stage || res.stage === 'end') {
+count -= 1;
+console.log(res.id + ' ' + res.status + ' - ' + res.url);
+if (count === 0) {
+renderTimeout = setTimeout(doRender, resourceWait);
+}
+}
+};
+ 
+page.open(url, function (status) {
+if (status !== "success") {
+console.log('Unable to load url');
+phantom.exit();
+} else {
+forcedRenderTimeout = setTimeout(function () {
+console.log(count);
+doRender();
+}, maxRenderWait);
+}
+});
+---
+http://stackoverflow.com/questions/11107331/login-to-a-webpage-using-phantomjs-and-jquery
+var page = require('webpage').create();
+var system = require('system');
+
+page.onConsoleMessage = function(msg) {
+   console.log(msg);
+};
+
+page.onAlert = function(msg) {
+   console.log('alert!!>' + msg);
+};
+
+page.settings.userName = "foo";
+page.settings.password = "bar";
+
+page.open("http://localhost/login", function(status) {
+    console.log(status);
+    var retval = page.evaluate(function() {
+       return "test";
+    });
+    console.log(retval);
+
+    page.open("http://localhost/ticket/" + system.args[1], function(status) {
+        if ( status === "success" ) {
+            page.injectJs("jquery.min.js");
+            var k = page.evaluate(function () {
+                var a = $("div.description > h3 + p");
+
+                if (a.length == 2) {
+                    console.log(a.slice(-1).text())
+                } 
+                else {
+                    console.log(a.slice(-2).text())
+                }
+            //return document.getElementById('addfiles');
+            });
+
+        }
+    });
+    phantom.exit();
+});
+--
+
++ Tìm với những từ khóa sau đây
+Navigating the web programmatically with Phantom.js
+Asynchronous PhantomJS and waiting for it to finish
+Perform multi-page interactions
+
+
++ Tác giả của PhantomJS
+https://github.com/ariya
+https://github.com/ariya/esmorph
+https://github.com/ariya/grunt-jsvalidate
+http://ariya.ofilabs.com/
+http://www.slideshare.net/ariyahidayat
+
++ Tổng hợp các API của PhantomJS
+
++ Load một chuỗi html vào PhantomJS
+var page = require('webpage').create();
+page.content = '<html><body><p>Hello world</p></body></html>';
+
++ Xem toàn bộ API có trong PhantomJS
+https://github.com/ariya/phantomjs/wiki/API-Reference-WebPage
+
++ Kiểm tra một URL thay đổi sang một URL khác
+page.onUrlChanged = function(targetUrl) {
+    console.log('New URL: ' + targetUrl);
+};
+
+https://github.com/ariya/phantomjs/wiki/Related-Projects
+
+http://www.garrettpatterson.com/2012/10/05/phantomjs-and-asynchronous-resources-after-load/ 
+http://charles.lescampeurs.org/2013/07/02/phantomjs-wait-for-it
+http://esprima.org/demo/validate.html
+https://github.com/ariya/phantomjs/blob/master/examples/waitfor.js
+https://github.com/ariya/phantomjs/tree/master/examples
+http://www.princeton.edu/~crmarsh/phantomjs/
+https://github.com/kimmobrunfeldt/url-to-image 
+http://stefaanlippens.net/spider-javascript-manipulated-html-with-phantomjs
+http://notatechblogofmarc.blogspot.com/2012/02/navigating-web-programmatically-with.html
+http://blog.ragnarson.com/2011/10/navigating-through-many-pages-with.html
+http://www.webkit.org/
+http://www.sitepoint.com/headless-webkit-and-phantomjs/ ( good - ghi chú chi tiết về PhantomJS )
 ======================================================================== 03 - 07 - 2014  =================================================================================================================================================
 + PhantomJS load content 
 	- Good	
