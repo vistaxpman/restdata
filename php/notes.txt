@@ -1,0 +1,100 @@
+http://www.mpsoftware.dk/downloads.php
+http://sourceforge.net/projects/devphp/
+http://www.phpedit.com/en/support/phpedit-3-x-user-manual/introduction/installation/portable-installation
+http://www.contexteditor.org/index.php
+http://www.aptana.com/products/studio3/download
+
++ Ebook wordpress
+WordPress: Pushing the Limits [Paperback] July 1, 2013
+Building Web Apps with WordPress [Paperback] - May 5, 2014
+WordPress for Web Developers: An Introduction for Web Professionals - June 26, 2013
+WordPress Web Application Development (Community Experience Distilled) Paperback – November 18, 2013
+Pro WordPress Theme Development (Expert s Voice in Web Development) [Paperback] -  November 26, 2013
+Head First WordPress: A Brain-Friendly Guide to Creating Your Own Custom WordPress Blog -  August 2, 2010
+WordPress: The Missing Manual (Missing Manuals) [Paperback] -  October 29, 2012
+WordPress 3 Site Blueprints
+A Practical Handbook for WordPress Themes
+Responsive Design with WordPress: How to make great responsive themes and plugins 
+WordPress Theme Development in 24 Hours, Sams Teach Yourself 
+Wordpress Themes the Top Rated and Most Useful Themes
+Building a WordPress Theme From Scratch: The Basics (For Designers) 
+
+
+
+
++ Wordpress
+http://wordpress.org/themes/browse/popular/
+http://wordpress.org/themes/responsive
+http://wordpress.org/themes/virtue
+http://www.themesandco.com/
+http://colorlabsproject.com/tutorials/make-your-wordpress-theme-responsive/
+http://www.themesandco.com/customizr/how-to-customize-customizr-wordpress-theme/
+http://www.myeventon.com/
+http://themepunch.com/essential/
+http://themeforest.net/category/wordpress?_ga=1.263909578.715909581.1401865286
+http://themeforest.net/category/wordpress/blog-magazine
+http://www.pixedelic.com/demo/?theme=geode
+
+
+/*Template Page*/
+get_header();
+if(have_posts()):
+	<h2>the_title()</h2>
+	<div>the_date() | the_author()</div>
+	<div>the_content()</div>
+endif;
+get_footer();
+
++ Các bước cần thiết để đổi thông tin theme
+	- Copy file html vào trong thư mục theme
+		index.html => index.php
+
+	- Mở file style.css
+		Thêm đoạn nào vào trong file style.css
+	/*
+	Theme Name: Open Source Online Magazine chapter 3
+	Theme URI: http://rachelmccollin.co.uk/opensourcemagazine
+	Author: Tessa Blakeley Silver / Rachel McCollin
+	Author URI:
+	Description: Theme to accompany WordPress 3.4 Theme Development 
+	Beginners Guide
+	Version: 
+	Tags: 
+	*/
+
+	- Active theme lên, di chuyển qua trang chủ, refresh lại  
+
+	- Khi trong vòng loop, thêm các hàm sau để lấy các nội dung liên quan
+		<?php the_title(); ?>
+		<?php the_permalink(); ?>
+		<?php the_title_attribute(); ?>
+		
+	- Hiện nội dung chi tiết của một post 
+		<?php the_content(); ?>
+
+	- Hiện thông tin author của một bài viết 
+		<?php the_author_meta('first_name'); ?>
+		<?php the_author_meta('last_name'); ?>
+		<?php the_category(", "); ?>
+		<?php the_ID(); ?>
+		<?php post_class(); ?>
+		
+		
+	- Hiện thông tin tổng số comment trong từng post
+		<?php comments_number("0", "1", "%"); ?>
+		
+	- Hiện thông tin cấu hình của trang 
+		<?php bloginfo('url'); ?>
+		<?php bloginfo('name'); ?>
+		<?php bloginfo( 'description' ); ?>
+		
+	- Chi tiết của một vòng loop trong Wordpress
+		<?php if (have_posts()) :?>
+			<?php while (have_posts()) : the_post();?> 
+			<?php endwhile; ?>
+		<?php endif; ?>
+		
+	- Chia template vào từng phần nhỏ 
+		<?php get_header(); ?> 		-> header.php
+		<?php get_sidebar(); ?> 	-> sidebar.php
+		<?php get_footer(); ?>		-> footer.php
