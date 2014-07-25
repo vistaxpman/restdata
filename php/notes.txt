@@ -1,3 +1,160 @@
+
+======================================================================== 25 - 07 - 2014  =================================================================================================================================================\\
+https://marketplace.firefox.com/
+
++ Wordpress
+	Tạo một blog trên trang https://wordpress.com/
+	
+
+======================================================================== 24 - 07 - 2014  =================================================================================================================================================\\
++ Wordpress Theme
+http://en.wordpress.com/themes/
+http://ma.tt/themes/
+https://simperium.com/
+http://theme.wordpress.com/themes/sort/premium/?ref=store-wordpress-com
+
++ Validate html
+http://jigsaw.w3.org/css-validator/
+http://validator.w3.org/
+
+http://www.browserstack.com/start?cbsid=browserlab
+https://saucelabs.com/
+http://sauceio.com/index.php/2013/03/sauce-labs-welcomes-adobe-browserlab-customers/
+
+http://nometech.com/downloads/abeginnersguidetowordpressthemedevlopment.pdf
+http://longfiles.com/qx39hgzorajd/2012-12-18-07.zip.html
+WordPress Mobile Web Development: Beginner Guide
+
+http://codex.wordpress.org/WordPress_Coding_Standards
+
++ Data cho test
+https://wpcom-themes.svn.automattic.com/demo/theme-unit-test-data.xml
+
+
+=================
++ Template Wordpress - Blog - News
+http://themeforest.net/category/wordpress?_ga=1.263909578.715909581.1401865286
+http://themeforest.net/category/wordpress/blog-magazine
+	- Good Template
+	
+		http://themeforest.net/item/pixelpower-responsive-html5css3-wordpress-theme/full_screen_preview/705136
+		http://themeforest.net/item/pixelpower-responsive-html5css3-wordpress-theme/705136?WT.ac=category_item&WT.z_author=cudazi
+		PixelPower - Responsive HTML5/CSS3 WordPress Theme 
+		
+		
+		Magazon - Advanced, Responsive WP Magazine Theme 
+		http://demo.smooththemes.com/magazon/movies-cinema-reviews/#
+		http://themeforest.net/item/magazon-advanced-responsive-wp-magazine-theme/4126729?WT.ac=category_item&WT.z_author=SmoothThemes
+		
+		Ares Blog Magazine Newspaper Template 
+		http://themeforest.net/item/ares-blog-magazine-newspaper-template-/918661?WT.ac=category_item&WT.z_author=ThemeGoods
+		http://themes.themegoods2.com/ares/
+		
+		Periodic - A Premium WordPress Magazine Theme 
+		http://themeforest.net/item/periodic-a-premium-wordpress-magazine-theme/146174?WT.ac=category_item&WT.z_author=wearepixel8 
+		http://demo.wearepixel8.com/themes/?theme=periodic
+	
+	
+		http://www.momizat.com/theme/?theme=goodnews
+		Goodnews – Responsive WordPress News/Magazine 
+		
+		Sahifa - Responsive WordPress News,Magazine,Blog 
+		http://themeforest.net/item/sahifa-responsive-wordpress-newsmagazineblog/2819356?WT.ac=category_item&WT.z_author=TieLabs
+		http://themes.tielabs.com/?theme=sahifa
+		
+		Newscast 4 in 1 - Wordpress Magazine and Blog
+		http://www.kriesi.at/themedemo/?theme=newscast
+		http://themeforest.net/item/newscast-4-in-1-wordpress-magazine-and-blog/91058?WT.ac=category_item&WT.z_author=Kriesi
+		
+		Avenue - A WordPress Magazine Theme 
+		http://wp-avenue.themesector.com/blog/
+		http://themeforest.net/item/avenue-a-wordpress-magazine-theme/289114?WT.ac=category_item&WT.z_author=ThemeSector
+		
+		http://themeforest.net/item/premium-pixels-fancy-pants-blog-magazine-theme/full_screen_preview/232838
+		http://demo.themezilla.com/premium
+		Premium Pixels: Fancy Pants Blog / Magazine Theme 
+		
+		Website - Responsive WordPress Theme 
+		http://themes.kubasto.com/website/blog/page/2/
+		
+		
+		ExtraNews - Responsive News and Magazine Theme 
+		http://themeforest.net/item/extranews-responsive-news-and-magazine-theme/3102218?WT.ac=category_item&WT.z_author=2winFactor
+		http://themewich.com/extranews/?page_id=9&paged=2
+		
+		Made - Responsive Review/Magazine Theme 
+		http://themeforest.net/item/made-responsive-reviewmagazine-theme/2557495?WT.ac=category_item&WT.z_author=IndustrialThemes
+		http://themes.industrialthemes.com/?theme=made
+		
+		
+		Jarida - Responsive WordPress News, Magazine, Blog 
+		http://themes.tielabs.com/jarida/posts/48
+		http://themeforest.net/item/jarida-responsive-wordpress-news-magazine-blog/4309191?WT.ac=category_item&WT.z_author=TieLabs
+		
+		Super Skeleton WP: Responsive, Minimal, Beautiful 
+		http://themeforest.net/item/super-skeleton-wp-responsive-minimal-beautiful/647570?WT.ac=category_item&WT.z_author=MDNW
+		http://super-skeleton.mdnw.net/?page_id=26
+		
+		Newspaper 
+		http://themeforest.net/item/newspaper/full_screen_preview/5489609
+		
+		http://themes.goodlayers.com/?theme=goodspace
+		Good Space - Responsive Minimal WP Theme 
+		
+		
+		 Bangkok Press - Responsive, News & Editorial Theme 
+		http://themes.goodlayers.com/?theme=bangkokpress
+		http://themeforest.net/item/bangkok-press-responsive-news-editorial-theme/1613446?WT.ac=category_item&WT.z_author=GoodLayers
+		
+		
+		http://themes.pixelwars.org/?theme=read-wp
+		
+		http://themes.themesector.com/?theme=boulevard
+		Boulevard - A WordPress Magazine Theme 
+		http://themeforest.net/item/boulevard-a-wordpress-magazine-theme/607355?WT.ac=category_item&WT.z_author=ThemeSector
+		
+		http://themeforest.net/category/wordpress/blog-magazine?categories=wordpress%2Fblog-magazine&page=2&sort_by=sales_count&utf8=%E2%9C%93
+		
+		
+
+Reaction WP : Responsive, Rugged, Bold 
+http://themeforest.net/item/reaction-wp-responsive-rugged-bold/702169?WT.ac=category_item&WT.z_author=MDNW
+
+
+
+
+
+
+
+
+
+
+
+
+=================
+		
+		
++ Plug in Wordpress 
+OptionTree
+
+
+
+
+
+
+
+
+======================================================================== 23 - 07 - 2014  =================================================================================================================================================\\
+http://www.mpsoftware.dk/downloads.php
+http://sourceforge.net/projects/devphp/
+http://www.phpedit.com/en/support/phpedit-3-x-user-manual/introduction/installation/portable-installation
+http://www.contexteditor.org/index.php
+http://www.aptana.com/products/studio3/download
+http://www.aptana.com/products/php/
+http://www.vsphp.com/
+
+3, Tôn Đức Thắng, P. Bến Nghé, Q. 1
+Lý Chính Thắng, P. 7, Q. 3
 http://www.mpsoftware.dk/downloads.php
 http://sourceforge.net/projects/devphp/
 http://www.phpedit.com/en/support/phpedit-3-x-user-manual/introduction/installation/portable-installation
