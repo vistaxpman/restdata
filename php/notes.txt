@@ -1,3 +1,140 @@
+
+======================================================================== 29 - 07 - 2014  =================================================================================================================================================\\
+http://explainextended.com/2009/09/15/not-in-vs-not-exists-vs-left-join-is-null-sql-server/
+http://sqlperformance.com/2012/12/t-sql-queries/left-anti-semi-join
+http://blog.sqlauthority.com/2008/04/22/sql-server-better-performance-left-join-or-not-in/
+
++ Freelance
+http://www.elegantthemes.com/blog/tips-tricks/the-best-wordpress-jobs-boards-for-hiring-freelancers-and-finding-clients
+http://jobs.smashingmagazine.com/
+http://www.craigslist.org/
+http://www.authenticjobs.com/
+https://www.linkedin.com/job/
+https://www.behance.net/joblist
+http://www.coroflot.com/jobs
+https://dribbble.com/jobs
+http://jobs.wordpress.net/
+http://www.wphired.com/
+http://www.krop.com/
+https://weworkremotely.com/
+http://www.telecommuterjobs.net/
+https://jobs.tutsplus.com/
+http://www.simplyhired.com/k-wordpress-jobs.html
+https://www.odesk.com/o/jobs/browse/skill/wordpress/
+https://www.freelancer.com/jobs/Wordpress/
+http://www.findaproofreader.com
+
+
++ Custome post type
+	- Good
+		http://thachpham.com/wordpress/wordpress-development/custom-post-type-toan-tap.html
+		http://thachpham.com/wordpress/wordpress-development/huong-dan-post-relationship.html
+		http://www.smashingmagazine.com/2012/11/08/complete-guide-custom-post-types/ 
+		http://www.wpbeginner.com/opinion/wordpress-custom-post-types-debate-functions-php-or-plugins/
+		http://www.wpbeginner.com/wp-tutorials/how-to-create-custom-post-types-in-wordpress/
+		http://www.paulund.co.uk/creating-a-custom-post-type
+		https://github.com/gizburdt/wp-cuztom
+		http://www.smashingmagazine.com/2011/11/10/securing-your-wordpress-website/
+		http://www.advancedcustomfields.com/
+		http://wordpress.org/extend/plugins/advanced-custom-fields/
+		http://wordpress.org/plugins/custom-post-type-creator/
+		http://www.smashingmagazine.com/2011/05/26/better-image-management-practices-with-wordpress/
+		http://cl.ly/image/2Q3x3h0J212n
+		http://www.neilcurtis.me/types-and-views-creating-custom-post-types/
+		http://pastebin.com/nu2EknxW
+		http://colorlabsproject.com/tutorials/adding-custom-post-types-to-wordpress-theme/
+		http://code.tutsplus.com/tutorials/a-crm-in-wordpress-creating-a-custom-post-type--cms-20014
+		https://www.izwebz.com/wordpress/wordpress-custom-post-type/
+		http://www.weareo3.com/wordpress-custom-post-type-generator/
+		http://www.elegantthemes.com/blog/tips-tricks/creating-custom-post-types-in-wordpress
+		http://mannieschumpert.com/blog/using-wordpress-3-8-icons-custom-post-types-admin-menu/
+		
+
+http://colorlabsproject.com/tutorials/create-theme-panel-using-wordpress-api/
+http://colorlabsproject.com/tutorials/how-to-create-wordpress-shortcodes/
+		
++ Blog hay cho WordPress
+http://colorlabsproject.com/tutorials/
+https://www.izwebz.com/		
+http://ehipthemes.com/
+http://www.elegantthemes.com/demo/?theme=Divi
+
+
+
+
++ Tạo các post relationship
+Posts 2 Posts
+http://wordpress.org/plugins/posts-to-posts/
+ 
+http://skematiktheme.com/
+http://bonsaished.com/themes/
+https://github.com/WebDevStudios/Custom-Metaboxes-and-Fields-for-WordPress
+https://github.com/WebDevStudios
+
++ Command Line Cheat Sheet
+https://github.com/WebDevStudios/CLI-Cheat-Sheet
+
++ Tự động tạo Custom Post Type trong Wordpress, chỉ cần copy code vào
+http://generatewp.com/post-type/
+// Register Custom Post Type
+function custom_post_type() {
+
+	$labels = array(
+		'name'                => _x( 'Post Types', 'Post Type General Name', 'text_domain' ),
+		'singular_name'       => _x( 'Post Type', 'Post Type Singular Name', 'text_domain' ),
+		'menu_name'           => __( 'Post Type', 'text_domain' ),
+		'parent_item_colon'   => __( 'Parent Item:', 'text_domain' ),
+		'all_items'           => __( 'All Items', 'text_domain' ),
+		'view_item'           => __( 'View Item', 'text_domain' ),
+		'add_new_item'        => __( 'Add New Item', 'text_domain' ),
+		'add_new'             => __( 'Add New', 'text_domain' ),
+		'edit_item'           => __( 'Edit Item', 'text_domain' ),
+		'update_item'         => __( 'Update Item', 'text_domain' ),
+		'search_items'        => __( 'Search Item', 'text_domain' ),
+		'not_found'           => __( 'Not found', 'text_domain' ),
+		'not_found_in_trash'  => __( 'Not found in Trash', 'text_domain' ),
+	);
+	$args = array(
+		'label'               => __( 'post_type', 'text_domain' ),
+		'description'         => __( 'Post Type Description', 'text_domain' ),
+		'labels'              => $labels,
+		'supports'            => array( ),
+		'taxonomies'          => array( 'category', 'post_tag' ),
+		'hierarchical'        => false,
+		'public'              => true,
+		'show_ui'             => true,
+		'show_in_menu'        => true,
+		'show_in_nav_menus'   => true,
+		'show_in_admin_bar'   => true,
+		'menu_position'       => 5,
+		'can_export'          => true,
+		'has_archive'         => true,
+		'exclude_from_search' => false,
+		'publicly_queryable'  => true,
+		'capability_type'     => 'page',
+	);
+	register_post_type( 'post_type', $args );
+
+}
+
+// Hook into the 'init' action
+add_action( 'init', 'custom_post_type', 0 );
+
+http://wordpress.org/plugins/custom-post-type-ui/
+
++ Source code mẫu cho Wordpress
+http://thachpham.com/wordpress/themes-wordpress/source-code-lam-website-nhac-tren-wordpress.html
+
+dvd-music-online
+http://thachpham.com/wp-content/uploads/2014/05/dvd-music-online.rar
+http://thachpham.com/wordpress/wordpress-development/lam-trang-nghe-nhac-part1.html
+http://thachpham.com/wordpress/wordpress-development/lam-trang-nghe-nhac-part2.html
+
+http://thachpham.com/wordpress/wordpress-development/wordpress-custom-taxonomy-toan-tap.html
+WordPress Custom Taxonomy toàn tập
+
++ Theme wordpress
+http://demos.swiftthemes.com/
 ======================================================================== 28 - 07 - 2014  =================================================================================================================================================\\
 + 29/7 ==> 5/8
 	Custome post type
