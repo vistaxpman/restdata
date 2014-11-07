@@ -1,3 +1,231 @@
+
+======================================================================== 06 - 11 - 2014  =================================================================================================================================================\\
++ Tìm hiểu thêm các hàm sau đây trong wordpress
+	manage_posts_custom_column
+	add_meta_box
+	add_filter('manage_edit-course_columns', 'course_taxonomy_columns');
+	check_admin_referer
+	delete_post_meta
+	update_post_meta
+	add_action('manage_posts_custom_column', 'course_custom_column', 10, 2);
+	the_ID
+	post_class
+	get_post_meta
+	get_the_ID
+	the_title_attribute
+	the_permalink
+	get_theme_mod
+	wp_nav_menu
+	add_theme_page
+	
+Để thêm hoặc bớt một column trong hiển thị custom post type 
+http://codex.wordpress.org/Plugin_API/Action_Reference/manage_posts_custom_column
+add_action( 'manage_posts_custom_column' , 'custom_columns', 10, 2 );
+
++ Thêm, xòa, sửa các custom post type
+	http://codex.wordpress.org/Function_Reference/get_post_meta
+		delete_post_meta
+		update_post_meta
+		add_post_meta
+
++ Making Columns Sortable
+	add_filter( 'manage_edit-course_sortable_columns', 'course_column_sortable' );
+	WP_Query
+	
++ Download source code của custom post type plugin
+http://sleary.me/cpt
+
+
++ Khi tạo ra một custom post type thì khi loop lại để lấy lên dữ liệu sẽ hiện như sau 
+<section id="primary" class="site-content">
+	<div id="content" role="main">
+		<?php if ( have_posts() ) : ?>
+			<header class="archive-header">
+				<h1 class="archive-title">Course Listing</h1>
+			</header><!-- .archive-header -->
+			<table>
+				<thead>
+					<th> Code </th>
+					<th> Title </th>
+					<th> Instructor </th>
+				<thead>
+				<tbody>
+					<?php while (have_posts() ) : the_post(); ?>
+					<tr id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+						<td>
+							<?php echo esc_html( get_post_meta( get_the_ID(), '_course_code', true) ); ?>
+						</td>
+						<td>
+							<a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a>
+						</td>
+						<td>
+							<a href="mailto:<?php echo esc_attr( get_post_meta( get_the_ID(), '_instructor_email', true) ); ?>">
+								<?php echo esc_html( get_post_meta ( get_the_ID(), '_instructor_name', true) ); ?>
+							</a>
+						</td>
+					</tr>
+					<?php endwhile; ?>
+				</tbody>
+			</table>
+		<?php endif; ?>
+	</div><!-- #content -->
+</section><!-- #primary -->	
+
+
+http://ottopress.com/2013/better-know-a-vulnerability-sql-injection/
+https://pippinsplugins.com/
+http://www.mashable.com/
+http://ran.ge/blog/
+http://thenounproject.com/
+http://wpmtl.org/
+
++ Các plugin hay
+http://ran.ge/wordpress-plugins/
+http://ran.ge/portfolio/
+
++ Tạo menu cho wordpress
+wp_nav_menu
+
++ Include thêm các file template vào trong wordpress
+get_template_part
+
++ Including Multiple Sidebar Files
+<?php get_sidebar(); ?> // sidebar.php
+<?php get_sidebar('page'); ?> // sidebar-page.php
+<?php get_sidebar('author'); ?> // sidebar-author.php
+
++ Post Template Tags
+Màn hình này sẽ cho phép biết các biến có trong wordpress
+http://codex.wordpress.org/Template_Tags
+http://codex.wordpress.org/Tag_Templates
+http://codex.wordpress.org/Stepping_Into_Template_Tags
+
+
++  get_template_part
+	- Listing 12-19.  Using the get_template_part()Function
+		get_template_part('loop'); // loop.php
+		get_template_part('loop', 'index'); // loop-index.php
+
++ Navigation Menu Tag
+Listing 12-20.  Using the wp_nav_menu()Function
+<?php
+	// argument style
+	wp_nav_menu( 'sort_column=menu_order&format=ul&menu_class=nav' );
+	
+	// array style equivalent
+	wp_nav_menu(array('sort_column' => 'menu_order', 'format' => 'ul', 'menu_class' => 'nav'));
+?>
+
+
++ Page Lists and Page Menus
+Listing 12-22.  Using the wp_list_pages()Function
+<!-- all pages in alphabetical order -->
+<ul> <?php wp_list_pages(); ?> </ul>
+<!-- all pages in menu order -->
+<ul> <?php wp_list_pages('sort_column=menu_order'); ?> </ul>
+<!-- to exclude a single page (in this case, the one with an ID of 12) -->
+<ul> <?php wp_list_pages('sort_column=menu_order&exclude=12'); ?> </ul>
+
++ Category Lists
+Listing 12-24.  Using the wp_list_categories()Function
+<!-- all categories in alphabetical order -->
+<ul> <?php wp_list_categories(); ?> </ul>
+<!-- all categores in menu order: My Category Order plugin required -->
+<ul> <?php wp_list_pages('sort_column=menu_order'); ?> </ul>
+<!-- show only parent categories -->
+<ul> <?php wp_list_categories('depth=1'); ?> </ul>
+
++ Enabling Menus
+// in functions.php 
+add_theme_support('nav-menus');
+
++ Enabling Featured Images
+add_theme_support( 'post-thumbnails' );
+
++ Enabling Custom Backgrounds and Headers
+add_theme_support('custom-background');
+
++ Changing Excerpt Length and Ellipsis
+	// Control excerpt length
+	function my_excerpt_length( $length ) {
+		return 100;
+	}
+	add_filter( 'excerpt_length', 'my _excerpt_length' );
+	
+	// Make a nice read more link on excerpts
+	function my_excerpt_more($more) {
+		return '&hellip; <a href="'. get_permalink() . '">' . 'More &rarr;' . '</a>';
+	}
+	add_filter( 'excerpt_more', 'my_excerpt_more' );
+
++ Best wordpres premium theme
+http://premium.wpmudev.org/blog/10-of-the-best-of-the-best-wordpress-themes/
+http://www.creativebloq.com/web-design/free-wordpress-themes-712429
+http://www.wpthemeschecker.com/the-best-premium-wordpress-themes-for-2014/
+http://themeforest.net/popular_item/by_category?category=wordpress
+https://www.google.com.vn/search?q=googlwe&sugexp=chrome,mod=13&sourceid=chrome&ie=UTF-8#q=best%20wordpress%20theme
+
++ Resetting the query
+<?php wp_reset_query(); ?>
+
+
++ Tìm hiểu việc tạo custom template cho menu, post type, category, tags, loop post, taxonomies, advance layout
++ Custom post loop và cả post loop template
++ Lấy lên danh sách file attachments
++ Creating Theme Options
+http://themefoundation.com/wordpress-theme-customizer/
+
++ create new template with wordpress
+http://themeshaper.com/2009/06/22/wordpress-themes-templates-tutorial/
+http://themeshaper.com/2012/10/22/the-themeshaper-wordpress-theme-tutorial-2nd-edition/
+
++ create custom query with wordpress
+http://code.tutsplus.com/categories/creative-coding
+http://code.tutsplus.com/articles/using-wordpress-for-web-application-development-custom-database-queries--wp-35193
+
+http://blogsitestudio.com/
+
++ Ebook
+http://blogsitestudio.com/wp-content/uploads/2013/11/Create-a-WordPress-Website-ebook-final.pdf
+http://www.scienceandart.org/wordpress/Wordpress_blacksun.pdf
+http://www.nathanielbailey.co.uk/wp-content/uploads/2013/08/Build-Your-Own-Wicked-Wordpress-Themes.pdf
+http://e-collection.library.ethz.ch/eserv/eth:7429/eth-7429-01.pdf
+http://it-ebooks.info/book/1175/
+http://www.modernality.com/documents/smashing-ebook-mastering-wordpress.pdf
+http://donald.netmode.ntua.gr/4ipad/wordpress/
+http://donald.netmode.ntua.gr/4ipad/wordpress/WordPress%20Tutorials%20-%20Smashing%20Magazine.pdf
+http://donald.netmode.ntua.gr/4ipad/wordpress/Rockstar_WordPress.pdf
+http://donald.netmode.ntua.gr/4ipad/wordpress/Smashing_wordpress.pdf
+
++ Building a WordPress Theme From Scratch
+https://www.google.com.vn/search?q=Web+Designers+Guide+to+WordPress&aq=f&sugexp=chrome,mod=13&sourceid=chrome&ie=UTF-8#q=Building%20a%20WordPress%20Theme%20From%20Scratch
+
+
+======================================================================== 31 - 10 - 2014  =================================================================================================================================================\\
+https://github.com/automattic/_s
+
+https://github.com/eddiemachado/bones
+https://github.com/simplethemes/skeleton_wp
+http://www.bu.edu/tech/services/comm/websites/www/wordpress/design-options/
+
+
+https://www.google.com.vn/#q=complex%20subquery%20in%20sql
+
++ Taxonomies
+Tạo đc custom post type và custom taxonomies
+
+Tìm hiểu cách custom lại layout cho Taxonomies và custom post type, custom layout cho page 
+register_post_type
+
+
+
+
+======================================================================== 24 - 10 - 2014  =================================================================================================================================================\\
++ Tạo custom menu trong wordpress
+http://techblog.kjodle.net/2011/08/25/create-custom-menus-in-wordpress/
+http://www.developerdrive.com/category/wordpress/
+https://www.google.com.vn/?gws_rd=ssl#q=customer%20menu%20and%20custom%20page%20wordpress
+==================================================================================================================================================================================================================================\\
 + Wordpress
 http://techblog.kjodle.net/2011/08/25/create-custom-menus-in-wordpress/
 Testing
