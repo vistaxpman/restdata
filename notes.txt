@@ -1,3 +1,133 @@
+======================================================================== 17 - 11 - 2014  =================================================================================================================================================\\
++ Ebooks Swift
+http://www.iphonetransferrecovery.com/Swift/free-ebooks.html
+http://www.skilledup.com/articles/6-best-free-swift-tutorials-programming-new-language/
+http://www.infoq.com/news/2014/06/apple-swift-learning-resources
+https://www.bloc.io/swiftris-build-your-first-ios-game-with-swift
+http://www.learnswift.tips/
+http://www.skilledup.com/
+http://www.hongkiat.com/blog/swift-programming-language/
+http://www.appcoda.com/swift/
+https://developer.apple.com/swift/
+https://designcode.io/swift
+
+
+http://www.raywenderlich.com/74438/swift-tutorial-a-quick-start
+https://www.airpair.com/swift/complete-guide-to-swift
+http://www.skilledup.com/articles/swift-online-courses-bootcamps/
+
+http://books.google.com.vn/books?id=mpU8BQAAQBAJ&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false
+http://ios-blog.co.uk/tutorials/developing-ios-apps-using-swift-part-1/
+http://jamesonquave.com/blog/developing-ios-apps-using-swift-part-3-best-practices/
+http://jamesonquave.com/blog/tutorials/
+
+http://adoptioncurve.net/archives/2014/07/a-minimum-viable-tableview-in-swift/
+http://blog.csdn.net/code41_codemonkey/article/details/37733631
+http://www.raywenderlich.com/74438/swift-tutorial-a-quick-start
+http://www.raywenderlich.com/74904/swift-tutorial-part-2-simple-ios-app
+http://www.learnswift.tips/
+http://rshankar.com/
+http://www.macworld.co.uk/how-to/mac/how-get-started-with-apple-swift-programming-3523633/
+https://github.com/nettlep/learn-swift
+Learn Apple's Swift programming language interactively through these playgrounds.'
+
+http://swiftlang.eu/
+http://shop.oreilly.com/product/9781939902115.do
+http://www.hongkiat.com/blog/swift-programming-language/
+http://www.sososwift.com/
+http://mhm5000.gitbooks.io/swift-cheat-sheet/content/
+https://www.google.com.vn/search?q=learn+swift+ios+programming&ie=utf-8&oe=utf-8&aq=t&rls=org.mozilla:en-US:official&client=firefox-a&gfe_rd=cr&ei=CHNsVM1HgorxB_LigIAG#q=learn+swift+ios+programming&rls=org.mozilla:en-US:official&start=30
+http://ios-blog.co.uk/swift-tutorials/
+
++ Google maps in ios 
+http://www.raywenderlich.com/81103/introduction-google-maps-ios-sdk-swift
+http://dubinski.org/wpis/google-maps-sdk-with-swift-tutorial/
+
+https://github.com/shiratsu/NeoCafedagashiForSwift
+https://qiita.com/
+http://www.hamweather.com/
+
++ Những từ khóa cần tìm hiểu thêm trong Swift
+result["artworkUrl60"] as? String ?? ""
+class func albumsWithJSON(allResults: NSArray) -> [Album] {
+var priceFloat: Float? = result["collectionPrice"] as? Float
+
++ Ứng dụng
+https://github.com/nghialv/MaterialKit
+http://www.raywenderlich.com/77974/making-a-gesture-driven-to-do-list-app-like-clear-in-swift-part-1
+http://www.raywenderlich.com/77975/making-a-gesture-driven-to-do-list-app-like-clear-in-swift-part-2
+http://www.ioscreator.com/tutorials/swipe-table-view-cell-custom-actions-tutorial-ios8-swift
+
+
++ Tạo bộ cài Yosemite 
+http://www.maclife.vn/mac-os/kinh-nghi%E1%BB%87m-th%E1%BB%A7-thu%E1%BA%ADt/item/356-h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-t%E1%BA%A1o-b%E1%BB%99-c%C3%A0i-yosemite.html
+https://www.tinhte.vn/threads/tao-bo-cai-usb-osx-yosemite-10-10-huong-dan-anh-em-cai-dat-len-doi.2308648/
+https://www.tinhte.vn/threads/nhung-luy-y-truoc-khi-cap-nhat-mac-os-x-10-10-yosemite.2375333/
+https://www.tinhte.vn/threads/tao-bo-cai-usb-osx-yosemite-10-10-clover.2309221/
+http://hackintosh.zone/
+http://www.hackintosh.com/#hackintosh_tutorials1
+http://www.redmondpie.com/how-to-install-os-x-yosemite-hackintosh-on-pc-guide/
+http://www.insanelymac.com/forum/forum/459-osx86-1010-yosemite/
+http://www.insanelymac.com/forum/topic/292748-guide-mavericks-109x-dell-optiplex-780-760/
+https://www.tinhte.vn/threads/huong-dan-tao-bo-cai-mac-osx-10-10-yosemite-tren-usb.2375837/
+https://www.tinhte.vn/threads/nhung-luy-y-truoc-khi-cap-nhat-mac-os-x-10-10-yosemite.2375333/
+https://www.tinhte.vn/threads/tao-bo-cai-usb-osx-yosemite-10-10-clover.2309221/
+https://www.tinhte.vn/threads/tao-usb-cai-os-x-mavericks-10-9-5-final-cho-may-tinh-su-dung-chip-intel.2185070/
+http://macintosh.vn/forum/threads/aio-tong-hop-tat-ca-cac-huong-dan-ve-hackintosh.5446/
+http://macintosh.vn/forum/threads/chia-se-quy-trinh-nhap-mon-acbc-cua-hackintosh.7394/
+http://macintosh.vn/forum/threads/nhung-dieu-can-chu-y-khi-chia-tao-format-phan-vung-cai-dat-trong-hackintosh.610/
+http://congnghe5giay.com/threads/cach-cai-dat-mac-os-x-yosemite-1010-beta-tren-phan-vung-moi.10390/
+http://swift4vn.blogspot.com/p/cai-mac-osx-phan-3-hackintosh-cai-mac.html
+http://meomac.com/mac-os/huong-dan-cai-dat-os-x-mavericks-10-9-0-len-pc-voi-niresh/
+http://heaveniphone.com/threads/204687-chia-se-huong-dan-chi-tiet-cai-mavericks-tren-laptop-lenovo-u410.html
+http://heaveniphone.com/threads/126090-cai-mac-os-len-vmware-phuc-vu-cong-viec-co-ban.html
+huong dan cai  yosemite hackintosh tren pc
+
+
+http://hackintosh31.rssing.com/chan-4523404/latest.php
+
++ OS X Yosemite - 10.10.1 
+https://itunes.apple.com/vn/app/id915041082?mt=12
+
+
+
+http://forum.osxlatitude.com/index.php?/topic/6844-yosemite-on-dell-d630-tutorial/
+https://www.tinhte.vn/forums/mac-chuyen-de-hackintosh.361/
+
+
++ Blog hay
+http://www.codinginswift.com/forums/index.php/
+http://www.raywenderlich.com/
+http://www.learnswift.tips/
+https://developer.apple.com/library/ios/documentation/swift/conceptual/buildingcocoaapps/Migration.html
+http://realm.io/news/converting-objc-to-swift/
+http://www.binpress.com/tutorial/converting-an-objective-c-app-to-swift/118
+http://www.jayway.com/2014/06/26/from-objective-c-to-swift-swift-goodies/
+http://www.toptal.com/swift/from-objective-c-to-swift
+
+
+
+
++ AFNetworking
+https://github.com/Alamofire/Alamofire
+https://medium.com/@aommiez/afnetwork-integrate-swfit-80514b545b40
+http://nshipster.com/alamofire/
+http://afnetworking.com/
+
++ Wordpress
+http://www.mediafire.com/download/yhiovqdo24a68tw/Rock4ble_BuilingWPTheme.rar
+Building WordPress Theme From Scratch 
+http://thachpham.com/
+http://celloexpressions.com/blog/
+https://ebooksvn.com/
+
+
+
+======================================================================== 14 - 11 - 2014  =================================================================================================================================================\\
++ Create custom post type
+http://www.smashingmagazine.com/2013/12/05/modifying-admin-post-lists-in-wordpress/
+
+
 http://i.kinja-img.com/gawker-media/image/upload/18n5wldl26apmjpg.jpg
 3, Tôn Đức Thắng, P. Bến Nghé, Q. 1
 Lý Chính Thắng, P. 7, Q. 3
