@@ -1,3 +1,68 @@
++ Swift
+
+	+ Good
+		http://blog.advteknology.com/develop-a-ios-swift-crud-app-with-a-rest-backend/
+		https://teamtreehouse.com/forum/blog-reader-in-swift
+		http://www.theappguruz.com/tutorial/ios-table-view-tutorial-using-swift/
+		http://www.theappguruz.com/tutorial/xml-parsing-using-nsxmlparse-swift/
+		http://www.theappguruz.com/sample-code/working-ios-file-management-using-swift/
+		http://www.theappguruz.com/tutorial/use-sqlite-database-swift/
+		http://codewithchris.com/iphone-app-connect-to-mysql-database/
+		http://www.theappguruz.com/sample-code/ios-lazy-loading-images/
+		http://dev.classmethod.jp/references/ios-8-xcode-6-swift-api-json/
+		http://blog.csdn.net/whzhaochao/article/details/32970985
+		http://rkrause.de/?p=32
+		
+		
+		
+
++ TableView with Swift
+https://gist.github.com/jquave/8ca03aad33490a2ffa73
+http://realm.io/news/building-tableviews-swift-ios8/
+http://adoptioncurve.net/archives/2014/07/a-minimum-viable-tableview-in-swift/
+http://www.raywenderlich.com/76519/add-table-view-search-swift
+http://www.weheartswift.com/how-to-make-a-simple-table-view-with-ios-8-and-swift/
+http://www.ioscreator.com/tutorials/delete-rows-table-view-ios8-swift
+http://makeapppie.com/2014/07/12/swift-swift-how-to-use-uitableview-in-swift/
+http://ashishkakkad.com/2014/10/json-parsing-in-swift-language-ios-8/
+http://makeapppie.com/2014/10/28/swift-swift-using-uiwebviews-in-swift/
+http://ashishkakkad.com/2014/10/create-simple-table-uitableview-in-swift-language-ios8/
+http://ashishkakkad.com/2014/10/update-json-array-parsing-in-swift-langauage-ios-8-xcode-6-gm/
+http://ashishkakkad.com/2014/10/xml-parsing-in-swift-language-ios-8-nsxmlparser/
+http://ashishkakkad.com/2014/10/create-a-application-in-xcode-6-ios-8-without-storyborard-in-swift-language-and-work-with-controls/
+http://www.johnmullins.co/blog/2014/08/06/swift-json/
+
++ Json
+http://date.jsontest.com/
+http://www.ioscreator.com/tutorials/json-parsing-tutorial-ios8-swift
+http://www.binpress.com/tutorial/converting-an-objective-c-app-to-swift/118
+https://www.makegameswith.us/gamernews/403/learn-swift-by-building-an-app-sample-projects-an
+http://www.sitepoint.com/introduction-swift-programming-language/
+http://roadfiresoftware.com/blog/
+
+
+
+https://www.google.com.vn/#q=swift+table+view+%2B+json
+	
+http://www.learnswift.tips/
+http://www.thedarkdev.com/web-service-apps-in-ios7-json-with-uitableview.html
+http://www.iosauthor.com/uncategorized/web-api-request-and-parse-json-swift/
+http://speakobjectively.blogspot.com/2014/06/swift-json-demo.html
+http://ios-blog.co.uk/tutorials/developing-ios8-apps-using-swift-part-2-connect-to-the-itunes-search-api/
+http://ijoshsmith.com/2014/07/29/a-swift-app-that-calls-json-web-services/
+https://developer.apple.com/library/mac/samplecode/Earthquakes/Listings/Swift_Earthquakes_QuakesViewController_swift.html
+http://qiita.com/ytakzk/items/5b9655ab5c0825dbbd62
+https://qiita.com/docs
+https://github.com/Alamofire/Alamofire
+http://nshipster.com/alamofire/
+http://himaratsu.hatenablog.com/entry/swift/tiqav
+http://www.swifttoolbox.io/
+http://www.appcoda.com/self-sizing-cells/
+http://www.appcoda.com/self-sizing-cells/
+http://www.appcoda.com/tag/uitableview/
+https://qiita.com/
+http://www.cmenschel.de/
+
 
 ======================================================================== 27 - 05 - 2014 =========================================================================================================================================
 + Coding Guideline
