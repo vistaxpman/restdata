@@ -63,6 +63,71 @@ http://www.appcoda.com/tag/uitableview/
 https://qiita.com/
 http://www.cmenschel.de/
 
++ Ebooks Swift
+http://www.iphonetransferrecovery.com/Swift/free-ebooks.html
+http://www.skilledup.com/articles/6-best-free-swift-tutorials-programming-new-language/
+http://www.infoq.com/news/2014/06/apple-swift-learning-resources
+https://www.bloc.io/swiftris-build-your-first-ios-game-with-swift
+http://www.learnswift.tips/
+http://www.skilledup.com/
+http://www.hongkiat.com/blog/swift-programming-language/
+http://www.appcoda.com/swift/
+https://developer.apple.com/swift/
+https://designcode.io/swift
+
+
+http://www.raywenderlich.com/74438/swift-tutorial-a-quick-start
+https://www.airpair.com/swift/complete-guide-to-swift
+http://www.skilledup.com/articles/swift-online-courses-bootcamps/
+
+http://books.google.com.vn/books?id=mpU8BQAAQBAJ&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false
+http://ios-blog.co.uk/tutorials/developing-ios-apps-using-swift-part-1/
+http://jamesonquave.com/blog/developing-ios-apps-using-swift-part-3-best-practices/
+http://jamesonquave.com/blog/tutorials/
+
+http://adoptioncurve.net/archives/2014/07/a-minimum-viable-tableview-in-swift/
+http://blog.csdn.net/code41_codemonkey/article/details/37733631
+http://www.raywenderlich.com/74438/swift-tutorial-a-quick-start
+http://www.raywenderlich.com/74904/swift-tutorial-part-2-simple-ios-app
+http://www.learnswift.tips/
+http://rshankar.com/
+http://www.macworld.co.uk/how-to/mac/how-get-started-with-apple-swift-programming-3523633/
+https://github.com/nettlep/learn-swift
+Learn Apple's Swift programming language interactively through these playgrounds.'
+
+http://swiftlang.eu/
+http://shop.oreilly.com/product/9781939902115.do
+http://www.hongkiat.com/blog/swift-programming-language/
+http://www.sososwift.com/
+http://mhm5000.gitbooks.io/swift-cheat-sheet/content/
+https://www.google.com.vn/search?q=learn+swift+ios+programming&ie=utf-8&oe=utf-8&aq=t&rls=org.mozilla:en-US:official&client=firefox-a&gfe_rd=cr&ei=CHNsVM1HgorxB_LigIAG#q=learn+swift+ios+programming&rls=org.mozilla:en-US:official&start=30
+http://ios-blog.co.uk/swift-tutorials/
+
++ Google maps in ios 
+http://www.raywenderlich.com/81103/introduction-google-maps-ios-sdk-swift
+http://dubinski.org/wpis/google-maps-sdk-with-swift-tutorial/
+
+https://github.com/shiratsu/NeoCafedagashiForSwift
+https://qiita.com/
+http://www.hamweather.com/
+
+http://www.codinginswift.com/forums/index.php/
+http://www.raywenderlich.com/
+http://www.learnswift.tips/
+https://developer.apple.com/library/ios/documentation/swift/conceptual/buildingcocoaapps/Migration.html
+http://realm.io/news/converting-objc-to-swift/
+http://www.binpress.com/tutorial/converting-an-objective-c-app-to-swift/118
+http://www.jayway.com/2014/06/26/from-objective-c-to-swift-swift-goodies/
+http://www.toptal.com/swift/from-objective-c-to-swift
+
+
+
+
++ AFNetworking
+https://github.com/Alamofire/Alamofire
+https://medium.com/@aommiez/afnetwork-integrate-swfit-80514b545b40
+http://nshipster.com/alamofire/
+http://afnetworking.com/
 
 ======================================================================== 27 - 05 - 2014 =========================================================================================================================================
 + Coding Guideline
