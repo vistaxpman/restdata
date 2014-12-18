@@ -1,3 +1,141 @@
++ Cách chạy Angular trên trình duyệt 
+http://plnkr.co/edit/tpl:FrTqqTNoY8BEfHs9bB0f
+
++ game trên Android
+http://halfbrick.com/our-games/jetpack-joyride/
+
++ YouWave
+http://youwave.com/download/
+http://youwave.com/wiki/index.php?title=FAQ
+https://archive.org/details/YouwaveForAndroid4.1.2PatchHome3.4
+
+http://youwave.com/forum/index.php?topic=742.0
+Goto Devtools->terminal emulation and type in "su". Then you have all the root control.
+https://sites.google.com/site/vodailuong/tap-huan-lap-trinh/android
+https://www.tinhte.vn/threads/genymotion-chay-ung-dung-android-tren-may-tinh-windows-hoac-os-x-mot-cach-de-dang.2184024/page-39
+
+http://www.andyroid.net/faqs
+http://genk.vn/may-tinh/su-dung-andy-de-trai-nghiem-android-tren-may-tinh-20140426134615419.chn
+http://www.androidauthority.com/bluestacks-vs-andy-best-android-emulators-pc-414036/
+http://getintopc.com/softwares/emulators/andy-android-emulator-free-download/
+https://www.tinhte.vn/threads/lam-the-nao-de-chay-ung-dung-android-tren-may-tinh-bang-windows.2341599/
+http://www.hoang8f.info/2014/01/root-genymotion.html
+http://www.hoang8f.info/
+http://forum.xda-developers.com/showthread.php?t=2333452&page=12
+
+
++ Root BlueStacks
+gỡ bluestack đi giữ lại hết phần mềm rồi cài lại thôi nếu bạn muốn tự root tìm rootez nhé
+https://www.tinhte.vn/threads/bluestacks-app-player-rc-0-9-3-4070-da-root-cho-anh-em-gia-lap-android-chien-game-do-nong-may-nhe.2368259/
+http://forum.xda-developers.com/showthread.php?t=2565644
+http://www.aloandroid.com/huong-dan-cach-root-bluestacks.html
+https://www.tinhte.vn/threads/bluestacks-app-player-rc-0-9-3-4070-da-root-cho-anh-em-gia-lap-android-chien-game-do-nong-may-nhe.2368259/page-2
+http://thegioitinhoc.vn/phan-mem-khac/251213-bluestacks-hd-app-player-pro-v-0-9-1-4057-root-mod-android-4-4-2-kitkat.html
+http://www.aloandroid.com/huong-dan-cach-root-bluestacks.html
+http://diendan.gamethuvn.net/threads/bluestacks-huong-dan-cai-root-va-choi-castle-clash.596138/
+https://sites.google.com/site/vodailuong/tap-huan-lap-trinh/android/huongdancachrootbluestacks
+https://sites.google.com/site/vodailuong/du-an
+http://software.sdc.udn.vn/bai-viet/30-phan-mem-quan-ly-dao-tao-ud-eduman.html
+http://skul9x.wordpress.com/2013/06/29/huong-dan-root-bluestacks-phien-ban-moi-nhat/
+http://huetoday.net/bluestacks-0-8-4-3036-root-620-1-1
+http://boombeachvn.com/threads/huong-dan-root-bluestack-chu-yeu-de-phuc-vu-viet-hoa-va-truy-cap-sau-vo-he-thong.19/
+
+http://forum.xda-developers.com/wiki/BlueStacks_App_Player
+http://www.mediafire.com/download/ed9739suxzfwu8c/BlueStacks_HD_AppPlayerPro_setup_REL_0.9.6.4092.msi
+BlueStacks HD App Player Pro 0.9.6.4092
+
+http://onhax.net/bluestacks-app-player-pro-0-9-1-4/
+http://4pda.info/news/27030/
+http://thegioitinhoc.vn/phan-mem-khac/263141-bluestacks-app-player-0-9-6-4092-pre-rooted-bseasy.html
+http://itiansoft.com/bluestacks-hd-app-player-pro-0-9-4-4-cracked-version-latest/
+https://www.google.com.vn/search?q=root+bluestacks&ie=utf-8&oe=utf-8&aq=t&rls=org.mozilla:en-US:official&client=firefox-a&channel=fflb&gfe_rd=cr&ei=48uPVNz_LoyK8QeE04DQAg#q=root+bluestacks&rls=org.mozilla:en-US:official&channel=fflb&start=20
+BlueStacks 2014 HD App Player 0.9.6.4092 Mod + Root Full indir
+http://www.fullprogramlarindir.com/bluestacks-2014-hd-app-player-mod-root-full-indir.html
+
+	
+======================================================================== 12 - 12 - 2014  =================================================================================================================================================\\\	
++ Angular JS
+https://leanpub.com/Practical_AngularJS/read
+http://avaxhm.com/ebooks/programming_development/0992279453.html
+http://zebook.net/download/angularjs-novice-ninja
+https://github.com/spbooks/angularjs1/
+http://weblogs.asp.net/dwahlin/angularjs-in-60-ish-minutes-the-ebook
+https://www.ng-book.com/#packages
+http://codecondo.com/3-free-books-for-learning-angularjs/
+https://leanpub.com/Practical_AngularJS
+https://leanpub.com/Practical_AngularJS/read
+http://fastandfluid.com/publicdownloads/AngularJSIn60MinutesIsh_DanWahlin_May2013.pdf
+http://twofuckingdevelopers.com/2013/09/agularjs-in-60-minutes-pdf/
+http://web-profile.com.ua/wp-content/uploads/recipes-with-angular-js.pdf
+
+http://ajax.googleapis.com/ajax/libs/angularjs/1.3.6/angular.js
+
+AngularJS Directives
+
+Learning AngularJS
+
+Learning AngularJS for .NET Developers
+
+
+AngularJS Web Application Development Blueprints
+
+AngularJS in Action
+Beginning AngularJS
+Professional AngularJS
+AngularJS Web Application Development Cookbook
+
+
+https://www.firebase.com/pricing.html
+
+
+
+	
+======================================================================== 08 - 12 - 2014  =================================================================================================================================================\\\
+http://www.sumatrapdfreader.org/download-free-pdf-viewer.html
+http://www.tracker-software.com/product/pdf-xchange-viewer
+http://www.primopdf.com/
+
+
+http://forum.bacsi.com/co-xuong-khop/tp-hcm-kham-dau-lung-o-dau-63115.html	
+Tốt nhất bạn nên đến Bệnh viện chấn thương chỉnh hình Tp.HCM để khám.
+
+Địa chỉ: 929 Trần Hung Đạo, Phường 1, Quận 5, Tp. Hồ Chí Minh.
+
+Điện thoại: (+84)(8)923 5821 – 923 5791 Fax: (+84)(8)923 6554
+
+Thân!
+
+http://www.webtretho.com/forum/f77/dia-chi-kham-benh-ve-co-xuong-khop-tai-sai-gon-319957/
+http://www.webtretho.com/forum/f77/hoi-dia-chi-kham-benh-co-xuong-khop-tai-sai-gon-1496792/
+http://www.webtretho.com/forum/f77/hoi-dia-chi-kham-benh-tong-quat-cho-nguoi-gia-431663/
+http://hongngochospital.vn/dau-vung-that-lung-cach-phong-va-chua/
+
+http://alobacsi.com/bv-phong-kham-xuong-khop/bi-thoai-hoa-cot-song-nen-di-kham-o-dau-tai-tphcm-q46850c231.htm
+BV Chấn Thương Chỉnh Hình
+929 Trần Hưng Đạo, Phường 1, Quận 5, TP.HCM
+ĐT: 08 3923 5791
+>>Quy trình khám bệnh tại BV Chấn thương chỉnh hình TPHCM như thế nào AloBacsi ơi?
+
+BV Chấn thương chỉnh hình SaiGon - ITO
+305 Lê Văn Sỹ, Phường 01, Quận Tân Bình, TP.HCM
+ĐT: 84 3844 1399
+
+BV Đại học Y dược
+215 Hồng Bàng, Phường 11, Quận 5,TP.HCM
+ĐT: 08 3855 4269
+
+BV Chợ Rẫy
+201B Nguyễn Chí Thanh, Phường 12, Quận 5, TP.HCM
+ĐT: 84 3855 4137 - 3855 4138
+
+Mong rằng những thông tin trên sẽ giúp ích cho bạn, bạn có thể tham khảo thông tin và lựa chọn địa chỉ uy tín nhất để đưa mẹ bạn đến khám và điều trị có hiệu quả nhé.
+Thân ái.
+
+http://maivang.nld.com.vn/suc-khoe/dau-that-lung-20091015110922114.htm
+Bạn có thể đi khám ở các BV có chuyên khoa thần kinh-cột sống, cơ xương khớp và giảm đau. Tại TPHCM, bạn có thể đến khám tại BV Chợ Rẫy, BV Đại học Y Dược, BV Nguyễn Tri Phương, BV 115, BV FV...
+
+http://www.t4ghcm.org.vn/suc-khoe-cho-moi-nguoi/dau-lung-khac-dau-that-lung-1666/
+
 ======================================================================== 05 - 12 - 2014  =================================================================================================================================================\\
 + Máy PC
 http://www.hanoicomputer.vn/pc-dell-optiplex-3020mt-i3-haswell/p17893.html
