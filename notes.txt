@@ -1,4 +1,66 @@
 
+http://mshoatoeic.com/
+
+Yii Project Blueprints by Charles R. Portwood II
+2014 | ISBN: 178328773X | English | 320 pages | PDF + EPUB | 3 + 6 MB 
+http://www.nitroflare.com/view/4B744959D6E62DD/Yii_Project_Blueprints.pdf
+
+Beginning iOS Apps with Facebook and Twitter APIs: for iPhone, iPad, and iPod touch by Christopher White
+English | July 14, 2011 | ISBN: 143023542X | 315 Pages | PDF | 28 MB
+https://www.nitroflare.com/view/BA0BD2D8D45B887/143023542X.pdf
+
+Learning Agile: Understanding Scrum, XP, Lean, and Kanban By Andrew Stellman, Jennifer Greene
+2014 | 420 Pages | ISBN: 1449331920 | EPUB, MOBI, PDF | 59 MB + 13 MB + 45 MB
+http://www.nitroflare.com/view/8F5013ECB11740E/1449331920_Learning.pdf
+
+Metaprogramming Ruby 2: Program Like the Ruby Pros (Facets of Ruby) by Paolo Perrotta
+2014 | ISBN: 1941222129 | English | 250 pages | PDF | 14 MB 
+https://www.nitroflare.com/view/8160D263672B6E6/1941222129.pdf
+
+CentOS System Administration Essentials by Andrew Mallett
+2014 | ISBN: 1783985925 | English | 174 pages | PDF | 4 MB 
+https://www.nitroflare.com/view/7CD6FE8DEDD7AE5/1783985925.pdf
+
+ Marcus Zarra, Matt Long, "Core Animation: Simplified Animation Techniques for Mac and iPhone Development"
+English | ISBN: 0321617754 | 2009 | PDF | 264 pages | 3 MB 
+https://www.nitroflare.com/view/0A837D2E88B9935/0321617754.pdf
+
+
+Professional Scrum Development with Microsoft Visual Studio 2012 (Developer Reference) by Richard Hundhausen
+English | Oct 25, 2012 | ISBN: 073565798X | 360 Pages | PDF | 27 MB
+https://www.nitroflare.com/view/BAC748C8E02B57B/073565798X.pdf
+
+ Michael Frampton, "Big Data Made Easy: A Working Guide to the Complete Hadoop Toolset"
+English | ISBN: 1484200950, 1484200969 | 2015 | 392 pages | PDF | 15 MB 
+https://www.nitroflare.com/view/F70284975179DD2/1484200950Data.pdf
+
+Elvis C. Foster, Shripad Godbole, "Database Systems: A Pragmatic Approach"
+English | ISBN: 1484208781 | 2015 | 556 pages | PDF | 48 MB 
+https://www.nitroflare.com/view/2DAAAC7BAABE9E3/1484208781Databas.pdf
+
+
+Robin Dewson, "Beginning SQL Server for Developers, 4 edition"
+English | ISBN: 1484202813 | 2015 | 684 pages | PDF | 26 MB 
+https://www.nitroflare.com/view/406FD5FE536F0E8/1484202813Sql.pdf
+
+Sebastian Gutierrez, "Data Scientists at Work"
+English | ISBN: 1430265981 | 2015 | 364 pages | PDF | 2 MB 
+https://www.nitroflare.com/view/E26B2D86A2187A1/1430265981DatSc.pdf
+
+Gary Bennett, Brad Lees, "Swift for Absolute Beginners"
+Apress Swift for Absolute Beginners 2014
+English | ISBN: 1484208870, 1484208889 | 2015 | 308 pages | PDF | 15 MB 
+https://www.nitroflare.com/view/4ABAFFB684C6B5C/1484208870Swift.pdf
+
+Introducing iOS 8 by Steve Derico
+English | 2014 | ISBN: 1491908610 | 334 pages | PDF | 39 MB
+http://www.nitroflare.com/view/040E0D21D09CF04
+
+
+
+http://www.sqlteam.com/tag/select
+
+
 + Angular JS
 https://code.angularjs.org/1.3.8/
 
