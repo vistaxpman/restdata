@@ -1,4 +1,63 @@
 
++ LEMP cho Centos
+https://www.digitalocean.com/community/tutorials/how-to-install-linux-nginx-mysql-php-lemp-stack-on-centos-7
+https://www.digitalocean.com/community/tutorials/initial-server-setup-with-centos-7
+https://www.howtoforge.com/how-to-install-nginx-with-php-and-mysql-lemp-stack-on-centos-7
+https://www.howtoforge.com/centos-7-server
+https://www.howtoforge.com/centos-7-server-p2
+https://www.howtoforge.com/samba-server-installation-and-configuration-on-centos-7
+https://www.howtoforge.com/how-to-install-nginx-with-php-and-mysql-lemp-stack-on-centos-7
+https://www.howtoforge.com/how-to-install-wordpress-on-centos-7
+https://www.howtoforge.com/how-to-install-joomla-on-centos-7
+https://www.howtoforge.com/apache_php_mysql_on_centos_7_lamp
+http://www.unixmen.com/install-lemp-server-nginx-mariadb-php-centos-7/
+
+
+http://wplifeguard.com/install-linux-nginx-php-fpm-mysql-lemp-wordpress-on-ubuntu/
+http://isoredirect.centos.org/centos/7/isos/x86_64/
+
+http://www.slideshare.net/khoikito/n-linux-virtual-server-nguyn-vn-chu-khi
+
+
+http://blog-xtraffic.pep.vn/cach-cai-dat-linux-nginx-mysql-php-lemp-tren-centos/
+http://blog-xtraffic.pep.vn/huong-dan-cach-cai-dat-wordpress-voi-hhvm-nginx-mysql/
+http://blog-xtraffic.pep.vn/huong-dan-cach-cai-dat-nginx-tren-centos/
+http://clients.vinabee.vn/knowledgebase.php?action=displayarticle&id=77
+http://clients.vinabee.vn/knowledgebase.php?action=displayarticle&id=78
+http://blog-xtraffic.pep.vn/huong-dan-cach-cai-dat-phalcon-the-fastest-php-framework/
+http://blog-xtraffic.pep.vn/huong-dan-cai-dat-centos-web-panel-free-linux-web-hosting-control-panel/
+http://blog-xtraffic.pep.vn/huong-dan-cach-cai-dat-node-js-npm-tren-centos/
+http://congdonglinux.vn/forum/forumdisplay.php?35-CentOS
+http://blog-xtraffic.pep.vn/cach-cai-dat-linux-nginx-mysql-php-lemp-tren-centos/
+http://pbxvn.com/slides/Install_Ubuntu_Server_14.04.pdf
+http://thinkplusvn12.blogspot.com/2014/07/huong-dan-cai-at-lemp-len-may-chu.html
+
+
++ Link download centos
+http://mirror-fpt-telecom.fpt.net/centos/6.6/isos/
+
+
++ Bài viết hay cho VPS
+http://thachpham.com/hosting-domain/serie-vps-can-ban.html
+
+https://www.google.com.vn/#q=How+to+install+LEMP+on+centos+7
+
+
++ Website hay
+http://ngocchinh.com/
+http://www.giaiphapso.info/
+https://www.izwebz.com/
+http://kiemtientrenmangaz.com/
+http://nganson.com/
+http://vanmy.net/
+https://www.izwebz.com/jobs-exp/tim-viec-o-dau/
+https://dribbble.com/
+http://www.pixeden.com/
+http://ngocchinh.com/
+
+
++ Ruby
+
 http://mshoatoeic.com/
 
 Yii Project Blueprints by Charles R. Portwood II
