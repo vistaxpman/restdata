@@ -1,0 +1,95 @@
+Technical Skills Requirements
+● Minimum 2 years of experience developing web applications with
+○ ASP.NET
+○ HTML, CSS and JavaScript
+○ MySQL or SQL Server
+● It is a plus to have experience with
+○ Microsoft SSRS
+○ MS Report Viewer
+○ RESTful web services
+○ Data-driven applications with advanced SQL queries
+○ B2B applications
+
+Other Requirements
+● Able to communicate smoothly in English
+● Able to work independently
+● Knowledge and experience in all software engineering activities: requirements analysis, architecture & design, estimation, project management
+● Strong object oriented design, relational model design, and problem solving skills
+● Knowledge about software development methodology
+● Agile/Scrum development
+● Test-driven
+● Continuous integration 
+==============================================================================================================
+Yêu Cầu Công Việc
+Technical Requirements
+- Bachelor degree in Computer Science, Information Technology or equivalent.
+- SQL Server and LINQ
+- ASP.NET, HTML, Javascript, AJAX, XML, JQuery
+- C#, VB.NET
+- Windows Services
+- RESTful web-services
+- At least 3+ years experience as a developer
+- Strong object oriented design skills
+- Proficient in reading and writing English
+
+Why you’ll want to work with us:
+- Friendly relaxed team environment
+- Exciting, fast-paced projects
+- Competitive salary
+- Full social and health insurance per VN labor law.
+- Join our soccer team play every Monday 
+==============================================================================================================
+Yêu Cầu Công Việc
+• Excellent written and verbal English skills is a must and handle normal English verbal conversation in both life and work related Accountable and proactive(BA, SA, Project Manager Positions)
+• Able to read & well understand English materials, transfer information from visual to text in English(BA, SA, QA, Dev Positions)
+• 3+ years real experience IOS/Android with hands-on experience(Team Leader Postion)
+• 2+ years real experience for Developer Position
+• Quick technical, performance problem solver.
+• IOS: Experience in Objective-C, Cocoa, Facebook iOS SDK, Twitter iOS SDK
+• Android: Experience in Java, Android SDK, ADT. Used Eclipse IDE, Android SDK
+• Knowledge of Design Patterns, and UML.
+• Knowledge of databases (SQL, MS SQL Server 2005/2008), stored procedures.
+• Have Experience works US, EU Customers are a plus
+• Strong English Communication is a plus
+• Has strong Data mining experience, knowledge of Big Data Implementation(SA/TL/PM Position)
+• Have applications on AppStore/Google Play is a plus
+Education/Training
+• Bachelor degree in IT/Software/Computer Science. Master degree is preferred.
+
+==============================================================================================================
+The ideal Senior Dot Net Developer- Classifieds Division
+• Computer Science/ Information Technology/ Developer Background.
+• At least 3 years of professional experience which is related with ASP.NET, C#, Web-Forms and web services
+• Strong knowledge in ASP.NET C#, JavaScript, JQuery, Ajax, MS-SQL(especially in stored procedure) and TFS, XML, performance, security and browser compatibility
+• Excellent in coding, debugging, problem solving, analyzing and understanding existing programs.
+• Preferred: Experience with MVC framework, GITHub
+• Experience in web application and/or mobile application development landscapes
+• Have a good perspective about web and mobile app design: able to analyze why an app/web is built in a certain way
+• Able to use project management tool such as Redmine, Trello
+• Excellent communication skills
+• Very positive optimistic attitude
+• Good communication skill (speaking and listening) in English is the MUST 
+==============================================================================================================
+
+Yêu Cầu Công Việc
+- Bachelor’s Degree in IT or Computer Related Studies,
+- Minimum of 3 years development experience using the latest web technologies including:
+o .Net (C# and VB.net)
+o ASP MVC5, ASP Web API
+o REST API
+o JSON
+o Version control such as Subversion
+o XML
+o AJAX, JQuery
+o Entity Framework 5
+o HTML5
+o Web Services
+- Experience working with relational database systems such as MSSQL or Oracle and a good working knowledge of SQL.
+- Excellent knowledge of HTML5, CSS3, UI, UX.
+- Ability to create developer friendly library based on detailed technical specifications.
+- Able to work independently as well as in a team and cope with pressure
+- Must be proactive, resourceful and self-motivated with strong analytical skills
+- Strong interpersonal with sense of initiative and communication skills required
+- Application experience implementing websites/applications for utilization by a large volume of users
+==============================================================================================================
+
