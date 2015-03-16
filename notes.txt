@@ -1,16 +1,70 @@
 http://www.gravitatedesign.com/
 http://www.unifusion.com/
 
-+ Dad
-22/05/1952
-250545941
-Ngày cấp 10/12/1999 - CA Tỉnh Lâm Đồng
++ Nice template CSS
+http://www.1stwebdesigner.com/create-contact-form-in-html5-css/
+http://1stwebdesigner.com/demos/css3-contact-form/
+http://mark-anthony.ca/html5-contact-form-with-css-php-tutorial/
+http://www.onextrapixel.com/examples/html5-contact-form/
+http://www.onextrapixel.com/2013/01/18/creating-an-html5-responsive-ready-contact-form-with-javascript-detection/
+tangledindesign.com/how-to-create-a-contact-form-using-html5-css3-and-php/
+http://www.html5templatesdreamweaver.com/bootstrap-form.html
+http://www.html5templatesdreamweaver.com/free/bootstrap-biz-1/site/contact.php
+http://www.webdesignviews.com/2013/11/html5-contact-form/
+http://media02.hongkiat.com/responsive-css3-form/demo/index.html
+http://www.hongkiat.com/blog/creating-responsive-form-with-css3-html5/
+http://line25.com/tutorials/create-a-stylish-contact-form-with-html5-css3
+http://eightonefive.com/blog/2011/10/20/create-a-simple-html5-contact-form/
+http://y2graphic.com/html-va-css/huong-dan-tao-form-lien-he-su-dung-html5-css3
+http://www.freshdesignweb.com/css-registration-form-templates.html
+http://w3layouts.com/preview/?l=/web-login-form-signup-form-template/
+http://www.enough.pro/10-html-and-css-registration-and-contact-forms-in-web-design/
+http://imomen.com/#nimblebox[nimble_portfolio_gal_default]/7/
 
-+ Mom
-03/03/1955
-250191862
-Ngày cấp 23/05/1980 - CA Tỉnh Lâm Đồng
 
++ Cần tìm
+http://red-team-design.com/html5-css3-envelope-contact-form/
+http://line25.com/wp-content/uploads/2011/form/demo/index.html
+http://demo.tutorialzine.com/2010/04/carbon-signup-form/demo.html
+http://tutorialzine.com/2010/04/carbon-signup-form/
+http://www.eightonefive.com/code/form5/index.php
+http://codepen.io/shree33/pen/HeiBC
+http://codepen.io/andy31415/pen/FtKzs
+http://192.241.132.92/idealforms3-demo/
+https://github.com/elclanrs/jq-idealforms/
+http://www.webdesignboom.net/2014/html-css-login-form-templates/
+http://voky.com.ua/showcase/sky-forms/examples/scheme-yellow.html
+
++ Table css
+http://www.nhatchanh.info/2014/11/css-table-dinh-dang-table-bang-css.html
+http://www.csstablegenerator.com/css-table-design/0/all/
+http://www.math2it.com/2014/08/tao-table-ep-cho-blogger-voi-css.html
+http://www.thuthuatweb.net/css/thiet-ke-table-dep-mat-bang-css3.html
+http://cssmenumaker.com/blog/stylish-css-tables-tutorial
+http://code.freetuts.net/tao-table-trong-bootstrap-3-177.html
+http://megacode.com.vn/files/view/an-tuong-voi-pricing-table-lam-tu-css3-6586.html
+http://johnsardine.com/freebies/dl-html-css/simple-little-tab/
+http://johnsardine.com/example/simple-little-table/
+http://www.textfixer.com/tutorials/css-tables.php
+http://tablestyler.com/#
+http://www.freshdesignweb.com/free-css-tables.html
+http://codepen.io/jackrugile/pen/EyABe
+http://codepen.io/tjoen/pen/LEpeq
+http://icant.co.uk/csstablegallery/tables/6.php
+https://css-tricks.com/examples/ResponsiveTables/responsive.php ( can tim )
+http://red-team-design.com/practical-css3-tables-with-rounded-corners/
+
+
+
++ Blog Viet
+http://hocwebchuan.net/danhmuc/php/
+http://minhnhut.info/
+
+
+
++ Hiệu ứng Javascript
+http://elclanrs.github.io/jq-tiles/
+https://github.com/elclanrs/jq-tiles
 ======================================================================== 25 - 02 - 2015 ========================================================================================================================================================================================================================
 + địa chỉ sửa xe máy 
 45, Nguyễn Du, P. 7, Q. Gò Vấp
