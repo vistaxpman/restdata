@@ -1,6 +1,28 @@
 http://www.gravitatedesign.com/
 http://www.unifusion.com/
 
+ Wordpress Slide Show
+http://thachpham.com/wordpress/wp-plugin/tao-slide-anh-mien-phi.html
+http://www.slidedeck.com/
+https://wordpress.org/plugins/slidedeck2/
+http://hocwebtructuyen.com/template-modules/wordpress/269-plugin-tao-content-slider-cho-wordpress
+http://gorillathemes.com/themes/
+http://www.featuredcontentgallery.com/
+http://xuanthuc.com/mot-so-plugin-tao-slider-cho-wordpress-khong-the-bo-qua.html
+http://hocwp.net/blog/meta-slider-plugin-tao-slideshow-cho-wordpress/
+
++ Cần tìm
+http://www.jamviet.com/2014/10/meta-slider-plugin-tot-nhat-de-lam-slide-anh-tren-wordpress.html
+https://wordpress.org/plugins/len-slider/screenshots/
+https://wordpress.org/plugins/slideshow-gallery/screenshots/
+https://wordpress.org/plugins/smooth-slider/screenshots/
+http://huge-it.com/wordpress-plugins-portfolio-gallery-demo-admin/
+http://huge-it.com/portfolio-gallery/
+https://wordpress.org/plugins/tags/portfolio
+http://www.elegantthemes.com/blog/resources/some-of-the-best-wordpress-portfolio-plugins
+http://premium.wpmudev.org/blog/best-wordpress-portfolio-plugins-for-impressing-potential-clients/
+https://www.google.com.vn/?gws_rd=ssl#q=plugin+wordpress+portfolio+gallery&start=10
+
 + Nice template CSS
 http://www.1stwebdesigner.com/create-contact-form-in-html5-css/
 http://1stwebdesigner.com/demos/css3-contact-form/
