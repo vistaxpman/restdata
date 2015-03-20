@@ -16,6 +16,91 @@ OTW Portfolio Light
 	Portfolio and Testimonial manager
 	https://wordpress.org/plugins/portfolio-and-testimonial-manager/
 
+
+Arconix Portfolio
+	https://wordpress.org/plugins/arconix-portfolio/screenshots/
+	
+	One Page Portfolio
+	https://wordpress.org/plugins/one-page-portfolio/screenshots/
+	
+	Easy Media Gallery - Best Gallery & Photo Albums Plugin
+	https://wordpress.org/plugins/easy-media-gallery/screenshots/
+	
+	WordPress Picture / Portfolio / Media Gallery
+	https://wordpress.org/plugins/nimble-portfolio/
+	
+	GPP Slideshow
+	https://wordpress.org/plugins/gpp-slideshow/screenshots/
+	
+	http://codecanyon.net/item/pinterest-to-wordpress-plugin-/5304915?ref=hdalive
+	
+	
+	http://codecanyon.net/item/go-responsive-portfolio-for-wp/5741904
+	Go - Responsive Portfolio for WP
+	
+	Plus Gallery | A Responsive photo WP gallery and Social gallery
+	http://codecanyon.net/item/plus-gallery-a-responsive-photo-wp-gallery-and-social-gallery/7836626?ref=hdalive
+	
+	Fast Gallery - Premium Wordpress Plugin
+	http://codecanyon.net/item/fast-gallery-premium-wordpress-plugin/7858328
+	
+	Vega Portfolio Gallery Theme for Photographer
+	http://themeforest.net/item/vega-portfolio-gallery-theme-for-photographer/9678282
+	
+	https://wordpress.org/plugins/webphysiology-portfolio/screenshots/
+	WEBphysiology Portfolio
+
+	oQey Gallery
+	https://wordpress.org/plugins/oqey-gallery/screenshots/
+	
+	http://themeforest.net/category/wordpress/creative/photography
+	http://www.makeuseof.com/tag/4-musthave-plugins-wordpress-portfolio/
+	http://weblizar.com/documentation/plugins/responsive-portfolio-pro/
+	http://www.webhostingreviewboards.com/wordpress-plugins/10-free-portfolio-wordpress-plugins-to-show-off-your-work/
+	http://themeleopard.com/wordpress/free-photo-gallery-wordpress-plugins/
+	https://www.beprosoftware.com/blog/best-wordpress-portfolio-plugin/
+	https://www.google.com.vn/?gws_rd=ssl#q=plugin+wordpress+portfolio+gallery&start=30
+	
+
+http://thachpham.com/wordpress/wp-plugin/tao-slide-anh-mien-phi.html
+http://www.slidedeck.com/
+https://wordpress.org/plugins/slidedeck2/
+http://hocwebtructuyen.com/template-modules/wordpress/269-plugin-tao-content-slider-cho-wordpress
+http://gorillathemes.com/themes/
+http://www.featuredcontentgallery.com/
+http://xuanthuc.com/mot-so-plugin-tao-slider-cho-wordpress-khong-the-bo-qua.html
+http://hocwp.net/blog/meta-slider-plugin-tao-slideshow-cho-wordpress/
+https://wordpress.org/plugins/wp-portfolio/
+http://blog.templatemonster.com/2014/08/08/portfolio-gallery-wordpress-plugins/
+
+http://codecanyon.net/item/grid-accordion-responsive-wordpress-plugin/7788530?ref=hdalive
+Grid Accordion - Responsive WordPress Plugin
+
+http://codecanyon.net/item/post-revolution-amazing-grid-builder-for-wp/7959204?ref=hdalive
+Post Revolution - Amazing Grid Builder for WP
+
+https://wordpress.org/plugins/catablog/screenshots/
+CataBlog
+
+
+
+
+http://codeasily.com/
+http://ghozylab.com/plugins/easy-media-gallery-pro/plugin-features/
+http://codeasily.com/wordpress-plugins/gmedia-gallery/
+
++ Cần tìm
+http://www.jamviet.com/2014/10/meta-slider-plugin-tot-nhat-de-lam-slide-anh-tren-wordpress.html
+https://wordpress.org/plugins/len-slider/screenshots/
+https://wordpress.org/plugins/slideshow-gallery/screenshots/
+https://wordpress.org/plugins/smooth-slider/screenshots/
+http://huge-it.com/wordpress-plugins-portfolio-gallery-demo-admin/
+http://huge-it.com/portfolio-gallery/
+https://wordpress.org/plugins/tags/portfolio
+http://www.elegantthemes.com/blog/resources/some-of-the-best-wordpress-portfolio-plugins
+http://premium.wpmudev.org/blog/best-wordpress-portfolio-plugins-for-impressing-potential-clients/
+https://www.google.com.vn/?gws_rd=ssl#q=plugin+wordpress+portfolio+gallery&start=10
+
 http://www.gravitatedesign.com/
 http://www.unifusion.com/
 
