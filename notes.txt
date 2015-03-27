@@ -1,3 +1,87 @@
+
++ Addon Epub reader
+https://addons.mozilla.org/en-US/firefox/addon/epubreader/
+https://addons.mozilla.org/en-US/firefox/addon/lucifox/
+about:epubreader?id=1
+
+[Tâm sự rì víu] Ôi cái cuộc đời của tôi
+http://vozforums.com/showthread.php?t=3669832
+
+Yêu Người Cùng Tên !
+http://vozforums.com/showthread.php?t=3835864
+
+Khỏi hộp, vào Face chị này xem, đầy đủ sự thật ờ showbiz luôn: https://www.facebook.com/profile.php?id=100009236591284
+
+http://thuthuat.taimienphi.vn/phat-wifi-tren-win-7-khong-dung-phan-mem-1636n.aspx
+http://www.tinhoc24h.info/2012/05/huong-dan-phat-wifi-bang-laptop-tren.html
+http://ictnews.vn/the-gioi-so/thu-thuat/huong-dan-phat-wifi-tu-laptop-khong-can-phan-mem-116616.ict
+http://ictnews.vn/the-gioi-so/thu-thuat/video-phat-wi-fi-bang-laptop-win-7-win-8-khong-can-phan-mem-120764.ict
+https://www.tinhte.vn/threads/huong-dan-dung-laptop-phat-wifi-cho-dien-thoai-100-thanh-cong.1121496/
+http://vforum.vn/diendan/showthread.php?3428-Huong-dan-cach-phat-wifi-tu-laptop
+http://forum.bkav.com.vn/showthread.php?62808-Huong-dan-cach-phat-wifi-tu-laptop.html
+http://cuuhotinhoc.com/huong-dan-phat-wifi-cho-laptop-su-dung-he-dieu-hanh-win-7/
+
+
++ StyleCop
+https://stylecop.codeplex.com/releases/view/79972
+http://stylecop.codeplex.com/
+
+http://www.scootersoftware.com/features.php
+Download Beyond Compare 4
+
+http://www.semanticdesigns.com/Products/SmartDifferencer/index.html?Home=CSharpTools
+http://winmerge.org/
+
+Araxis Merge
+Version	Build date
+2014.4565	18 November 2014
+http://www.araxis.com/merge/download.en
+
+http://www.ndepend.com/ndepend-v5#VS2013
+
+http://laptrinh.vn/index.php
+
+
+
+
++ HyperDB
+https://wordpress.org/plugins/hyperdb/changelog/
+
++ Tìm hiểu class dùng để query database trong WordPress
+https://codex.wordpress.org/Class_Reference/wpdb
+
+
+shop.jalykubra.com
+
+Link FB những thằng mất dạy đó:
+
+1. http://www.facebook.com/binh.luvias
+2. http://www.facebook.com/nguyent.luan.121
+3. http://www.facebook.com/profile.php?id=100008695140399
+4. http://www.facebook.com/PhungLangLung
+5. http://www.facebook.com/profile.php?id=100005545684691
+6. http://www.facebook.com/profile.php?id=100004631492783
+7. http://www.facebook.com/trunghau.le.566
+8. http://www.facebook.com/kubin.baclieu
+9. http://www.facebook.com/phan.v.hoa
+10. http://www.facebook.com/Valderjeanlouis
+
+http://kineticwing.com/download
+
++ Tìm hiểu hàm insert và update của wordpress
+cách insert và update sẽ thông qua array
+
+http://vozforums.com/showthread.php?t=4159258
+
+
++ Convert psd to html
+http://www.1stwebdesigner.com/psd-to-html-tutorial-code-photoshop/
+http://www.1stwebdesigner.com/best-freelance-websites/
+http://line25.com/tutorials/coding-up-a-web-design-concept-into-html-css
+https://www.behance.net/gallery/15815893/FREE-Resume-Template
+
+========================================================
+
 OTW Portfolio Light
 	https://wordpress.org/plugins/otw-portfolio-light/screenshots/
 	
