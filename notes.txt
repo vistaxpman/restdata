@@ -1,3 +1,30 @@
++ File or directory is corrupted and unreadable 
+http://meovatmaytinh.com/khac-phuc-loi-file-or-directory-is-corrupted-and-unreadable.html
+http://www.techsupportforum.com/forums/f10/using-hirens-boot-cd-535723.html
+http://us.informatiweb.net/tutoriels/60--hiren-boot-cd-mini-windows-xp.html#chkdsk
+
+http://www.nikalsystems.co.uk/running-chkdsk-in-mini-windows-xp/
+chkdsk c: /x
+
+http://support.microsoft.com/en-us/kb/176646
+chkdsk /f <drive>:
+
+http://en.kioskea.net/forum/affich-706028-the-file-or-directory-is-corrupted-or-unreadable
+http://thuthuat.taimienphi.vn/loi-file-or-directory-is-corrupted-and-unreadable-3341n.aspx
+https://luckypham.wordpress.com/2011/08/15/tutorial-s%E1%BB%ADa-l%E1%BB%97i-usb-is-not-accessible-corrupted-the-file-or-directory-is-corrupted-and-unreadable/
+
+Open Command Prompt as an administrator, often referred to as an "elevated" Command Prompt.
+Type: sfc /scannow
+check your task manager what does it show cpu/system usage being at? If it s at 80-90-100% region a lot it s very likely you have an infected system
+
+
+http://www.techsupportforum.com/forums/f16/solved-file-or-directory-is-corrupted-or-unreadable-236369.html
+
+
++ Cách phát wifi đơn giản trên win 7/8 không dùng phần mềm
+http://meovatmaytinh.com/cach-phat-wifi-don-gian-tren-win-78-khong-dung-phan-mem.html
+
+
 
 + Addon Epub reader
 https://addons.mozilla.org/en-US/firefox/addon/epubreader/
