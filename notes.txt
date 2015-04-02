@@ -1,3 +1,26 @@
+http://mac.eltima.com/download-manager.html
+http://alternativeto.net/software/internet-download-manager/?platform=mac
+http://www.macpsd.net/
+http://manytricks.com/leech/
+http://www.igetter.net/iGetter.html
+http://www.macupdate.com/app/mac/27772/speed-download-lite
+
++ Những phần cần làm cho Google Maps
+	- Chức năng 
+		- Lưu thông tin địa chỉ vào trong SQL Lite ( SẼ sử dùng Core Data để lưu và đọc thông tin )
+		- Dùng google maps api để lấy thông tin của đường dẫn và vẽ đường đi 
+		- Khi click vào mỗi địa chỉ ( Pin ) sẽ vẽ đường dẫn từ vị trí của người dùng cho tới địa chỉ cần tới
+	- Giao diện 
+		- Khi click vào một textbox sẽ hiện thông tin dạng dropdown để người dùng chọn
+		- Chức năng tìm kiếm dựa trên thông tin ( Dùng Sql Lite )
+		- Hiện thông tin của bảng đồ khi mỏ app ra
+		- Nhấn nút sẽ tìm kiếm và hiện thông tin của bảng đồ và đường đi từ địa điểm của người dùng cho tới vị trí cần tới
+	- Search những thông tin sau đây 
+		- Core Data ( Insert, Update, Select, Delete )
+		- Google maps api
+		- Vẽ đường đi từ địa điểm A tới địa điểm B
+
+
 
 http://www.mediafire.com/download/lr692rfj81r6c4j/%5Bcode4app.net%5DMapTable-Swift_10807.zip
 + File or directory is corrupted and unreadable 
